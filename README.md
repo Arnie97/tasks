@@ -12,43 +12,43 @@ Tree Diagram
 ------------
 #### Dynamic Programming
 - milky
-    + Lexer
-    + Parser
+    + [ ] Lexer
+    + [ ] Parser
 - Markdown
     + Jekyll
-        * Ruby
+        * [ ] Ruby
     + Sublime
-        * Issue: MDE
-        * [web](https://stackedit.io/)
+        * [ ] Issue: MDE
+        * [ ] [web](https://stackedit.io/)
 
 #### Five Elements
 - signin
     + Captcha Resolver
-        * Pillow
-        * OpenCV
+        * [ ] Pillow
+        * [ ] OpenCV
     + Refresher
-        * urllib.Request
+        * [ ] urllib.Request
 
 #### Project Silverbridge
 - ipyconfig
-    + auto_routing
+    + [ ] auto_routing
 - kirakira
-    + master
-    + servant
+    + [ ] master
+    + [ ] servant
 
 Github
 ------
-**Rename**
-**Refresher/Refnew**
-**Kirakira**
-Chimes
-Safety
-**Supplicant**
-Countdown
-**python-invaders**
-uno/web
-**eventlog**
-IDMonitor
+- [ ] **Rename**
+- [ ] **Refresher/Refnew**
+- [ ] **Kirakira**
+- [ ] Chimes
+- [ ] Safety
+- [ ] **Supplicant**
+- [ ] Countdown
+- [ ] **python-invaders**
+- [ ] uno/web
+- [ ] **eventlog**
+- [ ] IDMonitor
 
 Tips
 ----
