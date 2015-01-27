@@ -3,25 +3,63 @@ Road map 2015
 
 Life
 ----
-* [ ] 20 20 20
+* [ ] CintaNotes
+* [ ] Reinstall WES7
 * [ ] Virtual Desktop Manager
-* [ ] 剪贴板历史栈
-* [ ] TreePad / evernote / Gist
+* [ ] Clipboard Stack
 
 Tree Diagram
 ------------
-#### Dynamic Programming
-- milky
-    + [ ] Lexer
+#### Tree Historical
+- [ ] baidu pcs
+-  TrDH Logs
+    + [ ] Gist
     + [ ] Parser
-- Markdown
-    + Jekyll
-        * [ ] Ruby
+    + Ledger
+        * [ ] http://i.sau.edu.cn
+        * [ ] http://wacai.com/user
+- Snowball
+    + [ ] rsync
+    + [ ] vshadow
+    + [x] dupemerge
+
+#### Dynamic Programming
+- [ ] **20 20 20**
+- [ ] hub aliases
+- milky
+    + [ ] **Lexer**
+    + [ ] Translator
+    + [ ] Parser
+- Web frameworks
+    + [ ] **magic -> hooks**
+    + [ ] Rails
+    + [ ] Jekyll
+        * [ ] **Ruby**
+        * [ ] WinterSmith
+    + [ ] Bottle
+    + [ ] **Flask**
+    + [ ] **JavaScript**
+        * [ ] jQuery
+        * [ ] Qunee
+- Programming
+    + [ ] **K&R C**
+    + [ ] Algorithm
+    + [ ] LISP & HtDP
+    + Vim
+        * [ ] Commands
+        * [x] Dotfiles
+        * [ ] Plugins
     + Sublime
-        * [ ] Issue: MDE
-        * [ ] [web](https://stackedit.io/)
+        * [x] Issue: MDE
+        * [ ] [EverNote](http://maxiang.info)
+        * [x] [web](https://stackedit.io)
+    + [ ] Atom
 
 #### Five Elements
+- app-aware-display
+    + [x] mdlDisplay
+    + [x] mdlMain
+    + [ ] mdlShell
 - signin
     + Captcha Resolver
         * [ ] Pillow
@@ -30,28 +68,34 @@ Tree Diagram
         * [ ] urllib.Request
 
 #### Project Silverbridge
+- [ ] **n2n**
 - ipyconfig
     + [ ] auto_routing
 - kirakira
     + [ ] master
     + [ ] servant
+- [x] dynamic dns & dmz
 
 Github
 ------
 - [ ] **Rename**
 - [ ] **Refresher/Refnew**
 - [ ] **Kirakira**
-- [ ] Chimes
 - [ ] Safety
+- [ ] **ipyconfig** timestamp recovery
 - [ ] **Supplicant**
 - [ ] Countdown
 - [ ] **python-invaders**
-- [ ] uno/web
 - [ ] **eventlog**
 - [ ] IDMonitor
 
 Tips
 ----
+#### 代码评审和单元测试
+代码评审和单元测试是保证代码质量的两种常用手段之一。代码评审能力，说明了你的审美标准，知道什么是好的，什么是不好的，什么是优雅的代码，什么是糟糕的代码，你才能让自己做的更好。
+
+没有单元测试的代码，只能说是半成品。因为没有什么能证明你的代码是可以运行的。测试驱动开发是一个非常好的敏捷过程的最佳实践。单元测试还可以 作为回归测试，在修改代码时，起到警戒线标志的作用。是否具有单元测试的意识是区分程序员是否合格的重要标准。写不写单元测试是区分平庸程序员和优秀程序 员的重要标杆。 
+
 #### 开始
 > 安排時間是很浪費時間的一件事情。一個節省時間的時間管理方法應該是：
 1. 花最少時間排程，確保每個排程一定會做到。
