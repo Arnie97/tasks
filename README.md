@@ -11,13 +11,14 @@ Life
 Tree Diagram
 ------------
 #### Tree Historical
-- [ ] baidu pcs
+- [x] baidu pcs
 -  TrDH Logs
     + [ ] Gist
     + [ ] Parser
     + Ledger
         * [ ] http://i.sau.edu.cn
         * [ ] http://wacai.com/user
+- [ ] OwnCloud
 - Snowball
     + [ ] rsync
     + [ ] vshadow
@@ -59,30 +60,32 @@ Tree Diagram
 - app-aware-display
     + [x] mdlDisplay
     + [x] mdlMain
-    + [ ] mdlShell
+    + [x] mdlShell
 - signin
     + Captcha Resolver
         * [ ] Pillow
         * [ ] OpenCV
     + Refresher
-        * [ ] urllib.Request
+        * [x] urllib.Request
 
 #### Project Silverbridge
-- [ ] **n2n**
+- **n2n**
+    + [ ] supernode
 - ipyconfig
     + [ ] auto_routing
+    + [x] dynamic dns & dmz
+        * [x] router-reset
+        * [ ] router-test
+    + [ ] timestamp?
 - kirakira
     + [ ] master
     + [ ] servant
-- [x] dynamic dns & dmz
 
 Github
 ------
 - [ ] **Rename**
 - [ ] **Refresher/Refnew**
-- [ ] **Kirakira**
 - [ ] Safety
-- [ ] **ipyconfig** timestamp recovery
 - [ ] **Supplicant**
 - [ ] Countdown
 - [ ] **python-invaders**
@@ -129,7 +132,7 @@ Tips
 1. [NoteExpress](http://www.reflib.org/index_chs.htm)文献管理软件：国内No.1的文献管理软件。
 2. rapidshare文件搜索引擎
 
-# 设置你的优势时间：心流时间，请勿干扰
+#### 设置你的优势时间：心流时间，请勿干扰
 现代工作环境，是非常不利于产生心流的。什么是心流？可参考我的文章：
 
 > 当人心中有个目标，又有足够的“巧力”时，他与目标之间的距离会在自己可见的范围内，他的心中就会形成一种叫做“挑战”(或更清楚地说，应是“见猎心喜”)的力量，使个人的行动与环境的反馈之间形成”立即明晰”的互动，个人意识的注意力被立即的反馈攫住，而环境也逼迫着个人意识作出回应，就像乒乓球高手相互对打，小球成为两人之间意识流动的媒介。这时的意识状态，契克森米哈赖教授称之为“心流”(flow)。
