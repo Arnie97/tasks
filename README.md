@@ -3,7 +3,7 @@ Road map 2015
 
 Life
 ----
-* [ ] CintaNotes
+* [x] CintaNotes
 * [ ] Reinstall WES7
 * [ ] Virtual Desktop Manager
 * [ ] Clipboard Stack
@@ -12,7 +12,7 @@ Tree Diagram
 ------------
 #### Tree Historical
 - [x] baidu pcs
--  TrDH Logs
+- TrDH Logs
     + [ ] Gist
     + [ ] Parser
     + Ledger
@@ -25,7 +25,8 @@ Tree Diagram
     + [x] dupemerge
 
 #### Dynamic Programming
-- [ ] **20 20 20**
+- [x] pomodoro-timer: 20 20 20
+    + [ ] structured task list file
 - [ ] hub aliases
 - milky
     + [ ] **Lexer**
@@ -43,8 +44,10 @@ Tree Diagram
         * [ ] jQuery
         * [ ] Qunee
 - Programming
+    + [ ] FreeBSD
     + [ ] **K&R C**
     + [ ] Algorithm
+    + [ ] Makefile
     + [ ] LISP & HtDP
     + Vim
         * [ ] Commands
@@ -67,6 +70,7 @@ Tree Diagram
         * [ ] OpenCV
     + Refresher
         * [x] urllib.Request
+        * [ ] freehostingnoads
 
 #### Project Silverbridge
 - **n2n**
