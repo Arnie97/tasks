@@ -27,13 +27,14 @@ Tree Diagram
 #### Dynamic Programming
 - [x] pomodoro-timer: 20 20 20
     + [ ] structured task list file
-- [ ] hub aliases
+- [x] hub aliases
 - milky
     + [ ] **Lexer**
     + [ ] Translator
     + [ ] Parser
 - Web frameworks
     + [ ] **magic -> hooks**
+    + [ ] **pastebin**
     + [ ] Rails
     + [ ] Jekyll
         * [ ] **Ruby**
@@ -71,6 +72,7 @@ Tree Diagram
     + Refresher
         * [x] urllib.Request
         * [ ] freehostingnoads
+- [ ] sndvol32
 
 #### Project Silverbridge
 - **n2n**
