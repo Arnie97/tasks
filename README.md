@@ -14,7 +14,11 @@ Tree Diagram
 - [x] baidu pcs
 - TrDH Logs
     + [ ] Gist
-    + [ ] Parser
+    + Parser
+        * [ ] Headline date
+        * [ ] Day and weekday
+        * [ ] Morning, noon, evening & night
+        * [ ] ~2545
     + Ledger
         * [ ] http://i.sau.edu.cn
         * [ ] http://wacai.com/user
@@ -28,10 +32,23 @@ Tree Diagram
 - [x] pomodoro-timer: 20 20 20
     + [ ] structured task list file
 - [x] hub aliases
+- [ ] **msysgit init**
 - milky
-    + [ ] **Lexer**
-    + [ ] Translator
+    + **Lexer**
+        * [ ] `#define next()`
+        * [x] Quoted
+        * [x] Spaces
+        * [ ] Braces
+        * [ ] Indent
+            - [ ] Indent with comments
+        * [ ] Keywords
+        * [ ] Operators
+        * [ ] Multiple returns
+        * [ ] Semicolons
+        * [ ] Preprocessor
+        * [ ] Translator
     + [ ] Parser
+    + [ ] Makefile
 - Web frameworks
     + [ ] **magic -> hooks**
     + [ ] **pastebin**
@@ -72,6 +89,7 @@ Tree Diagram
     + Refresher
         * [x] urllib.Request
         * [ ] freehostingnoads
+    + [ ] click CloudAppLink
 - [ ] sndvol32
 
 #### Project Silverbridge
