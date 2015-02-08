@@ -32,18 +32,18 @@ Tree Diagram
 - [x] pomodoro-timer: 20 20 20
     + [ ] structured task list file
 - [x] hub aliases
+- [ ] github-raw.[**bash**](http://learnxinyminutes.com/docs/zh-cn/bash-cn)
 - [ ] **msysgit init**
 - milky
     + **Lexer**
-        * [ ] `#define next()`
+        * [x] `#define append()`
         * [x] Quoted
         * [x] Spaces
-        * [ ] Braces
-        * [ ] Indent
+        * [x] Indent
             - [ ] Indent with comments
-        * [ ] Keywords
-        * [ ] Operators
-        * [ ] Multiple returns
+        * [x] Keywords
+        * [x] Operators
+        * [x] LL(2)
         * [ ] Semicolons
         * [ ] Preprocessor
         * [ ] Translator
@@ -62,10 +62,10 @@ Tree Diagram
         * [ ] jQuery
         * [ ] Qunee
 - Programming
-    + [ ] FreeBSD
+    + [x] FreeBSD
     + [ ] **K&R C**
     + [ ] Algorithm
-    + [ ] Makefile
+    + [x] Makefile
     + [ ] LISP & HtDP
     + Vim
         * [ ] Commands
