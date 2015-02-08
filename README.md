@@ -32,10 +32,16 @@ Tree Diagram
 - [x] pomodoro-timer: 20 20 20
     + [ ] structured task list file
 - [x] hub aliases
-- [ ] github-raw.[**bash**](http://learnxinyminutes.com/docs/zh-cn/bash-cn)
-- [ ] **msysgit init**
+- [x] [bash](http://learnxinyminutes.com/docs/zh-cn/bash-cn)
+    + [x] sed
+    + [ ] awk
+    + [x] msysgit init
+    + [x] gethub
 - milky
-    + **Lexer**
+    + Main
+        * [ ] read
+        * [ ] arguments
+    + Lexer
         * [x] `#define append()`
         * [x] Quoted
         * [x] Spaces
@@ -46,13 +52,19 @@ Tree Diagram
         * [x] LL(2)
         * [ ] Semicolons
         * [ ] Preprocessor
-        * [ ] Translator
+    + Translator
+        * [ ] Prototype
+        * [ ] Clear
+        * [ ] Beautify
+    + [x] Makefile
     + [ ] Parser
-    + [ ] Makefile
 - Web frameworks
-    + [ ] **magic -> hooks**
+    + magic -> hooks
+        * [x] prepare-commit-msg
+        * [ ] github webhook
     + [ ] **pastebin**
-    + [ ] Rails
+        * [ ] smtpd
+    + [ ] **Rails**
     + [ ] Jekyll
         * [ ] **Ruby**
         * [ ] WinterSmith
@@ -65,7 +77,6 @@ Tree Diagram
     + [x] FreeBSD
     + [ ] **K&R C**
     + [ ] Algorithm
-    + [x] Makefile
     + [ ] LISP & HtDP
     + Vim
         * [ ] Commands
