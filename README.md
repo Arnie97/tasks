@@ -23,8 +23,8 @@ Tree Diagram
         * [ ] http://i.sau.edu.cn
         * [ ] http://wacai.com/user
 - [ ] OwnCloud
-- Snowball
-    + [ ] rsync
+- [ ] time-machine
+    + [x] rsync
     + [ ] vshadow
     + [x] dupemerge
 
@@ -111,7 +111,7 @@ Tree Diagram
     + [x] dynamic dns & dmz
         * [x] router-reset
         * [ ] router-test
-    + [ ] timestamp?
+    + [x] timestamp?
 - kirakira
     + [ ] master
     + [ ] servant
