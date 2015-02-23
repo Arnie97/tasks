@@ -38,6 +38,8 @@ Tree Diagram
     + [x] msysgit init
     + [x] gethub
 - milky
+    + [ ] strict subscription checks
+    + [ ] stack based on linked list
     + Main
         * [ ] read
         * [ ] arguments
@@ -46,14 +48,15 @@ Tree Diagram
         * [x] Quoted
         * [x] Spaces
         * [x] Indent
-            - [ ] Indent with comments
+            - [x] Indent with comments
         * [x] Keywords
         * [x] Operators
         * [x] LL(2)
         * [ ] Semicolons
-        * [ ] Preprocessor
     + Translator
         * [ ] Prototype
+        * [ ] Preprocessor
+        * [ ] Goto
         * [ ] Clear
         * [ ] Beautify
     + [x] Makefile
