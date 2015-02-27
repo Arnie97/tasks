@@ -21,7 +21,7 @@ Tree Diagram
         * [ ] ~2545
     + Ledger
         * [ ] http://i.sau.edu.cn
-        * [ ] http://wacai.com/user
+        * [ ] ~~http://wacai.com/user~~
 - [ ] OwnCloud
 - [ ] time-machine
     + [x] rsync
@@ -31,37 +31,11 @@ Tree Diagram
 #### Dynamic Programming
 - [x] pomodoro-timer: 20 20 20
     + [ ] structured task list file
-- [x] hub aliases
-- [x] [bash](http://learnxinyminutes.com/docs/zh-cn/bash-cn)
-    + [x] sed
-    + [ ] awk
-    + [x] msysgit init
-    + [x] gethub
-- milky
-    + [ ] strict subscription checks
-    + [ ] stack based on linked list
-    + Main
-        * [ ] read
-        * [ ] arguments
-    + Lexer
-        * [x] `#define append()`
-        * [x] Quoted
-        * [x] Spaces
-        * [x] Indent
-            - [x] Indent with comments
-        * [x] Keywords
-        * [x] Operators
-        * [x] LL(2)
-        * [ ] Semicolons
-    + Translator
-        * [ ] Prototype
-        * [ ] Preprocessor
-        * [ ] Goto
-        * [ ] Clear
-        * [ ] Beautify
-    + [x] Makefile
-    + [ ] Parser
 - Web frameworks
+    + [ ] **JavaScript**
+        * [ ] jQuery
+        * [ ] Qunee
+            - [ ] Ajax
     + magic -> hooks
         * [x] prepare-commit-msg
         * [ ] github webhook
@@ -73,14 +47,41 @@ Tree Diagram
         * [ ] WinterSmith
     + [ ] Bottle
     + [ ] **Flask**
-    + [ ] **JavaScript**
-        * [ ] jQuery
-        * [ ] Qunee
+- [x] hub aliases
+- [x] [bash](http://learnxinyminutes.com/docs/zh-cn/bash-cn)
+    + [x] sed
+    + [ ] awk
+    + [x] msysgit init
+    + [x] gethub
+- milky
+    + [ ] strict subscription checks
+    + [ ] stack based on linked list
+    + Main
+        * [ ] read
+        * [ ] write
+        * [ ] arguments
+    + Lexer
+        * [x] `#define append()`
+        * [x] Quoted
+        * [x] Spaces
+        * [x] Indent
+            - [x] Indent with comments
+        * [x] Keywords
+        * [x] Operators
+        * [x] LL(2)
+    + Translator
+        * [ ] Prototype
+        * [ ] Semicolons
+        * [ ] Goto
+        * [ ] Clear
+        * [ ] Beautify
+    + [x] Makefile
+    + [ ] Parser
 - Programming
+    + [ ] LISP & HtDP
     + [x] FreeBSD
     + [ ] **K&R C**
     + [ ] Algorithm
-    + [ ] LISP & HtDP
     + Vim
         * [ ] Commands
         * [x] Dotfiles
@@ -102,7 +103,7 @@ Tree Diagram
         * [ ] OpenCV
     + Refresher
         * [x] urllib.Request
-        * [ ] freehostingnoads
+        * [x] freehostingnoads
     + [ ] click CloudAppLink
 - [ ] sndvol32
 
