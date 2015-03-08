@@ -4,9 +4,10 @@ Road map 2015
 Life
 ----
 * [x] CintaNotes
-* [ ] Reinstall WES7
-* [ ] Virtual Desktop Manager
+* [ ] Complete Windows 2012 R2
 * [ ] Clipboard Stack
+* [ ] Tencent QQ Int'l Portable
+* [ ] http://tyvj.cn
 
 Tree Diagram
 ------------
@@ -29,24 +30,8 @@ Tree Diagram
     + [x] dupemerge
 
 #### Dynamic Programming
-- [x] pomodoro-timer: 20 20 20
+- [ ] **pomodoro-timer**: 20 20 20
     + [ ] structured task list file
-- Web frameworks
-    + [ ] **JavaScript**
-        * [ ] jQuery
-        * [ ] Qunee
-            - [ ] Ajax
-    + magic -> hooks
-        * [x] prepare-commit-msg
-        * [ ] github webhook
-    + [ ] **pastebin**
-        * [ ] smtpd
-    + [ ] **Rails**
-    + [ ] Jekyll
-        * [ ] **Ruby**
-        * [ ] WinterSmith
-    + [ ] Bottle
-    + [ ] **Flask**
 - [x] hub aliases
 - [x] [bash](http://learnxinyminutes.com/docs/zh-cn/bash-cn)
     + [x] sed
@@ -110,6 +95,24 @@ Tree Diagram
 #### Project Silverbridge
 - **n2n**
     + [ ] supernode
+- Web frameworks
+    + psr-portal
+        * [x] **Flask**
+        * [ ] SQLite3
+    + [ ] **pastebin**
+        * [ ] smtpd
+    + [ ] **JavaScript**
+        * [ ] jQuery
+        * [ ] Qunee
+            - [ ] Ajax
+    + magic -> hooks
+        * [x] prepare-commit-msg
+        * [ ] github webhook
+    + [ ] **Rails**
+    + [x] Jekyll
+        * [ ] **Ruby**
+        * [ ] WinterSmith
+    + [ ] Bottle
 - ipyconfig
     + [ ] auto_routing
     + [x] dynamic dns & dmz
@@ -165,20 +168,6 @@ Tips
     2. 通过身边的人学习
     3. 通过网络社区的关键人物学习。
 对于前者来说，应尽可能依赖系统化的知识体系，比如专业论文以及图书，而非网络零散检索。
-通过noteexpress的文献检索功能，可以快速了解到某领域的专业知识分布状况。
-而通过noteexpress的批量附件链接功能，可以快速链接你以前下载的大量论文或资料。
-
-1. [NoteExpress](http://www.reflib.org/index_chs.htm)文献管理软件：国内No.1的文献管理软件。
-2. rapidshare文件搜索引擎
-
-#### 设置你的优势时间：心流时间，请勿干扰
-现代工作环境，是非常不利于产生心流的。什么是心流？可参考我的文章：
-
-> 当人心中有个目标，又有足够的“巧力”时，他与目标之间的距离会在自己可见的范围内，他的心中就会形成一种叫做“挑战”(或更清楚地说，应是“见猎心喜”)的力量，使个人的行动与环境的反馈之间形成”立即明晰”的互动，个人意识的注意力被立即的反馈攫住，而环境也逼迫着个人意识作出回应，就像乒乓球高手相互对打，小球成为两人之间意识流动的媒介。这时的意识状态，契克森米哈赖教授称之为“心流”(flow)。
-一些诸如接电话、网络聊天的事情，都会阻碍进入心流状态。因此，可以根据自己的作息时间，设置一个自己的优势时间。在这个时间段，关掉干扰注意力的工具，同时专注于容易产生心流的任务，比如写作、翻译、思考。在自己的优势时间，则尽可能不要去干自己的不容易产生心流的任务。
-
-那么，如何分析自己的优势时间呢？一方面是根据经验以及作息时间来统计。另一方面，可以使用电脑统计软件，根据统计结果，看自己在什么时候，聊天比较忙；什么时候，比较容易进入较好的工作状态。
-Manic Time, Rescue Time
 
 #### 专注于任务而非工具：使用web软件而非本地软件
 使用界面更简洁、更友好的web化软件而非传统软件：
