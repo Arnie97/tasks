@@ -113,19 +113,23 @@ Tree Diagram
 - Web frameworks
     + psr-portal
         * [x] **Flask**
+        * [x] ARP
         * [ ] SQLite3
+        * [ ] **JavaScript**
+            - [ ] Qunee
+            - [ ] jQuery
+            - [ ] Ajax
     + [ ] **pastebin**
         * [ ] smtpd
-    + [ ] **JavaScript**
-        * [ ] jQuery
-        * [ ] Qunee
-            - [ ] Ajax
     + magic -> hooks
         * [x] prepare-commit-msg
         * [ ] github webhook
     + [ ] **Rails**
     + [x] Jekyll
         * [ ] **Ruby**
+            - [ ] ruby-koans
+            - [ ] prog-ruby
+            - [ ] Rails
         * [ ] WinterSmith
     + [ ] Bottle
 - ipyconfig
@@ -142,8 +146,9 @@ Github
 ------
 - [ ] **Rename**
 - [ ] **Refresher/Refnew**
-- [ ] Safety
 - [ ] **Supplicant**
+- [ ] Indextan
+- [ ] Safety
 - [ ] Countdown
 - [ ] **python-invaders**
 - [ ] **eventlog**
