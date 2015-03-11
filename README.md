@@ -22,6 +22,10 @@ Life
 * [ ] Complete Windows 2012 R2
 * [ ] Clipboard Stack
 * [ ] Tencent QQ Int'l Portable
+    - [ ] Wheel from scratch
+    - [ ] Support x86-64
+    - [ ] Last Order
+    - [ ] Project Pages
 * [ ] http://tyvj.cn
 
 Tree Diagram
@@ -71,6 +75,7 @@ Tree Diagram
         * [x] LL(2)
     + Translator
         * [ ] Prototype
+            - [ ] Shift & Reduce
         * [ ] Semicolons
         * [ ] Goto
         * [ ] Clear
@@ -114,7 +119,7 @@ Tree Diagram
     + psr-portal
         * [x] **Flask**
         * [x] ARP
-        * [ ] SQLite3
+        * [x] SQLite3
         * [ ] **JavaScript**
             - [ ] Qunee
             - [ ] jQuery
@@ -132,6 +137,7 @@ Tree Diagram
             - [ ] Rails
         * [ ] WinterSmith
     + [ ] Bottle
+    + [ ] safety-refactored
 - ipyconfig
     + [ ] auto_routing
     + [x] dynamic dns & dmz
