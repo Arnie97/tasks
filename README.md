@@ -66,6 +66,7 @@ Tree Diagram
         * [ ] read
         * [ ] write
         * [ ] arguments
+        * [ ] Beautify
     + Lexer
         * [x] `#define append()`
         * [x] Quoted
@@ -76,12 +77,15 @@ Tree Diagram
         * [x] Operators
         * [x] LL(2)
     + Translator
-        * [ ] Prototype
-            - [ ] Shift & Reduce
+        * [x] Prototype
+            - [x] Recursion
         * [ ] Semicolons
+            - [ ] Preprocessor
+            - [ ] Empty line
+            - [ ] Line before indent
+            - [ ] Line before unindent
         * [ ] Goto
-        * [ ] Clear
-        * [ ] Beautify
+    + [ ] Error Reporting
     + [x] Makefile
     + [ ] Parser
 - Programming
