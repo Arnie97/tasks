@@ -82,10 +82,10 @@ Tree Diagram
         * [ ] Semicolons
             - [ ] Preprocessor
             - [ ] Empty line
-            - [ ] Line before indent
-            - [ ] Line before unindent
+            - [x] Line before indent
+            - [x] Line before unindent
         * [ ] Goto
-    + [ ] Error Reporting
+    + [x] Error Reporting
     + [x] Makefile
     + [ ] Parser
 - Programming
@@ -113,6 +113,7 @@ Tree Diagram
         * [ ] Pillow
         * [ ] OpenCV
     + Refresher
+        * [ ] physics-experiment
         * [x] urllib.Request
         * [x] freehostingnoads
     + [ ] click CloudAppLink
@@ -145,6 +146,7 @@ Tree Diagram
     + [ ] Bottle
     + [ ] safety-refactored
 - ipyconfig
+    + [ ] library_control
     + [ ] auto_routing
     + [x] dynamic dns & dmz
         * [x] router-reset
