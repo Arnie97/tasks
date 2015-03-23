@@ -113,7 +113,6 @@ Tree Diagram
         * [ ] Pillow
         * [ ] OpenCV
     + Refresher
-        * [ ] physics-experiment
         * [x] urllib.Request
         * [x] freehostingnoads
     + [ ] click CloudAppLink
@@ -122,9 +121,11 @@ Tree Diagram
 #### Project Silverbridge
 - **n2n**
     + [ ] supernode
+- [x] physics-experiment
+    + [x] smtplib
 - Web frameworks
     + psr-portal
-        * [x] **Flask**
+        * [x] Flask
         * [x] ARP
         * [x] SQLite3
         * JavaScript
@@ -132,7 +133,7 @@ Tree Diagram
             - [ ] **jQuery**
                 + [ ] ajax
     + [ ] **pastebin**
-        * [ ] smtpd
+        * [ ] poplib / imaplib
     + magic -> hooks
         * [x] prepare-commit-msg
         * [ ] github webhook
@@ -146,7 +147,6 @@ Tree Diagram
     + [ ] Bottle
     + [ ] safety-refactored
 - ipyconfig
-    + [ ] library_control
     + [ ] auto_routing
     + [x] dynamic dns & dmz
         * [x] router-reset
