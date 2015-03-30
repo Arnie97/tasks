@@ -79,6 +79,9 @@ Tree Diagram
     + Translator
         * [x] Prototype
             - [x] Recursion
+            - [ ] Indent of the first line
+            - [ ] Switch
+            - [ ] Struct with bit-width
         * [ ] Semicolons
             - [ ] Preprocessor
             - [ ] Empty line
@@ -89,6 +92,7 @@ Tree Diagram
     + [x] Makefile
     + [ ] Parser
 - Programming
+    + [ ] pipeline
     + [ ] LISP & HtDP
     + [x] FreeBSD
     + [ ] **K&R C**
@@ -144,7 +148,6 @@ Tree Diagram
             - [ ] prog-ruby
             - [ ] Rails
         * [ ] WinterSmith
-    + [ ] Bottle
     + [ ] safety-refactored
 - ipyconfig
     + [ ] auto_routing
