@@ -51,7 +51,7 @@ Tree Diagram
 #### Dynamic Programming
 - [ ] **pomodoro-timer**: 20 20 20
     + [ ] fullscreen
-        * [ ] pygame (SDL)
+        * [x] pygame (SDL)
     + [ ] structured task list file
 - [x] hub aliases
 - [x] [bash](http://learnxinyminutes.com/docs/zh-cn/bash-cn)
@@ -63,7 +63,7 @@ Tree Diagram
     + [ ] strict subscription checks
     + [ ] stack based on linked list
     + Main
-        * [ ] read
+        * [x] read
         * [ ] write
         * [ ] arguments
         * [ ] Beautify
@@ -75,27 +75,31 @@ Tree Diagram
             - [x] Indent with comments
         * [x] Keywords
         * [x] Operators
-        * [x] LL(2)
+        * [x] LL(3)
     + Translator
         * [x] Prototype
             - [x] Recursion
             - [ ] Indent of the first line
-            - [ ] Switch
+            - [x] Switch
+            - [ ] Context check for elif / case
+            - [ ] Enum
             - [ ] Struct with bit-width
-        * [ ] Semicolons
-            - [ ] Preprocessor
-            - [ ] Empty line
+        * [x] Semicolons
+            - [x] Preprocessor
+            - [x] Empty line
             - [x] Line before indent
             - [x] Line before unindent
         * [ ] Goto
     + [x] Error Reporting
+        * [ ] Show near-by lines
     + [x] Makefile
     + [ ] Parser
 - Programming
-    + [ ] pipeline
-    + [ ] LISP & HtDP
+    + [ ] pipetools
+    + [x] LISP & HtDP
     + [x] FreeBSD
-    + [ ] **K&R C**
+    + [ ] K&R C
+    + [ ] System Calls
     + [ ] Algorithm
     + Vim
         * [ ] Commands
@@ -112,13 +116,14 @@ Tree Diagram
     + [x] mdlDisplay
     + [x] mdlMain
     + [x] mdlShell
-- signin
+- signin / free-sms
     + Captcha Resolver
-        * [ ] Pillow
+        * [x] Pillow
         * [ ] OpenCV
     + Refresher
         * [x] urllib.Request
         * [x] freehostingnoads
+        * [ ] javascript crypto
     + [ ] click CloudAppLink
 - [ ] sndvol32
 
@@ -173,11 +178,6 @@ Github
 
 Tips
 ----
-#### 代码评审和单元测试
-代码评审和单元测试是保证代码质量的两种常用手段之一。代码评审能力，说明了你的审美标准，知道什么是好的，什么是不好的，什么是优雅的代码，什么是糟糕的代码，你才能让自己做的更好。
-
-没有单元测试的代码，只能说是半成品。因为没有什么能证明你的代码是可以运行的。测试驱动开发是一个非常好的敏捷过程的最佳实践。单元测试还可以 作为回归测试，在修改代码时，起到警戒线标志的作用。是否具有单元测试的意识是区分程序员是否合格的重要标准。写不写单元测试是区分平庸程序员和优秀程序 员的重要标杆。 
-
 #### 克服拖延症、达成目标
 什么是执行意图？就是使用if...then...的思考范式。比如， 不要再说，我要学Ruby。 而是说，如果我要学习Ruby，那么，今天晚上就装上环境。
 
@@ -193,9 +193,6 @@ Tips
 传统的分散在不同目录结构下的创造性任务，则单独用一个《创造乐趣》的文档来归类。
 
 #### 专注于任务而非工具：使用web软件而非本地软件
-使用界面更简洁、更友好的web化软件而非传统软件：
-因为功能的缺失，会使得自己将注意力集中在任务本身而非工具本身上。
-
 word的设计实质上是不符合心流或者心理学原则的。从心理学上而言，它存在两个致命缺陷：
     1. 它分散了人们的注意力，提供了太多功能，让人们将注意力集中在格式化、排版而非创作之上；2）
     2. 不存在版本自动跟踪功能：呈现在你面前的总是完美的稿件，如果是乱七八糟的稿件，在word里面会非常难看，最终让你难以下笔，一些写作的零散想法，也不好意思写在word里面。
