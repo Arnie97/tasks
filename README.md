@@ -50,7 +50,7 @@ Tree Diagram
 
 #### Dynamic Programming
 - [ ] **pomodoro-timer**: 20 20 20
-    + [ ] fullscreen
+    + [x] fullscreen
         * [x] pygame (SDL)
     + [ ] structured task list file
 - [x] hub aliases
@@ -64,10 +64,11 @@ Tree Diagram
     + [ ] stack based on linked list
     + Main
         * [x] read
-        * [ ] write
+        * [x] write
         * [ ] arguments
         * [ ] Beautify
     + Lexer
+        * [ ] Direct I/O Buffer
         * [x] `#define append()`
         * [x] Quoted
         * [x] Spaces
@@ -81,7 +82,8 @@ Tree Diagram
             - [x] Recursion
             - [ ] Indent of the first line
             - [x] Switch
-            - [ ] Context check for elif / case
+            - [ ] Fallthrough
+            - [x] Context check for elif / case
             - [ ] Enum
             - [ ] Struct with bit-width
         * [x] Semicolons
@@ -89,10 +91,11 @@ Tree Diagram
             - [x] Empty line
             - [x] Line before indent
             - [x] Line before unindent
-        * [ ] Goto
+        * [x] Goto
     + [x] Error Reporting
         * [ ] Show near-by lines
     + [x] Makefile
+        * [ ] `make release`
     + [ ] Parser
 - Programming
     + [ ] pipetools
