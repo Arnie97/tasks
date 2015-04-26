@@ -41,7 +41,7 @@ Tree Diagram
         * [ ] ~2545
     + Ledger
         * [ ] http://i.sau.edu.cn
-        * [ ] ~~http://wacai.com/user~~
+        * [ ] ~http://wacai.com/user~~
 - [ ] OwnCloud
 - [ ] time-machine
     + [x] rsync
@@ -65,12 +65,15 @@ Tree Diagram
     + Main
         * [x] read
         * [x] write
-        * [ ] arguments
+        * [x] arguments
         * [ ] Beautify
     + Lexer
         * [ ] Direct I/O Buffer
         * [x] `#define append()`
         * [x] Quoted
+        * [ ] CRLF -> LF
+        * [ ] Decode
+        * [ ] Tabular
         * [x] Spaces
         * [x] Indent
             - [x] Indent with comments
@@ -82,7 +85,7 @@ Tree Diagram
             - [x] Recursion
             - [ ] Indent of the first line
             - [x] Switch
-            - [ ] Fallthrough
+            - [x] Fallthrough
             - [x] Context check for elif / case
             - [ ] Enum
             - [ ] Struct with bit-width
@@ -95,7 +98,7 @@ Tree Diagram
     + [x] Error Reporting
         * [ ] Show near-by lines
     + [x] Makefile
-        * [ ] `make release`
+        * [x] `make release`
     + [ ] Parser
 - Programming
     + [ ] pipetools
@@ -135,7 +138,9 @@ Tree Diagram
     + [ ] supernode
 - [x] physics-experiment
     + [x] smtplib
-- Web frameworks
++ Web frameworks
+    * [ ] **pastebin**
+        - [ ] poplib / imaplib
     + psr-portal
         * [x] Flask
         * [x] ARP
@@ -144,8 +149,6 @@ Tree Diagram
             - [ ] Qunee
             - [ ] **jQuery**
                 + [ ] ajax
-    + [ ] **pastebin**
-        * [ ] poplib / imaplib
     + magic -> hooks
         * [x] prepare-commit-msg
         * [ ] github webhook
