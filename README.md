@@ -62,6 +62,9 @@ Tree Diagram
 - milky
     + [ ] strict subscription checks
     + [ ] stack based on linked list
+    + Debug
+        * [ ] Indent in comments
+        * [ ] Escaped line
     + Main
         * [x] read
         * [x] write
@@ -122,6 +125,8 @@ Tree Diagram
     + [x] mdlDisplay
     + [x] mdlMain
     + [x] mdlShell
+    + [ ] milkification
+    + [ ] watchdog
 - signin / free-sms
     + Captcha Resolver
         * [x] Pillow
@@ -138,6 +143,7 @@ Tree Diagram
     + [ ] supernode
 - [x] physics-experiment
     + [x] smtplib
+    + [ ] eBesucher
 + Web frameworks
     * [ ] **pastebin**
         - [ ] poplib / imaplib
