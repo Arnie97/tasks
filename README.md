@@ -61,21 +61,25 @@ Tree Diagram
     + [x] gethub
 - milky
     + [ ] strict subscription checks
-    + [ ] stack based on linked list
+    + [ ] Unicode support
+    + [ ] Bootstrap
     + Debug
+        * [x] BOF & EOF
+        * [x] Comments after colon
+        * [x] Line comment at the end of the last line in a block
         * [ ] Indent in comments
         * [ ] Escaped line
+        * [ ] Clear errors in previous file
     + Main
         * [x] read
         * [x] write
         * [x] arguments
-        * [ ] Beautify
+        * [ ] formatter
     + Lexer
         * [ ] Direct I/O Buffer
         * [x] `#define append()`
         * [x] Quoted
-        * [ ] CRLF -> LF
-        * [ ] Decode
+        * [x] CRLF -> LF
         * [ ] Tabular
         * [x] Spaces
         * [x] Indent
@@ -86,12 +90,12 @@ Tree Diagram
     + Translator
         * [x] Prototype
             - [x] Recursion
-            - [ ] Indent of the first line
+            - [x] Indent of the first line
             - [x] Switch
             - [x] Fallthrough
             - [x] Context check for elif / case
             - [ ] Enum
-            - [ ] Struct with bit-width
+            - [x] Struct with bit-width
         * [x] Semicolons
             - [x] Preprocessor
             - [x] Empty line
