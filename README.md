@@ -63,12 +63,18 @@ Tree Diagram
     + [ ] strict subscription checks
     + [ ] Unicode support
     + [ ] Bootstrap
+        * [ ] lexer
+        * [x] indent
+        * [x] translator
+        * [ ] main / error - indented preprocessor
+        * [ ] queue - struct loop
+        * [x] token.h / keyword.h / input.h
     + Debug
         * [x] BOF & EOF
         * [x] Comments after colon
         * [x] Line comment at the end of the last line in a block
-        * [ ] Indent in comments
-        * [ ] Escaped line
+        * [x] Indent in comments
+        * [x] Escaped line
         * [ ] Clear errors in previous file
     + Main
         * [x] read
@@ -79,6 +85,7 @@ Tree Diagram
         * [ ] Direct I/O Buffer
         * [x] `#define append()`
         * [x] Quoted
+        * [x] Multi-line strings
         * [x] CRLF -> LF
         * [ ] Tabular
         * [x] Spaces
@@ -94,7 +101,7 @@ Tree Diagram
             - [x] Switch
             - [x] Fallthrough
             - [x] Context check for elif / case
-            - [ ] Enum
+            - [x] Enum
             - [x] Struct with bit-width
         * [x] Semicolons
             - [x] Preprocessor
@@ -111,7 +118,7 @@ Tree Diagram
     + [ ] pipetools
     + [x] LISP & HtDP
     + [x] FreeBSD
-    + [ ] K&R C
+    + [x] K&R C
     + [ ] System Calls
     + [ ] Algorithm
     + Vim
