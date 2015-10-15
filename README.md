@@ -19,7 +19,7 @@ Road map 2015
 Life
 ----
 * [x] CintaNotes
-* [ ] Complete Windows 2012 R2
+* [x] Complete Windows 2012 R2
 * [ ] Clipboard Stack
 * [ ] Tencent QQ Int'l Portable
     - [ ] Wheel from scratch
@@ -59,6 +59,8 @@ Tree Diagram
     + [ ] awk
     + [x] msysgit init
     + [x] gethub
+- bootloader
+    + [ ] x86 assembly
 - milky
     + [ ] strict subscription checks
     + [ ] Unicode support
@@ -67,22 +69,25 @@ Tree Diagram
         * [x] indent
         * [x] translator
         * [ ] main / error - indented preprocessor
-        * [ ] queue - struct loop
+        * [x] queue - self-referential structures
         * [x] token.h / keyword.h / input.h
     + Debug
         * [x] BOF & EOF
         * [x] Comments after colon
         * [x] Line comment at the end of the last line in a block
         * [x] Indent in comments
+        * [ ] Indent in preprocessors
         * [x] Escaped line
-        * [ ] Clear errors in previous file
+        * [ ] Escaped line in block headers
+        * [ ] Recognize fallthrough outside case
+        * [ ] Delete generated files with errors
+        * [ ] Skip unrecognized files
     + Main
         * [x] read
         * [x] write
         * [x] arguments
         * [ ] formatter
     + Lexer
-        * [ ] Direct I/O Buffer
         * [x] `#define append()`
         * [x] Quoted
         * [x] Multi-line strings
@@ -113,13 +118,15 @@ Tree Diagram
         * [ ] Show near-by lines
     + [x] Makefile
         * [x] `make release`
+        * [ ] Recursive bootstrapping tests
+        * [ ] Accelerates tests
     + [ ] Parser
 - Programming
     + [ ] pipetools
     + [x] LISP & HtDP
     + [x] FreeBSD
     + [x] K&R C
-    + [ ] System Calls
+    + [x] System Calls
     + [ ] Algorithm
     + Vim
         * [ ] Commands
@@ -132,6 +139,10 @@ Tree Diagram
     + [ ] Atom
 
 #### Five Elements
+- eventlog reborn
+    + [ ] remove libevent
+    + [ ] valid hours for uaqtest
+    + [ ] milkification
 - app-aware-display
     + [x] mdlDisplay
     + [x] mdlMain
@@ -141,23 +152,31 @@ Tree Diagram
 - signin / free-sms
     + Captcha Resolver
         * [x] Pillow
+            - [ ] SAU-NET
         * [ ] OpenCV
     + Refresher
         * [x] urllib.Request
         * [x] freehostingnoads
         * [ ] javascript crypto
+    + Huiwen OPAC
+        * [ ] API Usage
     + [ ] click CloudAppLink
-- [ ] sndvol32
 
 #### Project Silverbridge
+- [ ] Raspberry Pi Arch Linux
+    + [ ] systemd
+    + [ ] iptables
+    + [ ] iwconfig
+    + [ ] radvd & ndp6 / ndppd
+    + [ ] tb_userspace
 - **n2n**
     + [ ] supernode
 - [x] physics-experiment
     + [x] smtplib
     + [ ] eBesucher
-+ Web frameworks
-    * [ ] **pastebin**
-        - [ ] poplib / imaplib
+- Web frameworks
+    + [ ] **pastebin**
+        * [ ] poplib / imaplib
     + psr-portal
         * [x] Flask
         * [x] ARP
@@ -169,7 +188,6 @@ Tree Diagram
     + magic -> hooks
         * [x] prepare-commit-msg
         * [ ] github webhook
-    + [ ] **Rails**
     + [x] Jekyll
         * [ ] **Ruby**
             - [ ] ruby-koans
