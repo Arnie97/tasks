@@ -19,8 +19,6 @@ Road map 2015
 Life
 ----
 * [x] CintaNotes
-* [x] Complete Windows 2012 R2
-* [ ] Clipboard Stack
 * [ ] Tencent QQ Int'l Portable
     - [ ] Wheel from scratch
     - [ ] Support x86-64
@@ -30,30 +28,34 @@ Life
 
 Tree Diagram
 ------------
-#### Tree Historical
+#### Tree Historical - Data Persistence
 - [x] baidu pcs
-- TrDH Logs
-    + [ ] Gist
-    + Parser
-        * [ ] Headline date
-        * [ ] Day and weekday
-        * [ ] Morning, noon, evening & night
-        * [ ] ~2545
-    + Ledger
-        * [ ] http://i.sau.edu.cn
-        * [ ] ~http://wacai.com/user~~
+- TrDH Log Parser
+    + [ ] Headline date
+    + [ ] Day and weekday
+    + [ ] Morning, noon, evening & night
+    + [ ] ~2545
 - [ ] OwnCloud
-- [ ] time-machine
-    + [x] rsync
+- [x] time-machine
+    + [ ] rsync
+    + [x] FastCopy
     + [ ] vshadow
     + [x] dupemerge
 
-#### Dynamic Programming
+#### Dynamic Programming - Academic Works
 - [ ] **pomodoro-timer**: 20 20 20
     + [x] fullscreen
         * [x] pygame (SDL)
+    + [ ] tray icon
     + [ ] structured task list file
-- [x] hub aliases
+- [ ] msys2
+- Arduino
+    + [ ] spi (avr, rpi, 86duino, oled)
+    + [ ] framebuffer driver
+    + [ ] clock
+    + [ ] keyboard / joystick
+    + [ ] remote switch
+    + [ ] raster-fonts
 - [x] [bash](http://learnxinyminutes.com/docs/zh-cn/bash-cn)
     + [x] sed
     + [ ] awk
@@ -74,7 +76,7 @@ Tree Diagram
     + Debug
         * [x] BOF & EOF
         * [x] Comments after colon
-        * [x] Line comment at the end of the last line in a block
+        * [ ] Line comment at the end of the last line in a block
         * [x] Indent in comments
         * [ ] Indent in preprocessors
         * [x] Escaped line
@@ -108,6 +110,7 @@ Tree Diagram
             - [x] Context check for elif / case
             - [x] Enum
             - [x] Struct with bit-width
+            - [ ] With block
         * [x] Semicolons
             - [x] Preprocessor
             - [x] Empty line
@@ -121,34 +124,35 @@ Tree Diagram
         * [ ] Recursive bootstrapping tests
         * [ ] Accelerates tests
     + [ ] Parser
-- Programming
-    + [ ] pipetools
-    + [x] LISP & HtDP
-    + [x] FreeBSD
-    + [x] K&R C
-    + [x] System Calls
-    + [ ] Algorithm
+- STEins Is Not a Shell
+- [ ] pipetools
+- [ ] SICP & HtDP
+- [ ] C++ Primer
+- [x] System Calls
+- Algorithms
+- Editors
     + Vim
-        * [ ] Commands
+        * Commands
         * [x] Dotfiles
         * [ ] Plugins
     + Sublime
+        * [ ] Milky GDB Integration
+        * [ ] Clipboard Stack
         * [x] Issue: MDE
         * [ ] [EverNote](http://maxiang.info)
         * [x] [web](https://stackedit.io)
     + [ ] Atom
 
-#### Five Elements
+#### Five Elements - Production Environment
 - eventlog reborn
+    + [ ] import into Git
     + [ ] remove libevent
     + [ ] valid hours for uaqtest
     + [ ] milkification
 - app-aware-display
-    + [x] mdlDisplay
-    + [x] mdlMain
-    + [x] mdlShell
-    + [ ] milkification
-    + [ ] watchdog
+    + [x] milkification
+        * [ ] ShellWait
+        * [ ] Cutest
 - signin / free-sms
     + Captcha Resolver
         * [x] Pillow
@@ -162,13 +166,18 @@ Tree Diagram
         * [ ] API Usage
     + [ ] click CloudAppLink
 
-#### Project Silverbridge
+#### Project Silverbridge - Unlimited Access
 - [ ] Raspberry Pi Arch Linux
     + [ ] systemd
     + [ ] iptables
     + [ ] iwconfig
     + [ ] radvd & ndp6 / ndppd
     + [ ] tb_userspace
+- dns-mirror
+    + [ ] receive
+    + [ ] comprehend
+    + [ ] respond
+- [ ] GeoIP library
 - **n2n**
     + [ ] supernode
 - [x] physics-experiment
@@ -214,7 +223,6 @@ Github
 - [ ] Safety
 - [ ] Countdown
 - [ ] **python-invaders**
-- [ ] **eventlog**
 - [ ] IDMonitor
 
 Tips
