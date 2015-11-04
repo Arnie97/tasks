@@ -63,24 +63,25 @@ Tree Diagram
     + [x] gethub
 - bootloader
     + [ ] x86 assembly
+- [ ] 39gs matrix interpreter
 - milky
     + [ ] strict subscription checks
     + [ ] Unicode support
-    + [ ] Bootstrap
-        * [ ] lexer
+    + [x] Bootstrap
+        * [x] lexer
         * [x] indent
         * [x] translator
-        * [ ] main / error - indented preprocessor
+        * [x] main / error - indented preprocessor
         * [x] queue - self-referential structures
         * [x] token.h / keyword.h / input.h
     + Debug
         * [x] BOF & EOF
         * [x] Comments after colon
-        * [ ] Line comment at the end of the last line in a block
+        * [x] Line comment at the end of the last line in a block
         * [x] Indent in comments
-        * [ ] Indent in preprocessors
+        * [x] Indent in preprocessors
         * [x] Escaped line
-        * [ ] Escaped line in block headers
+        * [x] Escaped line in block headers
         * [ ] Recognize fallthrough outside case
         * [ ] Delete generated files with errors
         * [ ] Skip unrecognized files
@@ -88,7 +89,6 @@ Tree Diagram
         * [x] read
         * [x] write
         * [x] arguments
-        * [ ] formatter
     + Lexer
         * [x] `#define append()`
         * [x] Quoted
@@ -136,7 +136,7 @@ Tree Diagram
         * [x] Dotfiles
         * [ ] Plugins
     + Sublime
-        * [ ] Milky GDB Integration
+        * [ ] GDB Integration
         * [ ] Clipboard Stack
         * [x] Issue: MDE
         * [ ] [EverNote](http://maxiang.info)
@@ -152,11 +152,11 @@ Tree Diagram
 - app-aware-display
     + [x] milkification
         * [ ] ShellWait
-        * [ ] Cutest
+        * [x] Unit Test
 - signin / free-sms
     + Captcha Resolver
         * [x] Pillow
-            - [ ] SAU-NET
+            - [x] SAU-NET
         * [ ] OpenCV
     + Refresher
         * [x] urllib.Request
