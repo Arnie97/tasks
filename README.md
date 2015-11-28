@@ -63,10 +63,16 @@ Tree Diagram
     + [x] gethub
 - bootloader
     + [ ] x86 assembly
-- [ ] 39gs matrix interpreter
+- 39gs
+    + [ ] matrix interpreter
+    + [ ] note converter
+    + [ ] sketch converter
+    + [ ] milky hp-basic
 - milky
     + [ ] strict subscription checks
-    + [ ] Unicode support
+    + i18n & l10n support
+        * [ ] utf-8 input
+        * [ ] gettext
     + [x] Bootstrap
         * [x] lexer
         * [x] indent
@@ -118,6 +124,8 @@ Tree Diagram
             - [x] Line before unindent
         * [x] Goto
     + [x] Error Reporting
+        * Details for 31-series errors
+            - [ ] Expected indent?
         * [ ] Show near-by lines
     + [x] Makefile
         * [x] `make release`
@@ -167,12 +175,15 @@ Tree Diagram
     + [ ] click CloudAppLink
 
 #### Project Silverbridge - Unlimited Access
-- [ ] Raspberry Pi Arch Linux
+- [ ] RPi / OpenWRT
     + [ ] systemd
     + [ ] iptables
-    + [ ] iwconfig
-    + [ ] radvd & ndp6 / ndppd
+    + [x] iwconfig
+    + [ ] odhcp6d / ndppd
     + [ ] tb_userspace
+    + [ ] openvpn
+    + [ ] privoxy
+    + [ ] watchfox
 - dns-mirror
     + [ ] receive
     + [ ] comprehend
