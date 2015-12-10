@@ -24,7 +24,6 @@ Life
     - [ ] Support x86-64
     - [ ] Last Order
     - [ ] Project Pages
-* [ ] http://tyvj.cn
 
 Tree Diagram
 ------------
@@ -41,20 +40,37 @@ Tree Diagram
     + [x] FastCopy
     + [ ] vshadow
     + [x] dupemerge
+- [ ] Github
+    + [ ] **Rename**
+    + [ ] **Refresher/Refnew**
+    + [ ] **Supplicant**
+    + [ ] Indextan
+    + [ ] Safety
+    + [ ] Countdown
+    + [ ] **python-invaders**
+    + [ ] IDMonitor
 
 #### Dynamic Programming - Academic Works
+- [ ] JavaScript
+    + [ ] stdlib
+    + [ ] browser env
+    + [ ] node env
+    + [ ] ES6
 - [ ] **pomodoro-timer**: 20 20 20
     + [x] fullscreen
         * [x] pygame (SDL)
     + [ ] tray icon
     + [ ] structured task list file
-- [ ] msys2
+- [ ] msys2 migration
 - Arduino
-    + [ ] spi (avr, rpi, 86duino, oled)
-    + [ ] framebuffer driver
+    + [ ] oscilloscope
+        * [ ] trigger
+        * [ ] spi (avr, rpi, 86duino, oled)
+        * [ ] framebuffer driver
     + [ ] clock
     + [ ] keyboard / joystick
     + [ ] remote switch
+        * [ ] power meter - along with Five Elements
     + [ ] raster-fonts
 - [x] [bash](http://learnxinyminutes.com/docs/zh-cn/bash-cn)
     + [x] sed
@@ -124,7 +140,7 @@ Tree Diagram
             - [x] Line before unindent
         * [x] Goto
     + [x] Error Reporting
-        * Details for 31-series errors
+        * **Details for 31-series errors**
             - [ ] Expected indent?
         * [ ] Show near-by lines
     + [x] Makefile
@@ -133,11 +149,15 @@ Tree Diagram
         * [ ] Accelerates tests
     + [ ] Parser
 - STEins Is Not a Shell
-- [ ] pipetools
-- [ ] SICP & HtDP
+- [ ] **pipetools**
 - [ ] C++ Primer
 - [x] System Calls
-- Algorithms
+- [ ] Algorithms
+    + [ ] SICP
+    + [ ] HtDP
+    + [ ] http://tyvj.cn
+        * [ ] tyvj-mobile
+    + [ ] https://leetcode.com
 - Editors
     + Vim
         * Commands
@@ -145,23 +165,26 @@ Tree Diagram
         * [ ] Plugins
     + Sublime
         * [ ] GDB Integration
+            - [ ] CGDB
         * [ ] Clipboard Stack
         * [x] Issue: MDE
         * [ ] [EverNote](http://maxiang.info)
         * [x] [web](https://stackedit.io)
     + [ ] Atom
+    + [ ] Brackets
 
 #### Five Elements - Production Environment
-- eventlog reborn
+- [ ] eventlog reborn
     + [ ] import into Git
     + [ ] remove libevent
     + [ ] valid hours for uaqtest
     + [ ] milkification
-- app-aware-display
+- [x] app-aware-display
     + [x] milkification
-        * [ ] ShellWait
+        * [x] ShellWait
         * [x] Unit Test
-- signin / free-sms
+        * [x] Icon resource
+- [ ] signin / captcha-solver / free-sms / auto-renew / rush-hour
     + Captcha Resolver
         * [x] Pillow
             - [x] SAU-NET
@@ -173,6 +196,9 @@ Tree Diagram
     + Huiwen OPAC
         * [ ] API Usage
     + [ ] click CloudAppLink
+    + [ ] free-sms
+    + [ ] auto-renew
+    + [x] rush-hour
 
 #### Project Silverbridge - Unlimited Access
 - [ ] RPi / OpenWRT
@@ -224,17 +250,6 @@ Tree Diagram
 - kirakira
     + [ ] master
     + [ ] servant
-
-Github
-------
-- [ ] **Rename**
-- [ ] **Refresher/Refnew**
-- [ ] **Supplicant**
-- [ ] Indextan
-- [ ] Safety
-- [ ] Countdown
-- [ ] **python-invaders**
-- [ ] IDMonitor
 
 Tips
 ----
