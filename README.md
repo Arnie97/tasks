@@ -28,13 +28,17 @@ Life
 Tree Diagram
 ------------
 #### Tree Historical - Data Persistence
-- [x] baidu pcs
 - TrDH Log Parser
     + [ ] Headline date
     + [ ] Day and weekday
     + [ ] Morning, noon, evening & night
     + [ ] ~2545
-- [ ] OwnCloud
+- [ ] SaaS
+    + [x] baidu pcs
+        * [ ] bypy
+        * [ ] remove junks
+    + [ ] OwnCloud
+    + [ ] DropBox
 - [x] time-machine
     + [ ] rsync
     + [x] FastCopy
@@ -55,6 +59,7 @@ Tree Diagram
     + [ ] stdlib
     + [ ] browser env
     + [ ] node env
+    + [ ] jQuery & Ajax
     + [ ] ES6
 - [ ] **pomodoro-timer**: 20 20 20
     + [x] fullscreen
@@ -80,11 +85,13 @@ Tree Diagram
 - bootloader
     + [ ] x86 assembly
 - 39gs
-    + [ ] matrix interpreter
     + [ ] note converter
     + [ ] sketch converter
+        * [ ] txt2bmp
+        * [ ] bmp2sketch
     + [ ] milky hp-basic
 - milky
+    + [ ] `#!/usr/bin/env milky`
     + [ ] strict subscription checks
     + i18n & l10n support
         * [ ] utf-8 input
@@ -196,18 +203,21 @@ Tree Diagram
     + Huiwen OPAC
         * [ ] API Usage
     + [ ] click CloudAppLink
+    + [ ] eBesucher
     + [ ] free-sms
     + [ ] auto-renew
     + [x] rush-hour
+        * [x] smtplib
 
 #### Project Silverbridge - Unlimited Access
 - [ ] RPi / OpenWRT
     + [ ] systemd
     + [ ] iptables
     + [x] iwconfig
-    + [ ] odhcp6d / ndppd
+    + [x] odhcp6d
+    + [ ] ndppd
     + [ ] tb_userspace
-    + [ ] openvpn
+    + [x] openvpn
     + [ ] privoxy
     + [ ] watchfox
 - dns-mirror
@@ -217,9 +227,6 @@ Tree Diagram
 - [ ] GeoIP library
 - **n2n**
     + [ ] supernode
-- [x] physics-experiment
-    + [x] smtplib
-    + [ ] eBesucher
 - Web frameworks
     + [ ] **pastebin**
         * [ ] poplib / imaplib
@@ -227,10 +234,7 @@ Tree Diagram
         * [x] Flask
         * [x] ARP
         * [x] SQLite3
-        * JavaScript
-            - [ ] Qunee
-            - [ ] **jQuery**
-                + [ ] ajax
+        * [ ] Qunee
     + magic -> hooks
         * [x] prepare-commit-msg
         * [ ] github webhook
