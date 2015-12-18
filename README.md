@@ -45,7 +45,7 @@ Tree Diagram
     + [ ] vshadow
     + [x] dupemerge
 - [ ] Github
-    + [ ] **Rename**
+    + [x] anime-renamer
     + [ ] **Refresher/Refnew**
     + [ ] **Supplicant**
     + [ ] Indextan
@@ -73,10 +73,16 @@ Tree Diagram
         * [ ] spi (avr, rpi, 86duino, oled)
         * [ ] framebuffer driver
     + [ ] clock
-    + [ ] keyboard / joystick
-    + [ ] remote switch
-        * [ ] power meter - along with Five Elements
-    + [ ] raster-fonts
+    + [ ] USB
+        * [ ] keyboard / joystick
+            - [ ] wireless keyboard with web interface
+        * [ ] USnooBie
+    + [ ] remote switch - along with ***Five Elements***
+        * [ ] restful server
+        * [ ] keep alive
+        * [ ] wake on line
+        * [ ] printer switch
+        * [ ] power meter
 - [x] [bash](http://learnxinyminutes.com/docs/zh-cn/bash-cn)
     + [x] sed
     + [ ] awk
@@ -88,6 +94,9 @@ Tree Diagram
     + [ ] note converter
     + [ ] sketch converter
         * [ ] txt2bmp
+            - [x] HZK pixel fonts
+            - [x] bitmap structure
+            - [ ] FreeType
         * [ ] bmp2sketch
     + [ ] milky hp-basic
 - milky
