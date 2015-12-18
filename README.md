@@ -16,18 +16,14 @@ Road map 2015
 )
 ```
 
-Life
-----
-* [x] CintaNotes
-* [ ] Tencent QQ Int'l Portable
-    - [ ] Wheel from scratch
-    - [ ] Support x86-64
-    - [ ] Last Order
-    - [ ] Project Pages
-
 Tree Diagram
 ------------
-#### Tree Historical - Data Persistence
+#### Historical Writer - Data Persistence
+- [x] CintaNotes
+- [ ] Tencent QQ Int'l Portable
+    + [ ] Wheel from scratch
+    + [ ] Support x86-64
+    + [ ] Project Pages
 - TrDH Log Parser
     + [ ] Headline date
     + [ ] Day and weekday
@@ -70,9 +66,14 @@ Tree Diagram
 - Arduino
     + [ ] oscilloscope
         * [ ] trigger
-        * [ ] spi (avr, rpi, 86duino, oled)
+        * [ ] SPI / OLED
+            - [ ] avr
+            - [ ] rpi
+            - [ ] 86duino
+                + [ ] Hehuan / Bootloader
+                + [ ] DuinOS / FreeDOS
+                + [ ] linux
         * [ ] framebuffer driver
-    + [ ] clock
     + [ ] USB
         * [ ] keyboard / joystick
             - [ ] wireless keyboard with web interface
@@ -80,7 +81,10 @@ Tree Diagram
     + [ ] remote switch - along with ***Five Elements***
         * [ ] restful server
         * [ ] keep alive
-        * [ ] wake on line
+            - [ ] USB
+            - [ ] ping / icmp
+            - [ ] http / tcp
+        * [ ] wake on lan
         * [ ] printer switch
         * [ ] power meter
 - [x] [bash](http://learnxinyminutes.com/docs/zh-cn/bash-cn)
@@ -229,6 +233,8 @@ Tree Diagram
     + [x] openvpn
     + [ ] privoxy
     + [ ] watchfox
+    + [ ] chimes
+    + [ ] knockd
 - dns-mirror
     + [ ] receive
     + [ ] comprehend
@@ -266,12 +272,9 @@ Tree Diagram
 
 Tips
 ----
-#### 克服拖延症、达成目标
-什么是执行意图？就是使用if...then...的思考范式。比如， 不要再说，我要学Ruby。 而是说，如果我要学习Ruby，那么，今天晚上就装上环境。
-
 #### 调整你的目录结构：搜索而非查找
-知识性工作，打交道最多的是电脑。通过对目录结构的调整以及分析，将最需要创造力与专注力的工作，放在目录结果的常用位置，将大幅度提高自己对创造力任务的关注。作者之前的目录结构是：公司管理，然后按部门细分，部门之下又按照项目或者客户名称细分。然后个人文档又分成另一种目录结构。
---结果文件夹层级非常深，同时较不体现任务的优先级。--参考积极心理学的有关原理，调整之后的目录结构改为：
+将最需要创造力与专注力的工作放在常用位置，将大幅度提高自己对创造力任务的关注。作者之前的目录结构是：公司管理，然后按部门细分，部门之下又按照项目或者客户名称细分。然后个人文档又分成另一种目录结构。
+结果文件夹层级非常深，同时较不体现任务的优先级。参考积极心理学的有关原理，调整之后的目录结构改为：
 
 > 1+个人效率 2+创造乐趣 3+管理艺术 4+公益传承 5+历史记忆 6+资料库 999+大箩筐
 
@@ -279,11 +282,6 @@ Tips
 同时与传统的目录结构最大的区别，在于，多了一些积极情绪暗示词汇。
 比如以前的《欧阳的个人文档》更新为：《个人效率》，《欧阳的公司文档》更新为：《管理艺术》。
 传统的分散在不同目录结构下的创造性任务，则单独用一个《创造乐趣》的文档来归类。
-
-#### 专注于任务而非工具：使用web软件而非本地软件
-word的设计实质上是不符合心流或者心理学原则的。从心理学上而言，它存在两个致命缺陷：
-    1. 它分散了人们的注意力，提供了太多功能，让人们将注意力集中在格式化、排版而非创作之上；2）
-    2. 不存在版本自动跟踪功能：呈现在你面前的总是完美的稿件，如果是乱七八糟的稿件，在word里面会非常难看，最终让你难以下笔，一些写作的零散想法，也不好意思写在word里面。
 
 #### 准备大箩筐：归档零散思想或者生活目标
 对于热爱生活的MM来说，会给自己的家里准备多个色彩鲜艳的纸盒或者箱子，拿来收罗杂物。同样，对于自己的零碎思想，也可以准备一个大脑的大箩筐，将零散想法、创意、灵感，以手写、手机写、在线写等多种方式，写入evernote之中，并将其同步到evernote的网站，随时随地查看。当然，你也可以使用其他的类似软件。
