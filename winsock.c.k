@@ -1,3 +1,4 @@
+// #!/usr/bin/env milky
 #define WIN32_LEAN_AND_MEAN
 
 #include <stdlib.h>
@@ -9,7 +10,11 @@
 #define DEFAULT_BUFLEN 512
 #define DEFAULT_PORT "80"
 
-static const char *request = "GET /\r\n"
+static const char *request = "\
+GET /nginx.html HTTP/1.0
+
+User-Agent: Chrono miner reporting for duty
+"
 
 
 int __cdecl \
