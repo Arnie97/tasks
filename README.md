@@ -1,5 +1,5 @@
-Road map 2015
-=============
+Bonjour 2016
+============
 
 ```lisp
 (cs
@@ -8,7 +8,7 @@ Road map 2015
     )
     (0x3D9
         sjtu, whu, zju, nju, hust, ustc, hit, baau,
-        tongji, nwPu, neu, uestc@southwest
+        tongji, nwPu, neu, uestc
     )
     (0x0D3
         bupt
@@ -33,6 +33,10 @@ Tree Diagram
     + [x] baidu pcs
         * [ ] bypy
         * [ ] remove junks
+        * [ ] redundancy
+        * [ ] Lumia 720
+        * [ ] Source Files
+            - [ ] x64 Disposal
     + [ ] OwnCloud
     + [ ] DropBox
 - [x] time-machine
@@ -53,26 +57,34 @@ Tree Diagram
 #### Dynamic Programming - Academic Works
 - [ ] JavaScript
     + [ ] stdlib
+        * [ ] ES6
     + [ ] browser env
+        * [ ] jQuery & Ajax
     + [ ] node env
-    + [ ] jQuery & Ajax
-    + [ ] ES6
+        * [ ] learnyounode
 - [ ] **pomodoro-timer**: 20 20 20
     + [x] fullscreen
         * [x] pygame (SDL)
     + [ ] tray icon
     + [ ] structured task list file
 - [ ] msys2 migration
-- Arduino
+- Embedded systems
     + [ ] oscilloscope
         * [ ] trigger
         * [ ] SPI / OLED
             - [ ] avr
             - [ ] rpi
             - [ ] 86duino
+                + SeaBIOS / Coreboot
+                    * [ ] int 10h / SSH support
                 + [ ] Hehuan / Bootloader
-                + [ ] DuinOS / FreeDOS
-                + [ ] linux
+                + [ ] DuinOS
+                    * [ ] FreeDOS
+                    * [ ] WinCE
+                + [ ] Linux
+                    * [ ] L86duntu
+                    * [ ] tiny core linux
+                    * [ ] Arch Linux
         * [ ] framebuffer driver
     + [ ] USB
         * [ ] keyboard / joystick
@@ -93,7 +105,8 @@ Tree Diagram
     + [x] msysgit init
     + [x] gethub
 - bootloader
-    + [ ] x86 assembly
+    + [x] x86 assembly
+    + [ ] Stage 2
 - 39gs
     + [ ] note converter
     + [ ] sketch converter
@@ -102,6 +115,11 @@ Tree Diagram
             - [x] bitmap structure
             - [ ] FreeType
         * [ ] bmp2sketch
+            - [ ] DOSBox
+                + [ ] Mathematica
+                + [ ] Cyrillic
+                + [ ] Electric Workbench
+                + [ ] Figlet
     + [ ] milky hp-basic
 - milky
     + [ ] `#!/usr/bin/env milky`
@@ -177,6 +195,9 @@ Tree Diagram
     + [ ] HtDP
     + [ ] http://tyvj.cn
         * [ ] tyvj-mobile
+            - [ ] Monospace fonts
+            - [ ] Problem list
+            - [ ] About
     + [ ] https://leetcode.com
 - Editors
     + Vim
@@ -204,13 +225,14 @@ Tree Diagram
         * [x] ShellWait
         * [x] Unit Test
         * [x] Icon resource
-- [ ] signin / captcha-solver / free-sms / auto-renew / rush-hour
+- [ ] signin / captcha-solver / free-sms / auto-renew / rush-hour / uaq-stat
     + Captcha Resolver
         * [x] Pillow
             - [x] SAU-NET
         * [ ] OpenCV
     + Refresher
         * [x] urllib.Request
+        * [ ] `import request`
         * [x] freehostingnoads
         * [ ] javascript crypto
     + Huiwen OPAC
@@ -221,6 +243,9 @@ Tree Diagram
     + [ ] auto-renew
     + [x] rush-hour
         * [x] smtplib
+    + [ ] uaq-stat
+        * [ ] sessions
+            - betwixt
 
 #### Project Silverbridge - Unlimited Access
 - [ ] RPi / OpenWRT
