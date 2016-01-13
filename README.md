@@ -20,6 +20,7 @@ Tree Diagram
 ------------
 #### Historical Writer - Data Persistence
 - [x] CintaNotes
+- [ ] Clipboard Stack
 - [ ] Tencent QQ Int'l Portable
     + [ ] Wheel from scratch
     + [ ] Support x86-64
@@ -116,13 +117,13 @@ Tree Diagram
             - [ ] FreeType
         * [ ] bmp2sketch
             - [ ] DOSBox
+                + [ ] Windows 95?
                 + [ ] Mathematica
                 + [ ] Cyrillic
                 + [ ] Electric Workbench
                 + [ ] Figlet
     + [ ] milky hp-basic
 - milky
-    + [ ] `#!/usr/bin/env milky`
     + [ ] strict subscription checks
     + i18n & l10n support
         * [ ] utf-8 input
@@ -147,8 +148,14 @@ Tree Diagram
         * [ ] Skip unrecognized files
     + Main
         * [x] read
+            - [x] `#!/usr/bin/env milky`
         * [x] write
-        * [x] arguments
+        * [ ] arguments
+            - [ ] `--force`
+            - [ ] `--chain`
+            - [ ] `--help`
+            - [ ] `--version`
+            - [ ] `--output`
     + Lexer
         * [x] `#define append()`
         * [x] Quoted
@@ -179,16 +186,18 @@ Tree Diagram
         * [x] Goto
     + [x] Error Reporting
         * **Details for 31-series errors**
-            - [ ] Expected indent?
+            - [x] Expected indent?
         * [ ] Show near-by lines
     + [x] Makefile
         * [x] `make release`
-        * [ ] Recursive bootstrapping tests
-        * [ ] Accelerates tests
+        * [x] Recursive bootstrapping tests
+        * [x] Accelerates tests
+        * [x] Coverage tests
     + [ ] Parser
 - STEins Is Not a Shell
 - [ ] **pipetools**
 - [ ] C++ Primer
+    + [ ] cpp-itertools
 - [x] System Calls
 - [ ] Algorithms
     + [ ] SICP
@@ -207,7 +216,6 @@ Tree Diagram
     + Sublime
         * [ ] GDB Integration
             - [ ] CGDB
-        * [ ] Clipboard Stack
         * [x] Issue: MDE
         * [ ] [EverNote](http://maxiang.info)
         * [x] [web](https://stackedit.io)
