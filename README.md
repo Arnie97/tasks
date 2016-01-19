@@ -69,6 +69,8 @@ Tree Diagram
     + [ ] tray icon
     + [ ] structured task list file
 - [ ] msys2 migration
+    + [ ] `$HOME` consistency
+    + [ ] `git tm`
 - Embedded systems
     + [ ] oscilloscope
         * [ ] trigger
@@ -76,8 +78,6 @@ Tree Diagram
             - [ ] avr
             - [ ] rpi
             - [ ] 86duino
-                + SeaBIOS / Coreboot
-                    * [ ] int 10h / SSH support
                 + [ ] Hehuan / Bootloader
                 + [ ] DuinOS
                     * [ ] FreeDOS
@@ -98,7 +98,7 @@ Tree Diagram
             - [ ] ping / icmp
             - [ ] http / tcp
         * [ ] wake on lan
-        * [ ] printer switch
+        * [ ] remote switch
         * [ ] power meter
 - [x] [bash](http://learnxinyminutes.com/docs/zh-cn/bash-cn)
     + [x] sed
@@ -146,10 +146,12 @@ Tree Diagram
         * [ ] Recognize fallthrough outside case
         * [ ] Delete generated files with errors
         * [ ] Skip unrecognized files
-    + Main
+    + Main & Error
         * [x] read
             - [x] `#!/usr/bin/env milky`
         * [x] write
+        * [ ] return code
+        * [ ] windows color support
         * [ ] arguments
             - [ ] `--force`
             - [ ] `--chain`
