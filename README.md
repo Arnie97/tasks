@@ -33,11 +33,12 @@ Tree Diagram
 - [ ] SaaS
     + [x] baidu pcs
         * [ ] bypy
-        * [ ] remove junks
-        * [ ] redundancy
+        * [x] remove junks
+        * [x] redundancy
         * [ ] Lumia 720
         * [ ] Source Files
             - [ ] x64 Disposal
+            - [ ] H: Disposal
     + [ ] OwnCloud
     + [ ] DropBox
 - [x] time-machine
@@ -124,6 +125,7 @@ Tree Diagram
                 + [ ] Figlet
     + [ ] milky hp-basic
 - milky
+    + [ ] Build and release binaries
     + [ ] strict subscription checks
     + i18n & l10n support
         * [ ] utf-8 input
@@ -150,7 +152,8 @@ Tree Diagram
         * [x] read
             - [x] `#!/usr/bin/env milky`
         * [x] write
-        * [ ] return code
+        * [x] return code
+            - [ ] error reporting tests
         * [ ] windows color support
         * [ ] arguments
             - [ ] `--force`
@@ -235,7 +238,7 @@ Tree Diagram
         * [x] ShellWait
         * [x] Unit Test
         * [x] Icon resource
-- [ ] signin / captcha-solver / free-sms / auto-renew / rush-hour / uaq-stat
+- [ ] signin / captcha-solver / free-sms / teleporter / lib-renew / rush-hour / uaq-stat
     + Captcha Resolver
         * [x] Pillow
             - [x] SAU-NET
@@ -247,10 +250,10 @@ Tree Diagram
         * [ ] javascript crypto
     + Huiwen OPAC
         * [ ] API Usage
+        * [ ] lib-renew
     + [ ] click CloudAppLink
     + [ ] eBesucher
     + [ ] free-sms
-    + [ ] auto-renew
     + [x] rush-hour
         * [x] smtplib
     + [ ] uaq-stat
@@ -289,7 +292,7 @@ Tree Diagram
         * [x] prepare-commit-msg
         * [ ] github webhook
     + [x] Jekyll
-        * [ ] **Ruby**
+        * [ ] Ruby
             - [ ] ruby-koans
             - [ ] prog-ruby
             - [ ] Rails
