@@ -238,7 +238,7 @@ Tree Diagram
         * [x] ShellWait
         * [x] Unit Test
         * [x] Icon resource
-- [ ] signin / captcha-solver / free-sms / teleporter / lib-renew / rush-hour / uaq-stat
+- [ ] signin / captcha-solver / free-sms / teleporter / opac-renew / rush-hour / uaq-stat
     + Captcha Resolver
         * [x] Pillow
             - [x] SAU-NET
@@ -249,8 +249,14 @@ Tree Diagram
         * [x] freehostingnoads
         * [ ] javascript crypto
     + Huiwen OPAC
-        * [ ] API Usage
-        * [ ] lib-renew
+        * [ ] API existence?
+        * [ ] opac-renew
+            - [x] scraper
+            - [x] ajax renew
+            - [ ] data persistence
+                + [ ] PonyORM
+                + [ ] SQLAlchemy
+            - [ ] web app
     + [ ] click CloudAppLink
     + [ ] eBesucher
     + [ ] free-sms
