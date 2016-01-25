@@ -131,20 +131,7 @@ Tree Diagram
         * [ ] utf-8 input
         * [ ] gettext
     + [x] Bootstrap
-        * [x] lexer
-        * [x] indent
-        * [x] translator
-        * [x] main / error - indented preprocessor
-        * [x] queue - self-referential structures
-        * [x] token.h / keyword.h / input.h
     + Debug
-        * [x] BOF & EOF
-        * [x] Comments after colon
-        * [x] Line comment at the end of the last line in a block
-        * [x] Indent in comments
-        * [x] Indent in preprocessors
-        * [x] Escaped line
-        * [x] Escaped line in block headers
         * [ ] Recognize fallthrough outside case
         * [ ] Delete generated files with errors
         * [ ] Skip unrecognized files
@@ -174,21 +161,7 @@ Tree Diagram
         * [x] Operators
         * [x] LL(3)
     + Translator
-        * [x] Prototype
-            - [x] Recursion
-            - [x] Indent of the first line
-            - [x] Switch
-            - [x] Fallthrough
-            - [x] Context check for elif / case
-            - [x] Enum
-            - [x] Struct with bit-width
-            - [ ] With block
-        * [x] Semicolons
-            - [x] Preprocessor
-            - [x] Empty line
-            - [x] Line before indent
-            - [x] Line before unindent
-        * [x] Goto
+        * [ ] With block
     + [x] Error Reporting
         * **Details for 31-series errors**
             - [x] Expected indent?
@@ -216,14 +189,7 @@ Tree Diagram
 - Editors
     + Vim
         * Commands
-        * [x] Dotfiles
         * [ ] Plugins
-    + Sublime
-        * [ ] GDB Integration
-            - [ ] CGDB
-        * [x] Issue: MDE
-        * [ ] [EverNote](http://maxiang.info)
-        * [x] [web](https://stackedit.io)
     + [ ] Atom
     + [ ] Brackets
 
@@ -234,10 +200,6 @@ Tree Diagram
     + [ ] valid hours for uaqtest
     + [ ] milkification
 - [x] app-aware-display
-    + [x] milkification
-        * [x] ShellWait
-        * [x] Unit Test
-        * [x] Icon resource
 - [ ] signin / captcha-solver / free-sms / teleporter / opac-renew / rush-hour / uaq-stat
     + Captcha Resolver
         * [x] Pillow
@@ -250,21 +212,31 @@ Tree Diagram
         * [ ] javascript crypto
     + Huiwen OPAC
         * [ ] API existence?
+        * [ ] teleporter
         * [ ] opac-renew
             - [x] scraper
             - [x] ajax renew
             - [ ] data persistence
-                + [ ] PonyORM
-                + [ ] SQLAlchemy
+                + [ ] RDBMS
+                    * [ ] Concepts
+                        - [ ] Entity-relationship model
+                        - [ ] Schema migration
+                    * [ ] ORM
+                        - [ ] PonyORM
+                        - [ ] SQLAlchemy
+                + [ ] NoSQL
+                    * [ ] MongoDB
+                    * [x] Redis
             - [ ] web app
+                + [ ] Twitter Bootstrap
+                    * [ ] safety-refactored
+                + [ ] [12-factor](http://12factor.net)
     + [ ] click CloudAppLink
     + [ ] eBesucher
     + [ ] free-sms
     + [x] rush-hour
         * [x] smtplib
     + [ ] uaq-stat
-        * [ ] sessions
-            - betwixt
 
 #### Project Silverbridge - Unlimited Access
 - [ ] RPi / OpenWRT
@@ -284,8 +256,6 @@ Tree Diagram
     + [ ] comprehend
     + [ ] respond
 - [ ] GeoIP library
-- **n2n**
-    + [ ] supernode
 - Web frameworks
     + [ ] **pastebin**
         * [ ] poplib / imaplib
@@ -297,13 +267,6 @@ Tree Diagram
     + magic -> hooks
         * [x] prepare-commit-msg
         * [ ] github webhook
-    + [x] Jekyll
-        * [ ] Ruby
-            - [ ] ruby-koans
-            - [ ] prog-ruby
-            - [ ] Rails
-        * [ ] WinterSmith
-    + [ ] safety-refactored
 - ipyconfig
     + [ ] auto_routing
     + [x] dynamic dns & dmz
