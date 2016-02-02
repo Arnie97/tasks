@@ -51,7 +51,6 @@ Tree Diagram
     + [ ] **Refresher/Refnew**
     + [ ] **Supplicant**
     + [ ] Indextan
-    + [ ] Safety
     + [ ] Countdown
     + [ ] **python-invaders**
     + [ ] IDMonitor
@@ -59,11 +58,18 @@ Tree Diagram
 #### Dynamic Programming - Academic Works
 - [ ] JavaScript
     + [ ] stdlib
-        * [ ] ES6
+        * [ ] ES2015
     + [ ] browser env
-        * [ ] jQuery & Ajax
+        * [x] DOM
+        * [ ] jQuery
+        * [ ] CSS & selectors
+            - [ ] pseudo classes
+        * [ ] events
+        * [ ] ajax
     + [ ] node env
         * [ ] learnyounode
+        * [ ] npm
+        * [ ] babel
 - [ ] **pomodoro-timer**: 20 20 20
     + [x] fullscreen
         * [x] pygame (SDL)
@@ -98,7 +104,7 @@ Tree Diagram
             - [ ] USB
             - [ ] ping / icmp
             - [ ] http / tcp
-        * [ ] wake on lan
+        * [x] wake on lan
         * [ ] remote switch
         * [ ] power meter
 - [x] [bash](http://learnxinyminutes.com/docs/zh-cn/bash-cn)
@@ -213,24 +219,28 @@ Tree Diagram
     + Huiwen OPAC
         * [ ] API existence?
         * [ ] teleporter
+        * [x] kindle-express
+        * [x] user-agent-proxy
         * [ ] opac-renew
             - [x] scraper
             - [x] ajax renew
             - [ ] data persistence
                 + [ ] RDBMS
                     * [ ] Concepts
-                        - [ ] Entity-relationship model
+                        - [x] Entity-relationship model
                         - [ ] Schema migration
                     * [ ] ORM
                         - [ ] PonyORM
                         - [ ] SQLAlchemy
                 + [ ] NoSQL
-                    * [ ] MongoDB
-                    * [x] Redis
             - [ ] web app
                 + [ ] Twitter Bootstrap
                     * [ ] safety-refactored
                 + [ ] [12-factor](http://12factor.net)
+                    * [ ] Store CONFIG in the environment
+                    * [ ] DISPOSABILITY: Robustness with fast startup and graceful shutdown
+                    * [ ] Treat LOGS as event streams
+                    * [ ] Run ADMIN TASKS as one-off processes
     + [ ] click CloudAppLink
     + [ ] eBesucher
     + [ ] free-sms
