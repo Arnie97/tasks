@@ -57,6 +57,9 @@ Tree Diagram
 
 #### Dynamic Programming - Academic Works
 - [ ] JavaScript
+    + [ ] milky-highlight
+        * [ ] userscript
+        * [ ] hljs/github-copycat.css
     + [ ] stdlib
         * [ ] ES2015
     + [ ] browser env
@@ -70,6 +73,8 @@ Tree Diagram
         * [ ] learnyounode
         * [ ] npm
         * [ ] babel
+    + [ ] React
+    + [ ] Angular
 - [ ] **pomodoro-timer**: 20 20 20
     + [x] fullscreen
         * [x] pygame (SDL)
@@ -132,6 +137,8 @@ Tree Diagram
     + [ ] milky hp-basic
 - milky
     + [ ] Build and release binaries
+        * [ ] Encrypted deploy key
+            - [ ] `gem install travis`
     + [ ] strict subscription checks
     + i18n & l10n support
         * [ ] utf-8 input
@@ -149,6 +156,7 @@ Tree Diagram
             - [ ] error reporting tests
         * [ ] windows color support
         * [ ] arguments
+            - [ ] `getopt` framework
             - [ ] `--force`
             - [ ] `--chain`
             - [ ] `--help`
@@ -168,6 +176,8 @@ Tree Diagram
         * [x] LL(3)
     + Translator
         * [ ] With block
+        * [ ] Literate Milk
+        * [ ] Embedded C
     + [x] Error Reporting
         * **Details for 31-series errors**
             - [x] Expected indent?
@@ -177,6 +187,7 @@ Tree Diagram
         * [x] Recursive bootstrapping tests
         * [x] Accelerates tests
         * [x] Coverage tests
+        * [ ] Versioning
     + [ ] Parser
 - STEins Is Not a Shell
 - [ ] **pipetools**
@@ -228,11 +239,12 @@ Tree Diagram
                 + [ ] RDBMS
                     * [ ] Concepts
                         - [x] Entity-relationship model
-                        - [ ] Schema migration
+                        - [x] Schema migration
+                        - [ ] Join
                     * [ ] ORM
                         - [ ] PonyORM
                         - [ ] SQLAlchemy
-                + [ ] NoSQL
+                + [ ] HBase / Hadoop / Spark
             - [ ] web app
                 + [ ] Twitter Bootstrap
                     * [ ] safety-refactored
