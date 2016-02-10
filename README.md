@@ -56,10 +56,17 @@ Tree Diagram
     + [ ] IDMonitor
 
 #### Dynamic Programming - Academic Works
+- [ ] restful
+    + [x] `Shell_NotifyIcon()`
+    + [x] balloon
+    + [x] `LockWorkStation()`
+    + [x] `PlaySound()`
+    + [ ] timer
 - [ ] JavaScript
-    + [ ] milky-highlight
-        * [ ] userscript
-        * [ ] hljs/github-copycat.css
+    + [x] milky-highlight
+        * [x] userscript
+        * [x] hljs
+        * [x] github.css
     + [ ] stdlib
         * [ ] ES2015
     + [ ] browser env
@@ -75,11 +82,6 @@ Tree Diagram
         * [ ] babel
     + [ ] React
     + [ ] Angular
-- [ ] **pomodoro-timer**: 20 20 20
-    + [x] fullscreen
-        * [x] pygame (SDL)
-    + [ ] tray icon
-    + [ ] structured task list file
 - [ ] msys2 migration
     + [ ] `$HOME` consistency
     + [ ] `git tm`
