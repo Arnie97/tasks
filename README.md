@@ -63,10 +63,11 @@ Tree Diagram
     + [x] `PlaySound()`
     + [ ] `SetTimer()`
 - [ ] JavaScript
-    + [x] milky-highlight
-        * [x] userscript
-        * [x] hljs
-        * [x] github.css
+    + [x] userscript
+        * [x] milky-highlight
+            - [x] hljs
+            - [x] github.css
+        * [ ] teleporter
     + [ ] stdlib
         * [ ] ES2015
     + [ ] browser env
@@ -82,60 +83,33 @@ Tree Diagram
         * [ ] babel
     + [ ] React
     + [ ] Angular
+- [ ] Data Science Concepts
+    + [ ] Data Munging
+    + [ ] Data Mining
+    + [ ] Pattern Recognition
+    + [ ] Machine Learning
+    + [ ] Hadoop
+    + [ ] Spark
+    + [ ] HBase
 - [ ] msys2 migration
     + [ ] `$HOME` consistency
     + [ ] `git tm`
-- Embedded systems
-    + [ ] oscilloscope
-        * [ ] trigger
-        * [ ] SPI / OLED
-            - [ ] avr
-            - [ ] rpi
-            - [ ] 86duino
-                + [ ] Hehuan / Bootloader
-                + [ ] DuinOS
-                    * [ ] FreeDOS
-                    * [ ] WinCE
-                + [ ] Linux
-                    * [ ] L86duntu
-                    * [ ] tiny core linux
-                    * [ ] Arch Linux
-        * [ ] framebuffer driver
-    + [ ] USB
-        * [ ] keyboard / joystick
-            - [ ] wireless keyboard with web interface
-        * [ ] USnooBie
-    + [ ] remote switch - along with ***Five Elements***
-        * [ ] restful server
-        * [ ] keep alive
-            - [ ] USB
-            - [ ] ping / icmp
-            - [ ] http / tcp
-        * [x] wake on lan
-        * [ ] remote switch
-        * [ ] power meter
-- [x] [bash](http://learnxinyminutes.com/docs/zh-cn/bash-cn)
-    + [x] sed
-    + [ ] awk
-    + [x] msysgit init
-    + [x] gethub
 - bootloader
     + [x] x86 assembly
     + [ ] Stage 2
 - 39gs
     + [ ] note converter
-    + [ ] sketch converter
-        * [ ] txt2bmp
-            - [x] HZK pixel fonts
-            - [x] bitmap structure
-            - [ ] FreeType
-        * [ ] bmp2sketch
-            - [ ] DOSBox
-                + [ ] Windows 95?
-                + [ ] Mathematica
-                + [ ] Cyrillic
-                + [ ] Electric Workbench
-                + [ ] Figlet
+    + [ ] txt2bmp
+        * [x] HZK pixel fonts
+        * [x] bitmap structure
+        * [ ] FreeType
+    + [ ] bmp2sketch: DOSBox?
+        * [ ] Windows 95?
+        * [ ] Mathematica
+        * [ ] Cyrillic
+        * [ ] Electric Workbench
+        * [ ] Figlet
+    + [ ] bmp2sketch: standalone
     + [ ] milky hp-basic
 - milky
     + [ ] Build and release binaries
@@ -215,6 +189,7 @@ Tree Diagram
         * [ ] Remove context menus
     + Vim
         * [ ] Sed commands
+            - [ ] awk
         * [ ] Plugins
         * [ ] Powerline
     + [ ] Atom
@@ -239,30 +214,12 @@ Tree Diagram
         * [ ] javascript crypto
     + Huiwen OPAC
         * [ ] API existence?
-        * [ ] teleporter
         * [x] kindle-express
         * [x] user-agent-proxy
         * [ ] opac-renew
             - [x] scraper
             - [x] ajax renew
             - [ ] data persistence
-                + [ ] RDBMS
-                    * [ ] Concepts
-                        - [x] Entity-relationship model
-                        - [x] Schema migration
-                        - [ ] Join
-                    * [ ] ORM
-                        - [ ] PonyORM
-                        - [ ] SQLAlchemy
-                + [ ] HBase / Hadoop / Spark
-            - [ ] web app
-                + [ ] Twitter Bootstrap
-                    * [ ] safety-refactored
-                + [ ] [12-factor](http://12factor.net)
-                    * [ ] Store CONFIG in the environment
-                    * [ ] DISPOSABILITY: Robustness with fast startup and graceful shutdown
-                    * [ ] Treat LOGS as event streams
-                    * [ ] Run ADMIN TASKS as one-off processes
     + [ ] click CloudAppLink
     + [ ] eBesucher
     + [ ] free-sms
@@ -287,18 +244,60 @@ Tree Diagram
     + [ ] receive
     + [ ] comprehend
     + [ ] respond
-- [ ] GeoIP library
-- Web frameworks
+- [ ] web app
+    + [ ] Twitter Bootstrap
+        * [ ] safety-refactored
+    + [ ] [12-factor](http://12factor.net)
+        * [ ] Store CONFIG in the environment
+        * [ ] DISPOSABILITY: Robustness with fast startup and graceful shutdown
+        * [ ] Treat LOGS as event streams
+        * [ ] Run ADMIN TASKS as one-off processes         
     + [ ] **pastebin**
         * [ ] poplib / imaplib
+    + [ ] GeoIP library
     + psr-portal
         * [x] Flask
         * [x] ARP
         * [x] SQLite3
         * [ ] Qunee
-    + magic -> hooks
-        * [x] prepare-commit-msg
-        * [ ] github webhook
+    + [ ] RDBMS
+        * [x] Entity-relationship model
+        * [x] Schema migration
+        * [ ] Join
+        * [ ] ORM
+            - [ ] PonyORM
+            - [ ] SQLAlchemy
+    + [ ] github webhook
+- Embedded systems
+    + [ ] oscilloscope
+        * [ ] trigger
+        * [ ] SPI / OLED
+            - [ ] avr
+            - [ ] rpi
+            - [ ] 86duino
+        * [ ] framebuffer driver
+    + [ ] 86duino
+        * [ ] Hehuan / Bootloader
+        * [ ] DuinOS
+            - [ ] FreeDOS
+            - [ ] WinCE
+        * [ ] Linux
+            - [ ] L86duntu
+            - [ ] tiny core linux
+            - [ ] Arch Linux
+    + [ ] USB
+        * [ ] keyboard / joystick
+            - [ ] wireless keyboard with web interface
+        * [ ] USnooBie
+    + [ ] remote switch
+        * [ ] restful server
+        * [ ] keep alive
+            - [ ] USB
+            - [ ] ping / icmp
+            - [ ] http / tcp
+        * [x] wake on lan
+        * [ ] remote switch
+        * [ ] power meter
 - ipyconfig
     + [ ] auto_routing
     + [x] dynamic dns & dmz
