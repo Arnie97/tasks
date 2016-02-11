@@ -61,7 +61,7 @@ Tree Diagram
     + [x] balloon
     + [x] `LockWorkStation()`
     + [x] `PlaySound()`
-    + [ ] timer
+    + [ ] `SetTimer()`
 - [ ] JavaScript
     + [x] milky-highlight
         * [x] userscript
@@ -206,9 +206,17 @@ Tree Diagram
             - [ ] About
     + [ ] https://leetcode.com
 - Editors
+    + Sublime Text
+        * [ ] Javascript Console
+            - [ ] `Glue`: Input
+            - [ ] `PyV8`: Process
+            - [ ] `SFTP`: Output
+        * [ ] PackageDev file type meta patch
+        * [ ] Remove context menus
     + Vim
-        * Commands
+        * [ ] Sed commands
         * [ ] Plugins
+        * [ ] Powerline
     + [ ] Atom
     + [ ] Brackets
 
