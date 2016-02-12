@@ -83,6 +83,13 @@ Tree Diagram
         * [ ] babel
     + [ ] React
     + [ ] Angular
+    + [ ] [Headless Functional Testing](http://code.tutsplus.com/tutorials/headless-functional-testing-with-selenium-and-phantomjs--net-30545)
+        * [ ] PhantomJS
+            - [ ] NightmareJS
+        * [ ] SlimerJS
+            - [ ] CasperJS
+        * [ ] Selenium
+
 - [ ] Data Science Concepts
     + [ ] Data Munging
     + [ ] Data Mining
@@ -112,15 +119,16 @@ Tree Diagram
     + [ ] bmp2sketch: standalone
     + [ ] milky hp-basic
 - milky
-    + [ ] Build and release binaries
-        * [ ] Encrypted deploy key
-            - [ ] `gem install travis`
+    + [x] Build and release binaries
+        * [x] Encrypted deploy key
+            - [x] `gem install travis`
     + [ ] strict subscription checks
     + i18n & l10n support
         * [ ] utf-8 input
         * [ ] gettext
-    + [x] Bootstrap
+    + [ ] ANSI escape sequence equivalent for Windows
     + Debug
+        * [x] Remove semicolon before line comment in an escaped line
         * [ ] Recognize fallthrough outside case
         * [ ] Delete generated files with errors
         * [ ] Skip unrecognized files
@@ -139,19 +147,8 @@ Tree Diagram
             - [ ] `--version`
             - [ ] `--output`
     + Lexer
-        * [x] `#define append()`
-        * [x] Quoted
-        * [x] Multi-line strings
-        * [x] CRLF -> LF
         * [ ] Tabular
-        * [x] Spaces
-        * [x] Indent
-            - [x] Indent with comments
-        * [x] Keywords
-        * [x] Operators
-        * [x] LL(3)
     + Translator
-        * [ ] With block
         * [ ] Literate Milk
         * [ ] Embedded C
     + [x] Error Reporting
@@ -159,10 +156,6 @@ Tree Diagram
             - [x] Expected indent?
         * [ ] Show near-by lines
     + [x] Makefile
-        * [x] `make release`
-        * [x] Recursive bootstrapping tests
-        * [x] Accelerates tests
-        * [x] Coverage tests
         * [ ] Versioning
     + [ ] Parser
 - STEins Is Not a Shell
@@ -251,7 +244,7 @@ Tree Diagram
         * [ ] Store CONFIG in the environment
         * [ ] DISPOSABILITY: Robustness with fast startup and graceful shutdown
         * [ ] Treat LOGS as event streams
-        * [ ] Run ADMIN TASKS as one-off processes         
+        * [ ] Run ADMIN TASKS as one-off processes
     + [ ] **pastebin**
         * [ ] poplib / imaplib
     + [ ] GeoIP library
