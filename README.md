@@ -126,7 +126,8 @@ Tree Diagram
     + i18n & l10n support
         * [ ] utf-8 input
         * [ ] gettext
-    + [ ] ANSI escape sequence equivalent for Windows
+    + [x] `SetConsoleTextAttribute()`
+    + [x] [UPX](http://upx.sourceforge.net)
     + Debug
         * [x] Remove semicolon before line comment in an escaped line
         * [ ] Recognize fallthrough outside case
@@ -149,6 +150,7 @@ Tree Diagram
     + Lexer
         * [ ] Tabular
     + Translator
+        * [ ] Inline statement
         * [ ] Literate Milk
         * [ ] Embedded C
     + [x] Error Reporting
@@ -205,20 +207,23 @@ Tree Diagram
         * [ ] `import request`
         * [x] freehostingnoads
         * [ ] javascript crypto
-    + Huiwen OPAC
-        * [ ] API existence?
-        * [x] kindle-express
-        * [x] user-agent-proxy
-        * [ ] opac-renew
-            - [x] scraper
-            - [x] ajax renew
-            - [ ] data persistence
     + [ ] click CloudAppLink
     + [ ] eBesucher
     + [ ] free-sms
     + [x] rush-hour
         * [x] smtplib
     + [ ] uaq-stat
+    + [ ] opac-renew
+        * [x] scraper
+        * [x] ajax renew
+        * [ ] data persistence
+- Kindle Paperwhite
+    + [x] JailBreak
+    + [ ] Huiwen OPAC API existence?
+    + [x] kindle-express
+        * [ ] non-English pdf convert?
+        * [ ] epub support?
+    + [x] user-agent-proxy
 
 #### Project Silverbridge - Unlimited Access
 - [ ] RPi / OpenWRT
