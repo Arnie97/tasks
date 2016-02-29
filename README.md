@@ -85,11 +85,10 @@ Tree Diagram
     + [ ] Angular
     + [ ] [Headless Functional Testing](http://code.tutsplus.com/tutorials/headless-functional-testing-with-selenium-and-phantomjs--net-30545)
         * [ ] PhantomJS
-            - [ ] NightmareJS
+            - [ ] **NightmareJS**
         * [ ] SlimerJS
             - [ ] CasperJS
         * [ ] Selenium
-
 - [ ] Data Science Concepts
     + [ ] Data Munging
     + [ ] Data Mining
@@ -98,6 +97,11 @@ Tree Diagram
     + [ ] Hadoop
     + [ ] Spark
     + [ ] HBase
+- Docker CaaS
+    + [ ] Fleet
+    + [ ] Deis / Dokku
+    + [ ] Flynn
+    + [ ] Kubernetes
 - [ ] msys2 migration
     + [ ] `$HOME` consistency
     + [ ] `git tm`
@@ -226,6 +230,7 @@ Tree Diagram
     + [x] user-agent-proxy
 
 #### Project Silverbridge - Unlimited Access
+- [ ] APN Proxy
 - [ ] RPi / OpenWRT
     + [ ] systemd
     + [ ] iptables
