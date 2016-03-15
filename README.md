@@ -4,11 +4,14 @@ Bonjour 2016
 ```lisp
 (cs
     (0x7DE
-        tsh pku nudt
+        thu,
+        pku, nudt
     )
     (0x3D9
-        sjtu, whu, zju, nju, hust, ustc, hit, baau,
-        tongji, nwPu, neu, uestc
+        buaa, hit, sjtu, zju,
+        nju, ustc, neu, hust,
+        tju, whu, uestc, nwPu,
+        fdu, seu, sysu, jlu
     )
     (0x0D3
         bupt
@@ -103,7 +106,7 @@ Tree Diagram
     + [ ] Flynn
     + [ ] Kubernetes
 - [ ] msys2 migration
-    + [ ] `$HOME` consistency
+    + [x] `$HOME` consistency
     + [ ] `git tm`
 - bootloader
     + [x] x86 assembly
@@ -168,16 +171,25 @@ Tree Diagram
 - [ ] **pipetools**
 - [ ] C++ Primer
     + [ ] cpp-itertools
-- [x] System Calls
-- [ ] Algorithms
-    + [ ] SICP
-    + [ ] HtDP
+- [ ] Computer Architecture
+    + [ ] Arithmetic Logic Unit
+        * [ ] mul
+        * [ ] div
+- [ ] Data Structures
+    + [ ] Graphs
+    + [ ] Trees
+        * [x] Traversal
+        * [ ] AVL
+        * [ ] B-tree
+        * [ ] B+tree
     + [ ] http://tyvj.cn
         * [ ] tyvj-mobile
             - [ ] Monospace fonts
             - [ ] Problem list
             - [ ] About
     + [ ] https://leetcode.com
+    + [ ] SICP
+    + [ ] HtDP
 - Editors
     + Sublime Text
         * [ ] Javascript Console
@@ -186,9 +198,11 @@ Tree Diagram
             - [ ] `SFTP`: Output
         * [ ] PackageDev file type meta patch
         * [ ] Remove context menus
-    + Vim
-        * [ ] Sed commands
-            - [ ] awk
+        * [ ] Compiler info navigation
+        * [ ] Embedded debugger for C / C++ / Py
+    + Vim & Bash
+        * [ ] Sed & Vim commands
+        * [x] Awk
         * [ ] Plugins
         * [ ] Powerline
     + [ ] Atom
@@ -206,6 +220,7 @@ Tree Diagram
         * [x] Pillow
             - [x] SAU-NET
         * [ ] OpenCV
+        * [ ] Pattern recognition / Machine Learning
     + Refresher
         * [x] urllib.Request
         * [ ] `import request`
@@ -280,7 +295,9 @@ Tree Diagram
             - [ ] 86duino
         * [ ] framebuffer driver
     + [ ] 86duino
-        * [ ] Hehuan / Bootloader
+        * [ ] Crossbar
+            - [x] restore to default
+            - [ ] route SPI to /E[ABZ][01]|3[12]|[TR]X[23]/
         * [ ] DuinOS
             - [ ] FreeDOS
             - [ ] WinCE
