@@ -21,109 +21,34 @@ Bonjour 2016
 
 Tree Diagram
 ------------
-#### Historical Writer - Data Persistence
-- [x] CintaNotes
-- [ ] Clipboard Stack
-- [ ] Tencent QQ Int'l Portable
-    + [ ] Wheel from scratch
-    + [ ] Support x86-64
-    + [ ] Project Pages
-- TrDH Log Parser
-    + [ ] Headline date
-    + [ ] Day and weekday
-    + [ ] Morning, noon, evening & night
-    + [ ] ~2545
-- [ ] SaaS
-    + [x] baidu pcs
-        * [ ] bypy
-        * [x] remove junks
-        * [x] redundancy
-        * [ ] Lumia 720
-        * [ ] Source Files
-            - [ ] x64 Disposal
-            - [ ] H: Disposal
-    + [ ] N54L / N400
-        * [ ] RAID / JBOD sync
-- [x] time-machine
-    + [ ] rsync
-    + [x] FastCopy
-    + [ ] vshadow
-    + [x] dupemerge
-- [ ] Github
-    + [x] anime-renamer
-    + [ ] **Refresher/Refnew**
-    + [ ] **Supplicant**
-    + [ ] Indextan
-    + [ ] Countdown
-    + [ ] **python-invaders**
-    + [ ] IDMonitor
-
 #### Dynamic Programming - Academic Works
-- [ ] restful - deprecated by [FadeTop](http://www.fadetop.com/tutorials.html)
-    + [x] `Shell_NotifyIcon()`
-    + [x] balloon
-    + [x] `LockWorkStation()`
-    + [x] `PlaySound()`
-    + [ ] `SetTimer()`
-- [ ] JavaScript
-    + [x] userscript
-        * [x] milky-highlight
-            - [x] hljs
-            - [x] github.css
-        * [ ] teleporter
-    + [ ] stdlib
-        * [ ] ES2015
-    + [ ] browser env
-        * [x] DOM
-        * [ ] jQuery
-        * [ ] CSS & selectors
-            - [ ] pseudo classes
-        * [ ] events
-        * [ ] ajax
-    + [ ] node env
-        * [ ] learnyounode
-        * [ ] npm
-        * [ ] babel
-    + [ ] React & React Native
-    + [ ] Angular
-    + [ ] [Headless Functional Testing](http://code.tutsplus.com/tutorials/headless-functional-testing-with-selenium-and-phantomjs--net-30545)
-        * [ ] PhantomJS
-            - [ ] **NightmareJS**
-        * [ ] SlimerJS
-            - [ ] CasperJS
-        * [ ] Selenium
-- [ ] Machine Learning
-    + [ ] Neural Network
-    + [ ] Data Science
-        * [ ] Data Mining
-        * [ ] Data Munging
-        * [ ] NumPy Ecosystem
-        * [ ] Hadoop Ecosystem
-- Docker CaaS
-    + [ ] Fleet
-    + [ ] Deis / Dokku
-    + [ ] Flynn
-    + [ ] Kubernetes
-- [x] msys2 migration
-    + [x] `$HOME` consistency
-    + [ ] `git tm`: escaped colons?
-- bootloader
-    + [x] x86 assembly
-    + [ ] Stage 2
-- 39gs
-    + [ ] note converter
-    + [ ] txt2bmp
-        * [x] HZK pixel fonts
-        * [x] bitmap structure
-        * [ ] FreeType
-    + [ ] bmp2sketch: DOSBox?
-        * [ ] Windows 95?
-        * [ ] Mathematica
-        * [ ] Cyrillic
-        * [ ] Electric Workbench
-        * [ ] Figlet
-    + [ ] bmp2sketch: standalone
-    + [ ] milky hp-basic
+- [ ] Computer Architecture
+    + [ ] Arithmetic Logic Unit
+        * [ ] mul
+        * [ ] div
+- [ ] Data Structures
+    + [ ] Graphs
+        * [ ] Shortest path
+            - [ ] Dijkstra
+            - [ ] Floyd-Warshall
+            - [ ] Bellman-Ford
+        * [ ] MST
+            - [ ] Prim
+            - [ ] Kruskal
+        * [ ] Network flows
+    + [ ] Trees
+        * [x] Traversal
+        * [x] AVL
+        * [ ] B-tree
+        * [ ] B+tree
+    + [ ] http://tyvj.cn
+        * [ ] tyvj-mobile
+            - [x] Monospace fonts
+            - [ ] Problem list
+            - [ ] About
+    + [ ] https://leetcode.com
+    + [ ] SICP
+    + [ ] HtDP
 - milky
     + [x] Build and release binaries
         * [x] Encrypted deploy key
@@ -165,38 +90,21 @@ Tree Diagram
     + [x] Makefile
         * [ ] Versioning
     + [ ] Parser
+- [ ] Machine Learning
+    + [ ] Neural Network
+    + [ ] Data Science
+        * [ ] Data Mining
+        * [ ] Data Munging
+        * [ ] NumPy Ecosystem
+        * [ ] Hadoop Ecosystem
 - STEins Is Not a Shell
 - [ ] **pipetools**
 - [ ] C++ Primer
     + [ ] templates
     + [ ] cpp-itertools
-- [ ] Computer Architecture
-    + [ ] Arithmetic Logic Unit
-        * [ ] mul
-        * [ ] div
-- [ ] Data Structures
-    + [ ] Graphs
-        * [ ] Shortest path
-            - [ ] Dijkstra
-            - [ ] Floyd-Warshall
-            - [ ] Bellman-Ford
-        * [ ] MST
-            - [ ] Prim
-            - [ ] Kruskal
-        * [ ] Network flows
-    + [ ] Trees
-        * [x] Traversal
-        * [x] AVL
-        * [ ] B-tree
-        * [ ] B+tree
-    + [ ] http://tyvj.cn
-        * [ ] tyvj-mobile
-            - [x] Monospace fonts
-            - [ ] Problem list
-            - [ ] About
-    + [ ] https://leetcode.com
-    + [ ] SICP
-    + [ ] HtDP
+- bootloader
+    + [x] x86 assembly
+    + [ ] Stage 2
 - Editors
     + Sublime Text
         * [ ] Javascript Console
@@ -214,14 +122,81 @@ Tree Diagram
         * [ ] Powerline
     + [ ] Atom
     + [ ] Brackets
+- [ ] JavaScript
+    + [x] userscript
+        * [x] milky-highlight
+            - [x] hljs
+            - [x] github.css
+        * [ ] teleporter
+    + [ ] stdlib
+        * [ ] ES2015
+    + [ ] browser env
+        * [x] DOM
+        * [ ] jQuery
+        * [ ] CSS & selectors
+            - [ ] pseudo classes
+        * [ ] events
+        * [ ] ajax
+    + [ ] node env
+        * [ ] learnyounode
+        * [ ] npm
+        * [ ] babel
+    + [ ] React & React Native
+    + [ ] Angular
+    + [ ] [Headless Functional Testing](http://code.tutsplus.com/tutorials/headless-functional-testing-with-selenium-and-phantomjs--net-30545)
+        * [ ] PhantomJS
+            - [ ] **NightmareJS**
+        * [ ] SlimerJS
+            - [ ] CasperJS
+        * [ ] Selenium
+- [ ] restful - deprecated by [FadeTop](http://www.fadetop.com/tutorials.html)
+    + [x] `Shell_NotifyIcon()`
+    + [x] balloon
+    + [x] `LockWorkStation()`
+    + [x] `PlaySound()`
+    + [ ] `SetTimer()`
+
+#### Historical Writer - Data Persistence
+- [x] CintaNotes
+- [ ] Clipboard Stack
+- [ ] Tencent QQ Int'l Portable
+    + [ ] Wheel from scratch
+    + [ ] Support x86-64
+    + [ ] Project Pages
+- TrDH Log Parser
+    + [ ] Headline date
+    + [ ] Day and weekday
+    + [ ] Morning, noon, evening & night
+    + [ ] ~2545
+- [ ] SaaS
+    + [x] baidu pcs
+        * [ ] bypy
+        * [x] remove junks
+        * [x] redundancy
+        * [ ] Lumia 720
+        * [ ] Source Files
+            - [ ] x64 Disposal
+            - [ ] H: Disposal
+    + [ ] N54L / N400
+        * [ ] RAID / JBOD sync
+- [x] time-machine
+    + [ ] rsync
+    + [x] FastCopy
+    + [ ] vshadow
+    + [x] dupemerge
+- [ ] Github
+    + [x] anime-renamer
+    + [ ] **Refresher/Refnew**
+    + [ ] **Supplicant**
+    + [ ] Indextan
+    + [ ] Countdown
+    + [ ] **python-invaders**
+    + [ ] IDMonitor
+- [x] msys2 migration
+    + [x] `$HOME` consistency
+    + [ ] `git tm`: escaped colons?
 
 #### Five Elements - Production Environment
-- [ ] eventlog reborn
-    + [ ] import into Git
-    + [ ] remove libevent
-    + [ ] valid hours for uaqtest
-    + [ ] milkification
-- [x] app-aware-display
 - [ ] signin / captcha-solver / free-sms / teleporter / opac-renew / rush-hour / uaq-stat
     + Captcha Resolver
         * [x] Pillow
@@ -250,6 +225,30 @@ Tree Diagram
         * [ ] non-English pdf convert?
         * [ ] epub support?
     + [x] user-agent-proxy
+* Docker CaaS
+    - [ ] Fleet
+    - [ ] Deis / Dokku
+    - [ ] Flynn
+    - [ ] Kubernetes
+- 39gs
+    + [ ] note converter
+    + [ ] txt2bmp
+        * [x] HZK pixel fonts
+        * [x] bitmap structure
+        * [ ] FreeType
+    + [ ] bmp2sketch: DOSBox?
+        * [ ] Windows 95?
+        * [ ] Mathematica
+        * [ ] Cyrillic
+        * [ ] Electric Workbench
+        * [ ] Figlet
+    + [ ] bmp2sketch: standalone
+    + [ ] milky hp-basic
+- [ ] eventlog reborn
+    + [ ] import into Git
+    + [ ] remove libevent
+    + [ ] valid hours for uaqtest
+    + [ ] milkification
 
 #### Project Silverbridge - Unlimited Access
 - [ ] APN Proxy
