@@ -42,8 +42,8 @@ Tree Diagram
         * [ ] Source Files
             - [ ] x64 Disposal
             - [ ] H: Disposal
-    + [ ] OwnCloud
-    + [ ] DropBox
+    + [ ] N54L / N400
+        * [ ] RAID / JBOD sync
 - [x] time-machine
     + [ ] rsync
     + [x] FastCopy
@@ -59,7 +59,7 @@ Tree Diagram
     + [ ] IDMonitor
 
 #### Dynamic Programming - Academic Works
-- [ ] restful
+- [ ] restful - deprecated by [FadeTop](http://www.fadetop.com/tutorials.html)
     + [x] `Shell_NotifyIcon()`
     + [x] balloon
     + [x] `LockWorkStation()`
@@ -84,7 +84,7 @@ Tree Diagram
         * [ ] learnyounode
         * [ ] npm
         * [ ] babel
-    + [ ] React
+    + [ ] React & React Native
     + [ ] Angular
     + [ ] [Headless Functional Testing](http://code.tutsplus.com/tutorials/headless-functional-testing-with-selenium-and-phantomjs--net-30545)
         * [ ] PhantomJS
@@ -92,22 +92,21 @@ Tree Diagram
         * [ ] SlimerJS
             - [ ] CasperJS
         * [ ] Selenium
-- [ ] Data Science Concepts
-    + [ ] Data Munging
-    + [ ] Data Mining
-    + [ ] Pattern Recognition
-    + [ ] Machine Learning
-    + [ ] Hadoop
-    + [ ] Spark
-    + [ ] HBase
+- [ ] Machine Learning
+    + [ ] Neural Network
+    + [ ] Data Science
+        * [ ] Data Mining
+        * [ ] Data Munging
+        * [ ] NumPy Ecosystem
+        * [ ] Hadoop Ecosystem
 - Docker CaaS
     + [ ] Fleet
     + [ ] Deis / Dokku
     + [ ] Flynn
     + [ ] Kubernetes
-- [ ] msys2 migration
+- [x] msys2 migration
     + [x] `$HOME` consistency
-    + [ ] `git tm`
+    + [ ] `git tm`: escaped colons?
 - bootloader
     + [x] x86 assembly
     + [ ] Stage 2
@@ -138,8 +137,7 @@ Tree Diagram
     + Debug
         * [x] Remove semicolon before line comment in an escaped line
         * [ ] Recognize fallthrough outside case
-        * [ ] Delete generated files with errors
-        * [ ] Skip unrecognized files
+        * [ ] Delete partial outputs during an error
     + Main & Error
         * [x] read
             - [x] `#!/usr/bin/env milky`
@@ -170,6 +168,7 @@ Tree Diagram
 - STEins Is Not a Shell
 - [ ] **pipetools**
 - [ ] C++ Primer
+    + [ ] templates
     + [ ] cpp-itertools
 - [ ] Computer Architecture
     + [ ] Arithmetic Logic Unit
@@ -177,14 +176,22 @@ Tree Diagram
         * [ ] div
 - [ ] Data Structures
     + [ ] Graphs
+        * [ ] Shortest path
+            - [ ] Dijkstra
+            - [ ] Floyd-Warshall
+            - [ ] Bellman-Ford
+        * [ ] MST
+            - [ ] Prim
+            - [ ] Kruskal
+        * [ ] Network flows
     + [ ] Trees
         * [x] Traversal
-        * [ ] AVL
+        * [x] AVL
         * [ ] B-tree
         * [ ] B+tree
     + [ ] http://tyvj.cn
         * [ ] tyvj-mobile
-            - [ ] Monospace fonts
+            - [x] Monospace fonts
             - [ ] Problem list
             - [ ] About
     + [ ] https://leetcode.com
@@ -248,6 +255,7 @@ Tree Diagram
 - [ ] APN Proxy
 - [ ] RPi / OpenWRT
     + [ ] systemd
+    + [x] mentohust
     + [ ] iptables
     + [x] iwconfig
     + [x] odhcp6d
