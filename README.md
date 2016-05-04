@@ -3,26 +3,18 @@ Bonjour 2016
 
 ```lisp
 (cs
-    (0x7DE
-        thu,
-        pku, nudt
-    )
-    (0x3D9
-        buaa, hit, sjtu, zju,
-        nju, ustc, neu, hust,
-        tju, whu, uestc, nwPu,
-        fdu, seu, sysu, jlu
-    )
-    (0x0D3
-        bupt
-    )
+    (0x3D9 buaa)
+    (0x0D3 bupt)
 )
 ```
 
 Tree Diagram
 ------------
 #### Dynamic Programming - Academic Works
+- [ ] Operating Systems
+    + [ ] P/V
 - [ ] Computer Architecture
+    + [ ] IEEE 754
     + [ ] Arithmetic Logic Unit
         * [ ] mul
         * [ ] div
@@ -53,13 +45,11 @@ Tree Diagram
     + [x] Build and release binaries
         * [x] Encrypted deploy key
             - [x] `gem install travis`
-    + [ ] strict subscription checks
-    + i18n & l10n support
-        * [ ] utf-8 input
-        * [ ] gettext
-    + [x] `SetConsoleTextAttribute()`
-    + [x] [UPX](http://upx.sourceforge.net)
+        * [x] [UPX](http://upx.sourceforge.net)
+        * [ ] Msys and Linux builds
     + Debug
+        + [ ] Unlimited token length
+        + [ ] Strict subscription checks
         * [x] Remove semicolon before line comment in an escaped line
         * [ ] Recognize fallthrough outside case
         * [ ] Delete partial outputs during an error
@@ -69,16 +59,19 @@ Tree Diagram
         * [x] write
         * [x] return code
             - [ ] error reporting tests
-        * [ ] windows color support
+        * [x] windows console color support
+        * [x] stdin / stdout support
         * [ ] arguments
             - [ ] `getopt` framework
-            - [ ] `--force`
+            - [x] `--force`
             - [ ] `--chain`
             - [ ] `--help`
             - [ ] `--version`
-            - [ ] `--output`
+            - [x] `--output`
     + Lexer
-        * [ ] Tabular
+        * [ ] Tabular and other whitespaces
+        * [ ] Illegal bytes / utf-8 input
+            - [ ] libiconv / gettext / i18n & l10n support
     + Translator
         * [ ] Inline statement
         * [ ] Literate Milk
@@ -112,18 +105,18 @@ Tree Diagram
             - [ ] `PyV8`: Process
             - [ ] `SFTP`: Output
         * [ ] PackageDev file type meta patch
-        * [ ] Remove context menus
+        * [ ] Trim context menus
         * [ ] Compiler info navigation
         * [ ] Embedded debugger for C / C++ / Py
+            - [ ] Install mingw-w64-i686-gdb without python2?
     + Vim & Bash
+        * [ ] NeoVim / [vim-airline](https://github.com/vim-airline/vim-airline)(Powerline) / Cscope / Ctags / Taglist
         * [ ] Sed & Vim commands
         * [x] Awk
-        * [ ] Plugins
-        * [ ] Powerline
     + [ ] Atom
     + [ ] Brackets
 - [ ] JavaScript
-    + [x] userscript
+    + [x] GreaseMonkey / userscript
         * [x] milky-highlight
             - [x] hljs
             - [x] github.css
@@ -224,7 +217,7 @@ Tree Diagram
     + [x] kindle-express
         * [ ] non-English pdf convert?
         * [ ] epub support?
-    + [x] user-agent-proxy
+    + [x] read-color/user-agent-proxy
 * Docker CaaS
     - [ ] Fleet
     - [ ] Deis / Dokku
@@ -241,7 +234,7 @@ Tree Diagram
         * [ ] Mathematica
         * [ ] Cyrillic
         * [ ] Electric Workbench
-        * [ ] Figlet
+        * [x] Figlet
     + [ ] bmp2sketch: standalone
     + [ ] milky hp-basic
 - [ ] eventlog reborn
@@ -349,6 +342,4 @@ Tips
 传统的分散在不同目录结构下的创造性任务，则单独用一个《创造乐趣》的文档来归类。
 
 #### 准备大箩筐：归档零散思想或者生活目标
-对于热爱生活的MM来说，会给自己的家里准备多个色彩鲜艳的纸盒或者箱子，拿来收罗杂物。同样，对于自己的零碎思想，也可以准备一个大脑的大箩筐，将零散想法、创意、灵感，以手写、手机写、在线写等多种方式，写入evernote之中，并将其同步到evernote的网站，随时随地查看。当然，你也可以使用其他的类似软件。
-
 还记得你年少时的梦想？因为生活的压力，是不是慢慢地忘记了那些梦想。然而，这些世界上，同样存在一批理想现实主义者，坚持一定要改变世界而不是被世界改变自己的理念。这样的人，有苹果公司的乔布斯；有Patagonia公司的Yvon Chouinard。如果希望记录自己的零散的梦想或者提醒自己，可以使用时间管理软件，来对生活归档。比如：rememberthemilk
