@@ -18,7 +18,7 @@ Tree Diagram
     + [ ] Arithmetic Logic Unit
         * [ ] mul
         * [ ] div
-- [ ] Data Structures
+- [ ] [Data Structures](http://parkjs814.github.io/AlgorithmVisualizer)
     + [ ] Graphs
         * [ ] Shortest path
             - [ ] Dijkstra
@@ -70,10 +70,9 @@ Tree Diagram
             - [x] `--output`
     + Lexer
         * [ ] Tabular and other whitespaces
-        * [ ] Illegal bytes / utf-8 input
-            - [ ] libiconv / gettext / i18n & l10n support
+        * [x] utf-8 / gb2312 / iso 8859 support
+        * [ ] libiconv / gettext / i18n & l10n support
     + Translator
-        * [ ] Inline statement
         * [ ] Literate Milk
         * [ ] Embedded C
     + [x] Error Reporting
@@ -219,6 +218,7 @@ Tree Diagram
         * [ ] epub support?
     + [x] read-color/user-agent-proxy
 * Docker CaaS
+    - [ ] Native / Swarm
     - [ ] Fleet
     - [ ] Deis / Dokku
     - [ ] Flynn
@@ -226,8 +226,10 @@ Tree Diagram
 - 39gs
     + [ ] note converter
     + [ ] txt2bmp
-        * [x] HZK pixel fonts
+        * [x] hzk pixel fonts
+            - [ ] **encodings & charsets?**
         * [x] bitmap structure
+        * [ ] inverted bitmap?
         * [ ] FreeType
     + [ ] bmp2sketch: DOSBox?
         * [ ] Windows 95?
