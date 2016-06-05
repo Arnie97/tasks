@@ -13,6 +13,7 @@ Tree Diagram
 #### Dynamic Programming - Academic Works
 - [ ] Operating Systems
     + [ ] P/V
+    + [ ] The Banker's algorithm
 - [ ] Computer Architecture
     + [ ] IEEE 754
     + [ ] Arithmetic Logic Unit
@@ -38,7 +39,9 @@ Tree Diagram
             - [x] Monospace fonts
             - [ ] Problem list
             - [ ] About
+    + [ ] http://code.bupt.edu.cn
     + [ ] https://leetcode.com
+    + [ ] TLS
     + [ ] SICP
     + [ ] HtDP
 - milky
@@ -132,7 +135,6 @@ Tree Diagram
     + [ ] node env
         * [ ] learnyounode
         * [ ] npm
-        * [ ] babel
     + [ ] React & React Native
     + [ ] Angular
     + [ ] [Headless Functional Testing](http://code.tutsplus.com/tutorials/headless-functional-testing-with-selenium-and-phantomjs--net-30545)
@@ -160,17 +162,13 @@ Tree Diagram
     + [ ] Day and weekday
     + [ ] Morning, noon, evening & night
     + [ ] ~2545
-- [ ] SaaS
-    + [x] baidu pcs
-        * [ ] bypy
-        * [x] remove junks
-        * [x] redundancy
-        * [ ] Lumia 720
-        * [ ] Source Files
-            - [ ] x64 Disposal
-            - [ ] H: Disposal
-    + [ ] N54L / N400
-        * [ ] RAID / JBOD sync
+- [ ] N410
+    + [ ] bypy
+    + [ ] Lumia 720 + Oppo R801
+    + [ ] Source Files + Collect Center + x64
+    + [ ] Time Machine + Integral
+    + [ ] Baidu PCS + Compaq Base
+    + [ ] RAID / JBOD sync
 - [x] time-machine
     + [ ] rsync
     + [x] FastCopy
@@ -197,12 +195,12 @@ Tree Diagram
         * [ ] Pattern recognition / Machine Learning
     + Refresher
         * [x] urllib.Request
-        * [ ] `import request`
-        * [x] freehostingnoads
+        * [x] `import request`
         * [ ] javascript crypto
     + [ ] click CloudAppLink
     + [ ] eBesucher
     + [ ] free-sms
+        * [ ] Dicos bomb?
     + [x] rush-hour
         * [x] smtplib
     + [ ] uaq-stat
