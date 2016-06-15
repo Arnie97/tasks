@@ -61,7 +61,7 @@ Tree Diagram
             - [x] `#!/usr/bin/env milky`
         * [x] write
         * [x] return code
-            - [ ] error reporting tests
+            - [x] error reporting tests
         * [x] windows console color support
         * [x] stdin / stdout support
         * [ ] arguments
@@ -187,6 +187,43 @@ Tree Diagram
     + [ ] `git tm`: escaped colons?
 
 #### Five Elements - Production Environment
+- Project Rosetta
+    + [ ] encodings & charsets & endians?
+        * [x] ISO 646 / ISO 8859
+        * [ ] ISO 2022 / EUC / GB 2312 / CP936 / GBK / GB 18030
+        * [ ] ISO 10646 / UCS-2 / UCS-4
+        * [ ] UTF-8 / UTF-16 LE / UTF-32
+    + [ ] Mark II
+        * [ ] ttf / bdf pixel fonts
+            - [ ] sbitget
+            - [ ] bdf2bmp
+            - [ ] `const char font[]`
+        * [ ] minstub39
+            - [x] hp-gcc
+            - [x] hp2aplet
+            - [ ] sysrpl stub
+            - [ ] note i/o
+        * [ ] ime
+            - [ ] 区位码，4位十进制数字，1601
+            - [ ] 国标码（内码），4位十六进制数字，B0A1
+        * [ ] txt2note
+            - [ ] note header
+            - [ ] libiconv support
+        * [ ] txt2aplet
+    + [ ] Mark I
+        * [ ] txt2bmp
+            - [x] hzk pixel fonts
+            - [x] bitmap structure
+            - [ ] inverted bitmap?
+            - [ ] FreeType
+        * [ ] bmp2sketch
+        * [ ] bmp2aplet
+        * [ ] DOSBox?
+            - [ ] Windows 95?
+            - [ ] Mathematica
+            - [ ] Cyrillic
+            - [ ] Electric Workbench
+            - [x] Figlet
 - [ ] signin / captcha-solver / free-sms / teleporter / opac-renew / rush-hour / uaq-stat
     + Captcha Resolver
         * [x] Pillow
@@ -200,7 +237,7 @@ Tree Diagram
     + [ ] click CloudAppLink
     + [ ] eBesucher
     + [ ] free-sms
-        * [ ] Dicos bomb?
+        * [x] Dicos bomb
     + [x] rush-hour
         * [x] smtplib
     + [ ] uaq-stat
@@ -215,28 +252,12 @@ Tree Diagram
         * [ ] non-English pdf convert?
         * [ ] epub support?
     + [x] read-color/user-agent-proxy
-* Docker CaaS
-    - [ ] Native / Swarm
-    - [ ] Fleet
-    - [ ] Deis / Dokku
-    - [ ] Flynn
-    - [ ] Kubernetes
-- 39gs
-    + [ ] note converter
-    + [ ] txt2bmp
-        * [x] hzk pixel fonts
-            - [ ] **encodings & charsets?**
-        * [x] bitmap structure
-        * [ ] inverted bitmap?
-        * [ ] FreeType
-    + [ ] bmp2sketch: DOSBox?
-        * [ ] Windows 95?
-        * [ ] Mathematica
-        * [ ] Cyrillic
-        * [ ] Electric Workbench
-        * [x] Figlet
-    + [ ] bmp2sketch: standalone
-    + [ ] milky hp-basic
+- Docker CaaS
+    + [ ] Native / Swarm
+    + [ ] Fleet
+    + [ ] Deis / Dokku
+    + [ ] Flynn
+    + [ ] Kubernetes
 - [ ] eventlog reborn
     + [ ] import into Git
     + [ ] remove libevent
