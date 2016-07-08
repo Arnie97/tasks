@@ -224,23 +224,28 @@ Tree Diagram
             - [ ] Cyrillic
             - [ ] Electric Workbench
             - [x] Figlet
-- [ ] signin / captcha-solver / free-sms / teleporter / opac-renew / rush-hour / uaq-stat
-    + Captcha Resolver
+- Campus Ecosystem & Web Scraping
+    + captcha-solver
         * [x] Pillow
             - [x] SAU-NET
         * [ ] OpenCV
         * [ ] Pattern recognition / Machine Learning
-    + Refresher
+    + [ ] signin / refresher
         * [x] urllib.Request
         * [x] `import request`
-        * [ ] javascript crypto
-    + [ ] click CloudAppLink
-    + [ ] eBesucher
-    + [ ] free-sms
-        * [x] Dicos bomb
+        * [ ] tieba
+        * [ ] v2ex
+        * [ ] daocloud keep-alive
+        * [ ] idc789
+        * [ ] click CloudAppLink
+        * [ ] eBesucher
     + [x] rush-hour
         * [x] smtplib
-    + [ ] uaq-stat
+    + [ ] free-sms / message-bomb
+        * [ ] javascript crypto
+        * [x] dicos
+        * [ ] homeinn
+    + [ ] uaq-stat / uptime
     + [ ] opac-renew
         * [x] scraper
         * [x] ajax renew
@@ -248,6 +253,7 @@ Tree Diagram
 - Kindle Paperwhite
     + [x] JailBreak
     + [ ] Huiwen OPAC API existence?
+    + [ ] teleporter
     + [x] kindle-express
         * [ ] non-English pdf convert?
         * [ ] epub support?
