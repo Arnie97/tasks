@@ -187,6 +187,27 @@ Tree Diagram
     + [ ] `git tm`: escaped colons?
 
 #### Five Elements - Production Environment
+- Project Leibniz
+    + [ ] clock-tuner
+        * [x] system info
+        * [x] hp39kbd
+            - [x] mapping probing
+            - [ ] `int (*func)(int row, int col)`
+            - [ ] `switch`
+        * [ ] actual change
+        * [ ] frequency tests
+    + [ ] shell-mode-eigenmath
+        * [x] missing stdlib headers
+        * [x] missing bessel functions
+        * [ ] footprint control
+            - [ ] reduce components
+                + [ ] dependency resolution
+                    * [x] egypt
+                    * [ ] graphviz
+                        - [x] docker client / dvm
+            - [ ] Thumb instructions
+            - [ ] runtime compressor
+        * [ ] extended keyboard mapping
 - Project Rosetta
     + [ ] encodings & charsets & endians?
         * [x] ISO 646 / ISO 8859
@@ -260,6 +281,7 @@ Tree Diagram
     + [x] read-color/user-agent-proxy
 - Docker CaaS
     + [ ] Native / Swarm
+        * [ ] oclHashcat / Hashtopus cluster
     + [ ] Fleet
     + [ ] Deis / Dokku
     + [ ] Flynn
