@@ -188,18 +188,19 @@ Tree Diagram
 
 #### Five Elements - Production Environment
 - Project Leibniz
-    + [ ] clock-tuner
+    + [x] clock-tuner
         * [x] system info
         * [x] hp39kbd
             - [x] mapping probing
-            - [ ] `int (*func)(int row, int col)`
-            - [ ] `switch`
-        * [ ] actual change
-        * [ ] frequency tests
+        * [x] actual change
+        * [x] frequency tests
+        * [ ] help, about & license
+        * [ ] optimized choices
     + [ ] shell-mode-eigenmath
         * [x] missing stdlib headers
         * [x] missing bessel functions
         * [ ] footprint control
+            - [ ] `KINPOHP39G+IMAGE`
             - [ ] reduce components
                 + [ ] dependency resolution
                     * [x] egypt
