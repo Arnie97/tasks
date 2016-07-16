@@ -41,6 +41,7 @@ Tree Diagram
             - [ ] About
     + [ ] http://code.bupt.edu.cn
     + [ ] https://leetcode.com
+- [ ] Lisp & Haskell
     + [ ] TLS
     + [ ] SICP
     + [ ] HtDP
@@ -166,6 +167,8 @@ Tree Diagram
     + [ ] bypy
     + [ ] Lumia 720 + Oppo R801
     + [ ] Source Files + Collect Center + x64
+        * [ ] bloopers
+    + [ ] Windows 7 x86
     + [ ] Time Machine + Integral
     + [ ] Baidu PCS + Compaq Base
     + [ ] RAID / JBOD sync
@@ -202,9 +205,8 @@ Tree Diagram
         * [ ] footprint control
             - [ ] `KINPOHP39G+IMAGE`
             - [ ] reduce components
-                + [ ] dependency resolution
-                    * [x] egypt
-                    * [ ] graphviz
+                + [x] dependency resolution
+                    * [x] egypt / graphviz
                         - [x] docker client / dvm
             - [ ] Thumb instructions
             - [ ] runtime compressor
@@ -337,6 +339,7 @@ Tree Diagram
             - [ ] SQLAlchemy
     + [ ] github webhook
 - Embedded systems
+    + [ ] NodeMCU / PlatformIO / ESP8266
     + [ ] oscilloscope
         * [ ] trigger
         * [ ] SPI / OLED
@@ -344,6 +347,7 @@ Tree Diagram
             - [ ] rpi
             - [ ] 86duino
         * [ ] framebuffer driver
+        * [ ] probe / BNC connector
     + [ ] 86duino
         * [ ] Crossbar
             - [x] restore to default
