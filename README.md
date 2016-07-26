@@ -175,10 +175,11 @@ Tree Diagram
     + [ ] Baidu PCS + Compaq Base
     + [ ] RAID / JBOD sync
 - [x] time-machine
+    + [ ] bcompare
     + [ ] rsync
     + [x] FastCopy
     + [ ] vshadow
-    + [x] dupemerge
+    + [ ] dupemerge
 - [ ] Github
     + [x] anime-renamer
     + [ ] **Refresher/Refnew**
@@ -192,6 +193,7 @@ Tree Diagram
     + [ ] `git tm`: escaped colons?
 
 #### Five Elements - Production Environment
+- [ ] Proxmark 3 / RFID
 - Project Leibniz
     + [x] clock-tuner
         * [x] system info
@@ -199,8 +201,8 @@ Tree Diagram
             - [x] mapping probing
         * [x] actual change
         * [x] frequency tests
-        * [ ] help, about & license
-        * [ ] optimized choices
+        * [x] help, about & license
+        * [x] optimized choices
     + [ ] shell-mode-eigenmath
         * [x] missing stdlib headers
         * [x] missing bessel functions
@@ -265,6 +267,7 @@ Tree Diagram
         * [ ] idc789
         * [ ] click CloudAppLink
         * [ ] eBesucher
+        * [ ] jd
     + [x] rush-hour
         * [x] smtplib
     + [ ] free-sms / message-bomb
@@ -298,6 +301,9 @@ Tree Diagram
     + [ ] milkification
 
 #### Project Silverbridge - Unlimited Access
+- [ ] Radio transmitters
+    + [ ] Web SDR
+    + [ ] RTL2832u
 - [ ] APN Proxy
 - [ ] RPi / OpenWRT
     + [ ] systemd
@@ -350,6 +356,7 @@ Tree Diagram
             - [ ] Arch Linux
     + [ ] USB
         * [ ] keyboard / joystick
+            - [ ] FireGoose / Cactus
             - [ ] wireless keyboard with web interface
         * [ ] USnooBie
 - ipyconfig
