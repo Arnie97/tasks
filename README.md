@@ -144,7 +144,7 @@ Tree Diagram
         * [ ] SlimerJS
             - [ ] CasperJS
         * [ ] Selenium
-- [ ] restful - deprecated by [FadeTop](http://www.fadetop.com/tutorials.html)
+- [ ] restful - superseded by [FadeTop](http://www.fadetop.com/tutorials.html)
     + [x] `Shell_NotifyIcon()`
     + [x] balloon
     + [x] `LockWorkStation()`
@@ -158,6 +158,8 @@ Tree Diagram
     + [ ] Wheel from scratch
     + [ ] Support x86-64
     + [ ] Project Pages
+- [ ] **pastebin**
+    + [ ] poplib / imaplib
 - TrDH Log Parser
     + [ ] Headline date
     + [ ] Day and weekday
@@ -314,6 +316,51 @@ Tree Diagram
     + [ ] receive
     + [ ] comprehend
     + [ ] respond
+- [ ] keep alive
+    + [ ] chrono miner
+    + [ ] USB
+    + [ ] ping / icmp
+    + [ ] http / tcp
+    + [ ] GeoIP library
+- Embedded systems
+    + [x] NodeMCU / ESP8266
+        * [ ] PlatformIO
+    + [ ] remote switch
+        * [ ] restful server
+        * [x] wake on lan
+        * [ ] remote switch
+        * [ ] power meter
+    + [ ] oscilloscope
+        * [ ] trigger
+        * [ ] SPI / OLED
+            - [ ] avr
+            - [ ] rpi
+            - [ ] 86duino
+        * [ ] framebuffer driver
+        * [ ] probe / BNC connector
+    + [ ] 86duino
+        * [ ] Crossbar
+            - [x] restore to default
+            - [ ] route SPI to /E[ABZ][01]|3[12]|[TR]X[23]/
+        * [ ] DuinOS / FreeDOS
+            - [ ] WinCE
+        * [ ] Linux
+            - [ ] L86duntu
+            - [ ] tiny core linux
+            - [ ] Arch Linux
+    + [ ] USB
+        * [ ] keyboard / joystick
+            - [ ] wireless keyboard with web interface
+        * [ ] USnooBie
+- ipyconfig
+    + [ ] auto_routing
+    + [x] dynamic dns & dmz
+        * [x] router-reset
+        * [ ] router-test
+    + [x] timestamp
+- kirakira
+    + [ ] master
+    + [ ] servant
 - [ ] web app
     + [ ] Twitter Bootstrap
         * [ ] safety-refactored
@@ -322,9 +369,6 @@ Tree Diagram
         * [ ] DISPOSABILITY: Robustness with fast startup and graceful shutdown
         * [ ] Treat LOGS as event streams
         * [ ] Run ADMIN TASKS as one-off processes
-    + [ ] **pastebin**
-        * [ ] poplib / imaplib
-    + [ ] GeoIP library
     + psr-portal
         * [x] Flask
         * [x] ARP
@@ -338,49 +382,6 @@ Tree Diagram
             - [ ] PonyORM
             - [ ] SQLAlchemy
     + [ ] github webhook
-- Embedded systems
-    + [ ] NodeMCU / PlatformIO / ESP8266
-    + [ ] oscilloscope
-        * [ ] trigger
-        * [ ] SPI / OLED
-            - [ ] avr
-            - [ ] rpi
-            - [ ] 86duino
-        * [ ] framebuffer driver
-        * [ ] probe / BNC connector
-    + [ ] 86duino
-        * [ ] Crossbar
-            - [x] restore to default
-            - [ ] route SPI to /E[ABZ][01]|3[12]|[TR]X[23]/
-        * [ ] DuinOS
-            - [ ] FreeDOS
-            - [ ] WinCE
-        * [ ] Linux
-            - [ ] L86duntu
-            - [ ] tiny core linux
-            - [ ] Arch Linux
-    + [ ] USB
-        * [ ] keyboard / joystick
-            - [ ] wireless keyboard with web interface
-        * [ ] USnooBie
-    + [ ] remote switch
-        * [ ] restful server
-        * [ ] keep alive
-            - [ ] USB
-            - [ ] ping / icmp
-            - [ ] http / tcp
-        * [x] wake on lan
-        * [ ] remote switch
-        * [ ] power meter
-- ipyconfig
-    + [ ] auto_routing
-    + [x] dynamic dns & dmz
-        * [x] router-reset
-        * [ ] router-test
-    + [x] timestamp
-- kirakira
-    + [ ] master
-    + [ ] servant
 
 Tips
 ----
