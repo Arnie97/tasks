@@ -2,10 +2,7 @@ Bonjour 2016
 ============
 
 ```lisp
-(cs
-    (0x3D9 buaa)
-    (0x0D3 bupt)
-)
+(bupt)
 ```
 
 Tree Diagram
@@ -14,6 +11,7 @@ Tree Diagram
 - [ ] Operating Systems
     + [ ] P/V
     + [ ] The Banker's algorithm
+    - [ ] STEins Is Not a Shell
 - [ ] Computer Architecture
     + [ ] IEEE 754
     + [ ] Arithmetic Logic Unit
@@ -34,6 +32,7 @@ Tree Diagram
         * [x] AVL
         * [ ] B-tree
         * [ ] B+tree
+    + [ ] Sorts
     + [ ] http://tyvj.cn
         * [ ] tyvj-mobile
             - [x] Monospace fonts
@@ -41,16 +40,11 @@ Tree Diagram
             - [ ] About
     + [ ] http://code.bupt.edu.cn
     + [ ] https://leetcode.com
-- [ ] Lisp & Haskell
+- Lisp & Haskell
     + [ ] TLS
     + [ ] SICP
     + [ ] HtDP
 - milky
-    + [x] Build and release binaries
-        * [x] Encrypted deploy key
-            - [x] `gem install travis`
-        * [x] [UPX](http://upx.sourceforge.net)
-        * [ ] Msys and Linux builds
     + Debug
         + [ ] Unlimited token length
         + [ ] Strict subscription checks
@@ -58,13 +52,6 @@ Tree Diagram
         * [ ] Recognize fallthrough outside case
         * [ ] Delete partial outputs during an error
     + Main & Error
-        * [x] read
-            - [x] `#!/usr/bin/env milky`
-        * [x] write
-        * [x] return code
-            - [x] error reporting tests
-        * [x] windows console color support
-        * [x] stdin / stdout support
         * [ ] arguments
             - [ ] `getopt` framework
             - [x] `--force`
@@ -76,30 +63,28 @@ Tree Diagram
         * [ ] Tabular and other whitespaces
         * [x] utf-8 / gb2312 / iso 8859 support
         * [ ] libiconv / gettext / i18n & l10n support
-    + Translator
+    + Indent & Translator
         * [ ] Literate Milk
         * [ ] Embedded C
-    + [x] Error Reporting
+    + Error reporting
         * **Details for 31-series errors**
             - [x] Expected indent?
         * [ ] Show near-by lines
-    + [x] Makefile
-        * [ ] Versioning
-    + [ ] Parser
-- [ ] Machine Learning
+    + Build, test and release
+        * [ ] Makefile versioning
+        * [ ] Shell script based test
+        * [ ] Msys and Linux builds / LSB
+- Machine Learning
     + [ ] Neural Network
     + [ ] Data Science
         * [ ] Data Mining
         * [ ] Data Munging
         * [ ] NumPy Ecosystem
-        * [ ] Hadoop Ecosystem
-- STEins Is Not a Shell
-- [ ] **pipetools**
-- [ ] C++ Primer
+        * [ ] Hadoop / Spark Ecosystem
+- C++ Primer
     + [ ] templates
     + [ ] cpp-itertools
 - bootloader
-    + [x] x86 assembly
     + [ ] Stage 2
 - Editors
     + Sublime Text
@@ -118,11 +103,9 @@ Tree Diagram
         * [x] Awk
     + [ ] Atom
     + [ ] Brackets
-- [ ] JavaScript
+- JavaScript
     + [x] GreaseMonkey / userscript
         * [x] milky-highlight
-            - [x] hljs
-            - [x] github.css
         * [ ] teleporter
     + [ ] stdlib
         * [ ] ES2015
@@ -131,6 +114,7 @@ Tree Diagram
         * [ ] jQuery
         * [ ] CSS & selectors
             - [ ] pseudo classes
+            - [ ] Twitter Bootstrap
         * [ ] events
         * [ ] ajax
     + [ ] node env
@@ -144,21 +128,15 @@ Tree Diagram
         * [ ] SlimerJS
             - [ ] CasperJS
         * [ ] Selenium
-- [ ] restful - superseded by [FadeTop](http://www.fadetop.com/tutorials.html)
-    + [x] `Shell_NotifyIcon()`
-    + [x] balloon
-    + [x] `LockWorkStation()`
-    + [x] `PlaySound()`
-    + [ ] `SetTimer()`
 
 #### Historical Writer - Data Persistence
 - [x] CintaNotes
 - [ ] Clipboard Stack
 - [ ] Tencent QQ Int'l Portable
-    + [ ] Wheel from scratch
+    + [ ] Decompile
     + [ ] Support x86-64
     + [ ] Project Pages
-- [ ] **pastebin**
+- [ ] pastebin
     + [ ] poplib / imaplib
 - TrDH Log Parser
     + [ ] Headline date
@@ -169,49 +147,54 @@ Tree Diagram
     + [ ] bypy
     + [ ] Lumia 720 + Oppo R801
     + [ ] Source Files + Collect Center + x64
-        * [ ] bloopers
+        * [ ] Premiere Pro
     + [ ] Windows 7 x86
     + [ ] Time Machine + Integral
     + [ ] Baidu PCS + Compaq Base
     + [ ] RAID / JBOD sync
 - [x] time-machine
-    + [ ] bcompare
     + [ ] rsync
     + [x] FastCopy
     + [ ] vshadow
     + [ ] dupemerge
 - [ ] Github
-    + [x] anime-renamer
-    + [ ] **Refresher/Refnew**
-    + [ ] **Supplicant**
-    + [ ] Indextan
-    + [ ] Countdown
+    + [ ] pipetools
+    + [ ] nodemcu-firmware
+    + [ ] eventlog reborn
+        * [ ] import into Git
+        * [ ] remove libevent
+        * [ ] valid hours for uaqtest
+        * [ ] milkification
     + [ ] **python-invaders**
-    + [ ] IDMonitor
+    + [ ] Aerospace
+        * [ ] chimes
+            - [ ] retro
+            - [x] restful/red-alert
+            - [ ] openwrt & alsa
+        * [ ] Refresher / Refnew
+        * [ ] Supplicant
+    + [ ] Justice Dudo
+        * [ ] Countdown
+    + [ ] Tree Diagram
+        * [ ] Indextan
+        * [ ] IDMonitor
+    + [ ] _uno+git-ignore
+    + [ ] console86 / unfinished
+    + [ ] restful - archived in your-hook, duplicated in pomodoro-timer, superseded by [FadeTop](http://www.fadetop.com/tutorials.html)
+        * [x] `Shell_NotifyIcon()` & balloon
+        * [ ] `SetTimer()`
 - [x] msys2 migration
-    + [x] `$HOME` consistency
     + [ ] `git tm`: escaped colons?
 
 #### Five Elements - Production Environment
-- [ ] Proxmark 3 / RFID
+- [ ] Proxmark 3 / ACR122u
 - Project Leibniz
-    + [x] clock-tuner
-        * [x] system info
-        * [x] hp39kbd
-            - [x] mapping probing
-        * [x] actual change
-        * [x] frequency tests
-        * [x] help, about & license
-        * [x] optimized choices
     + [ ] shell-mode-eigenmath
-        * [x] missing stdlib headers
-        * [x] missing bessel functions
+        * [x] missing stdlib & bessel functions
         * [ ] footprint control
             - [ ] `KINPOHP39G+IMAGE`
             - [ ] reduce components
-                + [x] dependency resolution
-                    * [x] egypt / graphviz
-                        - [x] docker client / dvm
+                + [x] dependency resolution: egypt / graphviz
             - [ ] Thumb instructions
             - [ ] runtime compressor
         * [ ] extended keyboard mapping
@@ -224,8 +207,7 @@ Tree Diagram
     + [ ] Mark II
         * [ ] ttf / bdf pixel fonts
             - [ ] sbitget
-            - [ ] bdf2bmp
-            - [ ] `const char font[]`
+            - [ ] bdf2bmp / `const char font[]`
         * [ ] minstub39
             - [x] hp-gcc
             - [x] hp2aplet
@@ -244,7 +226,7 @@ Tree Diagram
             - [x] bitmap structure
             - [ ] inverted bitmap?
             - [ ] FreeType
-        * [ ] bmp2sketch
+        * [ ] bmp2sketch / bmp2grob
         * [ ] bmp2aplet
         * [ ] DOSBox?
             - [ ] Windows 95?
@@ -254,13 +236,11 @@ Tree Diagram
             - [x] Figlet
 - Campus Ecosystem & Web Scraping
     + captcha-solver
-        * [x] Pillow
-            - [x] SAU-NET
         * [ ] OpenCV
         * [ ] Pattern recognition / Machine Learning
     + [ ] signin / refresher
-        * [x] urllib.Request
-        * [x] `import request`
+        * [x] dynamic dns
+        * [x] router reset
         * [ ] tieba
         * [ ] v2ex
         * [ ] daocloud keep-alive
@@ -268,25 +248,18 @@ Tree Diagram
         * [ ] click CloudAppLink
         * [ ] eBesucher
         * [ ] jd
-    + [x] rush-hour
-        * [x] smtplib
     + [ ] free-sms / message-bomb
         * [ ] javascript crypto
-        * [x] dicos
-        * [ ] homeinn
     + [ ] uaq-stat / uptime
+        * [ ] psr-portal / [Qunee](http://qunee.com)
     + [ ] opac-renew
-        * [x] scraper
         * [x] ajax renew
         * [ ] data persistence
 - Kindle Paperwhite
-    + [x] JailBreak
-    + [ ] Huiwen OPAC API existence?
-    + [ ] teleporter
+    + [ ] [Huiwen OPAC API?](http://lib.njfu.edu.cn/fuwu/mobile/index_mobile.html)
     + [x] kindle-express
         * [ ] non-English pdf convert?
         * [ ] epub support?
-    + [x] read-color/user-agent-proxy
 - Docker CaaS
     + [ ] Native / Swarm
         * [ ] oclHashcat / Hashtopus cluster
@@ -294,11 +267,6 @@ Tree Diagram
     + [ ] Deis / Dokku
     + [ ] Flynn
     + [ ] Kubernetes
-- [ ] eventlog reborn
-    + [ ] import into Git
-    + [ ] remove libevent
-    + [ ] valid hours for uaqtest
-    + [ ] milkification
 
 #### Project Silverbridge - Unlimited Access
 - [ ] Radio transmitters
@@ -307,16 +275,14 @@ Tree Diagram
 - [ ] APN Proxy
 - [ ] RPi / OpenWRT
     + [ ] systemd
-    + [x] mentohust
     + [ ] iptables
+    + [ ] quagga / zebra
     + [x] iwconfig
     + [x] odhcp6d
     + [ ] ndppd
     + [ ] tb_userspace
-    + [x] openvpn
     + [ ] privoxy
-    + [ ] watchfox
-    + [ ] chimes
+    + [ ] watchfox / watchcat
     + [ ] knockd
 - dns-mirror
     + [ ] receive
@@ -359,28 +325,16 @@ Tree Diagram
             - [ ] FireGoose / Cactus
             - [ ] wireless keyboard with web interface
         * [ ] USnooBie
-- ipyconfig
-    + [ ] auto_routing
-    + [x] dynamic dns & dmz
-        * [x] router-reset
-        * [ ] router-test
-    + [x] timestamp
-- kirakira
+- [x] ipyconfig
+- [ ] kirakira
     + [ ] master
     + [ ] servant
-- [ ] web app
-    + [ ] Twitter Bootstrap
-        * [ ] safety-refactored
+- back-end developer
     + [ ] [12-factor](http://12factor.net)
         * [ ] Store CONFIG in the environment
         * [ ] DISPOSABILITY: Robustness with fast startup and graceful shutdown
         * [ ] Treat LOGS as event streams
         * [ ] Run ADMIN TASKS as one-off processes
-    + psr-portal
-        * [x] Flask
-        * [x] ARP
-        * [x] SQLite3
-        * [ ] Qunee
     + [ ] RDBMS
         * [x] Entity-relationship model
         * [x] Schema migration
