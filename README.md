@@ -188,46 +188,39 @@ Tree Diagram
 
 #### Five Elements - Production Environment
 - [ ] Proxmark 3 / ACR122u
-- Project Leibniz
+- HP 39gs / 48gII
     + [ ] shell-mode-eigenmath
         * [x] missing stdlib & bessel functions
         * [ ] footprint control
-            - [ ] `KINPOHP39G+IMAGE`
+            - [ ] ROM compaction
+                + [ ] remove QuadExpl, TrigExpl & StreamSmart
+                + [ ] consolidate free space
             - [ ] reduce components
                 + [x] dependency resolution: egypt / graphviz
-            - [ ] Thumb instructions
-            - [ ] runtime compressor
+            - [ ] Thumb instructions / arm-none-eabi-gcc
+            - [ ] runtime compressor / upx
         * [ ] extended keyboard mapping
-- Project Rosetta
-    + [ ] encodings & charsets & endians?
-        * [x] ISO 646 / ISO 8859
-        * [ ] ISO 2022 / EUC / GB 2312 / CP936 / GBK / GB 18030
-        * [ ] ISO 10646 / UCS-2 / UCS-4
-        * [ ] UTF-8 / UTF-16 LE / UTF-32
-    + [ ] Mark II
-        * [ ] ttf / bdf pixel fonts
-            - [ ] sbitget
-            - [ ] bdf2bmp / `const char font[]`
+    + [ ] neko-notepad
+        * [x] bdf2hzk
         * [ ] minstub39
             - [x] hp-gcc
             - [x] hp2aplet
             - [ ] sysrpl stub
-            - [ ] note i/o
         * [ ] ime
             - [ ] 区位码，4位十进制数字，1601
             - [ ] 国标码（内码），4位十六进制数字，B0A1
+        * [x] notes from saturn
         * [ ] txt2note
-            - [ ] note header
+            - [ ] hp type headers
+            - [x] encodings, charsets & endians
             - [ ] libiconv support
-        * [ ] txt2aplet
-    + [ ] Mark I
+    + [ ] txt2sketch
         * [ ] txt2bmp
             - [x] hzk pixel fonts
             - [x] bitmap structure
             - [ ] inverted bitmap?
             - [ ] FreeType
-        * [ ] bmp2sketch / bmp2grob
-        * [ ] bmp2aplet
+        * [ ] bmp2sketch / bmp2grob / bmp2aplet
         * [ ] DOSBox?
             - [ ] Windows 95?
             - [ ] Mathematica
@@ -239,15 +232,20 @@ Tree Diagram
         * [ ] OpenCV
         * [ ] Pattern recognition / Machine Learning
     + [ ] signin / refresher
-        * [x] dynamic dns
-        * [x] router reset
-        * [ ] tieba
-        * [ ] v2ex
-        * [ ] daocloud keep-alive
-        * [ ] idc789
-        * [ ] click CloudAppLink
-        * [ ] eBesucher
-        * [ ] jd
+        * [ ] production keep-alive
+            - [x] dynamic dns
+            - [x] router reset
+            - [ ] daocloud
+            - [ ] idc789
+        * [ ] community karma
+            - [ ] v2ex
+            - [ ] tieba
+            - [ ] cncalc / discuz
+        * [ ] general equivalents
+            - [ ] click CloudAppLink
+            - [ ] eBesucher
+            - [ ] jd
+            - [ ] taobao
     + [ ] free-sms / message-bomb
         * [ ] javascript crypto
     + [ ] uaq-stat / uptime
