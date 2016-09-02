@@ -64,7 +64,7 @@ Tree Diagram
         * [x] utf-8 / gb2312 / iso 8859 support
         * [ ] libiconv / gettext / i18n & l10n support
     + Indent & Translator
-        * [ ] Literate Milk
+        * [ ] [Literate Milk](https://github.com/ZaneA/litc/blob/master/litc.rb.md)
         * [ ] Embedded C
     + Error reporting
         * **Details for 31-series errors**
@@ -158,8 +158,8 @@ Tree Diagram
     + [ ] vshadow
     + [ ] dupemerge
 - [ ] Github
-    + [ ] pipetools
-    + [ ] nodemcu-firmware
+    + [x] pipetools
+    + [x] nodemcu-firmware
     + [ ] eventlog reborn
         * [ ] import into Git
         * [ ] remove libevent
@@ -200,7 +200,7 @@ Tree Diagram
             - [ ] Thumb instructions / arm-none-eabi-gcc
             - [ ] runtime compressor / upx
         * [ ] extended keyboard mapping
-    + [ ] neko-notepad
+    + [x] neko-notepad
         * [x] bdf2hzk
         * [ ] minstub39
             - [x] hp-gcc
@@ -210,6 +210,8 @@ Tree Diagram
             - [ ] 区位码，4位十进制数字，1601
             - [ ] 国标码（内码），4位十六进制数字，B0A1
         * [x] notes from saturn
+        * [x] page up stack
+        * [ ] resume reading position
         * [ ] txt2note
             - [ ] hp type headers
             - [x] encodings, charsets & endians
@@ -228,6 +230,10 @@ Tree Diagram
             - [ ] Electric Workbench
             - [x] Figlet
 - Campus Ecosystem & Web Scraping
+    + [x] chrome-cookies
+        * [x] win32
+        * [ ] linux
+        * [ ] macOS
     + captcha-solver
         * [ ] OpenCV
         * [ ] Pattern recognition / Machine Learning
@@ -254,7 +260,7 @@ Tree Diagram
         * [x] ajax renew
         * [ ] data persistence
 - Kindle Paperwhite
-    + [ ] [Huiwen OPAC API?](http://lib.njfu.edu.cn/fuwu/mobile/index_mobile.html)
+    + [ ] [Huiwen OPAC API](http://202.199.26.12:8080/opac/search_rss.php?strText=9787040238969&strSearchType=isbn)
     + [x] kindle-express
         * [ ] non-English pdf convert?
         * [ ] epub support?
@@ -276,8 +282,7 @@ Tree Diagram
     + [ ] iptables
     + [ ] quagga / zebra
     + [x] iwconfig
-    + [x] odhcp6d
-    + [ ] ndppd
+    + [x] odhcp6d / ndppd
     + [ ] tb_userspace
     + [ ] privoxy
     + [ ] watchfox / watchcat
@@ -295,6 +300,7 @@ Tree Diagram
 - Embedded systems
     + [x] NodeMCU / ESP8266
         * [ ] PlatformIO
+    + [ ] [HP IR receiver](www.mh-aerotools.de/hp/red-eye/HP-IR Receiver with Arduino.pdf)
     + [ ] remote switch
         * [ ] restful server
         * [x] wake on lan
