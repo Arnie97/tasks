@@ -1,22 +1,15 @@
-Bonjour 2016
-============
-
-```lisp
-(bupt)
-```
+Bonne Année 2017
+================
 
 Tree Diagram
 ------------
 #### Dynamic Programming - Academic Works
 - [ ] Operating Systems
-    + [ ] P/V
     + [ ] The Banker's algorithm
-    - [ ] STEins Is Not a Shell
+    + [ ] STEins Is Not a Shell
 - [ ] Computer Architecture
     + [ ] IEEE 754
-    + [ ] Arithmetic Logic Unit
-        * [ ] mul
-        * [ ] div
+    + [ ] Cache
 - [ ] [Data Structures](http://parkjs814.github.io/AlgorithmVisualizer)
     + [ ] Graphs
         * [ ] Shortest path
@@ -33,11 +26,8 @@ Tree Diagram
         * [ ] B-tree
         * [ ] B+tree
     + [ ] Sorts
-    + [ ] http://tyvj.cn
-        * [ ] tyvj-mobile
-            - [x] Monospace fonts
-            - [ ] Problem list
-            - [ ] About
+    + [ ] DP
+    + [ ] http://tyvj.cn / ~~tyvj-mobile~~
     + [ ] http://code.bupt.edu.cn
     + [ ] https://leetcode.com
 - Lisp & Haskell
@@ -46,7 +36,7 @@ Tree Diagram
     + [ ] HtDP
 - milky
     + Debug
-        + [ ] Unlimited token length
+        + [ ] Unlimited token length / Garbage Collection?
         + [ ] Strict subscription checks
         * [x] Remove semicolon before line comment in an escaped line
         * [ ] Recognize fallthrough outside case
@@ -73,7 +63,7 @@ Tree Diagram
     + Build, test and release
         * [ ] Makefile versioning
         * [ ] Shell script based test
-        * [ ] Msys and Linux builds / LSB
+        * [ ] Msys and [Linux builds](https://github.com/avege/avege/blob/master/.travis.yml) / LSB
 - Machine Learning
     + [ ] Neural Network
     + [ ] Data Science
@@ -101,8 +91,7 @@ Tree Diagram
         * [ ] NeoVim / [vim-airline](https://github.com/vim-airline/vim-airline)(Powerline) / Cscope / Ctags / Taglist
         * [ ] Sed & Vim commands
         * [x] Awk
-    + [ ] Atom
-    + [ ] Brackets
+    + [ ] VSCode
 - JavaScript
     + [x] GreaseMonkey / userscript
         * [x] milky-highlight
@@ -111,9 +100,9 @@ Tree Diagram
         * [ ] ES2015
     + [ ] browser env
         * [x] DOM
-        * [ ] jQuery
         * [ ] CSS & selectors
             - [ ] pseudo classes
+            - [ ] jQuery
             - [ ] Twitter Bootstrap
         * [ ] events
         * [ ] ajax
@@ -136,8 +125,9 @@ Tree Diagram
     + [ ] Decompile
     + [ ] Support x86-64
     + [ ] Project Pages
-- [ ] pastebin
+- [ ] exchange / pastebin
     + [ ] poplib / imaplib
+- [ ] **emoji index**
 - TrDH Log Parser
     + [ ] Headline date
     + [ ] Day and weekday
@@ -145,13 +135,13 @@ Tree Diagram
     + [ ] ~2545
 - [ ] N410
     + [ ] bypy
-    + [ ] Lumia 720 + Oppo R801
+    + [ ] **Lumia 720** + Oppo R801
     + [ ] Source Files + Collect Center + x64
         * [ ] Premiere Pro
-    + [ ] Windows 7 x86
+    + [x] Windows 7 x86
     + [ ] Time Machine + Integral
     + [ ] Baidu PCS + Compaq Base
-    + [ ] RAID / JBOD sync
+    + [ ] JBOD sync
 - [x] time-machine
     + [ ] rsync
     + [x] FastCopy
@@ -160,52 +150,40 @@ Tree Diagram
 - [ ] Github
     + [x] pipetools
     + [x] nodemcu-firmware
-    + [ ] eventlog reborn
-        * [ ] import into Git
-        * [ ] remove libevent
-        * [ ] valid hours for uaqtest
-        * [ ] milkification
-    + [ ] **python-invaders**
-    + [ ] Aerospace
+    + ~~eventlog reborn~~
+    + [ ] python-invaders
+    + Aerospace
         * [ ] chimes
             - [ ] retro
             - [x] restful/red-alert
             - [ ] openwrt & alsa
-        * [ ] Refresher / Refnew
+        * [ ] **Refresher / Refnew**
         * [ ] Supplicant
-    + [ ] Justice Dudo
-        * [ ] Countdown
+    + [ ] Countdown
     + [ ] Tree Diagram
         * [ ] Indextan
         * [ ] IDMonitor
-    + [ ] _uno+git-ignore
+    + [ ] _uno+git-ignore / noip
     + [ ] console86 / unfinished
-    + [ ] restful - archived in your-hook, duplicated in pomodoro-timer, superseded by [FadeTop](http://www.fadetop.com/tutorials.html)
+    + [ ] ~~restful~~ - archived in your-hook, duplicated in pomodoro-timer, superseded by [FadeTop](http://www.fadetop.com/tutorials.html)
         * [x] `Shell_NotifyIcon()` & balloon
         * [ ] `SetTimer()`
-- [x] msys2 migration
-    + [ ] `git tm`: escaped colons?
 
 #### Five Elements - Production Environment
 - [ ] Proxmark 3 / ACR122u
 - HP 39gs / 48gII
-    + [ ] shell-mode-eigenmath
-        * [x] missing stdlib & bessel functions
+    + ~~shell-mode-eigenmath~~ - superseded by HP 48gII
+        * [x] dependency resolution: egypt / graphviz
+    + [x] neko-notepad
         * [ ] footprint control
-            - [ ] ROM compaction
-                + [ ] remove QuadExpl, TrigExpl & StreamSmart
-                + [ ] consolidate free space
-            - [ ] reduce components
-                + [x] dependency resolution: egypt / graphviz
+            - [ ] ROM compaction `rm QuadExpl TrigExpl StreamSmart`
             - [ ] Thumb instructions / arm-none-eabi-gcc
             - [ ] runtime compressor / upx
-        * [ ] extended keyboard mapping
-    + [x] neko-notepad
         * [x] bdf2hzk
         * [ ] minstub39
-            - [x] hp-gcc
             - [x] hp2aplet
-            - [ ] sysrpl stub
+            - [ ] bmp2grob2aplet / bmp2program
+            - [x] determine current view
         * [ ] ime
             - [ ] 区位码，4位十进制数字，1601
             - [ ] 国标码（内码），4位十六进制数字，B0A1
@@ -213,16 +191,12 @@ Tree Diagram
         * [x] page up stack
         * [ ] resume reading position
         * [ ] txt2note
-            - [ ] hp type headers
+            - [ ] HP39AscC
+            - [ ] HP39AscA (HP39DIR.000)
             - [x] encodings, charsets & endians
             - [ ] libiconv support
     + [ ] txt2sketch
-        * [ ] txt2bmp
-            - [x] hzk pixel fonts
-            - [x] bitmap structure
-            - [ ] inverted bitmap?
-            - [ ] FreeType
-        * [ ] bmp2sketch / bmp2grob / bmp2aplet
+        * [x] txt2bmp / bitmap structure
         * [ ] DOSBox?
             - [ ] Windows 95?
             - [ ] Mathematica
@@ -254,8 +228,7 @@ Tree Diagram
             - [ ] taobao
     + [ ] free-sms / message-bomb
         * [ ] javascript crypto
-    + [ ] uaq-stat / uptime
-        * [ ] psr-portal / [Qunee](http://qunee.com)
+    + [ ] uaq-stat / uptime / psr-portal / [Qunee](http://qunee.com)
     + [ ] opac-renew
         * [x] ajax renew
         * [ ] data persistence
@@ -276,6 +249,8 @@ Tree Diagram
 - [ ] Radio transmitters
     + [ ] Web SDR
     + [ ] RTL2832u
+    + [ ] SDR x 86duino?
+    + [ ] [QTCSDR](https://github.com/ha7ilm/qtcsdr)
 - [ ] APN Proxy
 - [ ] RPi / OpenWRT
     + [ ] systemd
@@ -287,16 +262,12 @@ Tree Diagram
     + [ ] privoxy
     + [ ] watchfox / watchcat
     + [ ] knockd
-- dns-mirror
+- dns-mirror ([dnschef](https://github.com/iphelix/dnschef/blob/master/dnschef.py), [dnsproxy](https://github.com/vietor/dnsproxy))
     + [ ] receive
     + [ ] comprehend
     + [ ] respond
-- [ ] keep alive
-    + [ ] chrono miner
-    + [ ] USB
-    + [ ] ping / icmp
-    + [ ] http / tcp
-    + [ ] GeoIP library
+- ~~keep alive chrono miner / USB / ping(icmp) / http(tcp)~~
+- [ ] GeoIP / 17monipdb
 - Embedded systems
     + [x] NodeMCU / ESP8266
         * [ ] PlatformIO
@@ -323,17 +294,15 @@ Tree Diagram
         * [ ] Linux
             - [ ] L86duntu
             - [ ] tiny core linux
-            - [ ] Arch Linux
+            - [ ] [Arch Linux](https://www.archlinux.org/news/phasing-out-i686-support/)
     + [ ] USB
         * [ ] keyboard / joystick
             - [ ] FireGoose / Cactus
             - [ ] wireless keyboard with web interface
-        * [ ] USnooBie
-- [x] ipyconfig
-- [ ] kirakira
-    + [ ] master
-    + [ ] servant
-- back-end developer
+        * [ ] USnooBie / USBaspLoader
+- [x] ~~ipyconfig~~ - superseded by MentoHUST
+- [ ] ~~kirakira~~ - superseded by [DanmakuPie](https://github.com/DanmakuPie/Native-Client)
+- back-end dev
     + [ ] [12-factor](http://12factor.net)
         * [ ] Store CONFIG in the environment
         * [ ] DISPOSABILITY: Robustness with fast startup and graceful shutdown
@@ -346,20 +315,20 @@ Tree Diagram
         * [ ] ORM
             - [ ] PonyORM
             - [ ] SQLAlchemy
-    + [ ] github webhook
 
 Tips
 ----
+> http://www.yangzhiping.com/psy/flow.html
+
 #### 调整你的目录结构：搜索而非查找
 将最需要创造力与专注力的工作放在常用位置，将大幅度提高自己对创造力任务的关注。作者之前的目录结构是：公司管理，然后按部门细分，部门之下又按照项目或者客户名称细分。然后个人文档又分成另一种目录结构。
 结果文件夹层级非常深，同时较不体现任务的优先级。参考积极心理学的有关原理，调整之后的目录结构改为：
 
 > 1+个人效率 2+创造乐趣 3+管理艺术 4+公益传承 5+历史记忆 6+资料库 999+大箩筐
 
-在调整之后的目录结构之下，尽可能打破部门与项目的局限，而是采取一种较扁平的目录结构（使用google桌面检索工具），最终强迫自己将注意力集中在创造性任务之上。
-同时与传统的目录结构最大的区别，在于，多了一些积极情绪暗示词汇。
+在调整之后的目录结构之下，尽可能打破部门与项目的局限，而是采取一种较扁平的目录结构，最终强迫自己将注意力集中在创造性任务之上，同时多了一些积极情绪暗示词汇。
 比如以前的《欧阳的个人文档》更新为：《个人效率》，《欧阳的公司文档》更新为：《管理艺术》。
 传统的分散在不同目录结构下的创造性任务，则单独用一个《创造乐趣》的文档来归类。
 
 #### 准备大箩筐：归档零散思想或者生活目标
-还记得你年少时的梦想？因为生活的压力，是不是慢慢地忘记了那些梦想。然而，这些世界上，同样存在一批理想现实主义者，坚持一定要改变世界而不是被世界改变自己的理念。这样的人，有苹果公司的乔布斯；有Patagonia公司的Yvon Chouinard。如果希望记录自己的零散的梦想或者提醒自己，可以使用时间管理软件，来对生活归档。比如：rememberthemilk
+还记得你年少时的梦想？因为生活的压力，是不是慢慢地忘记了那些梦想。然而，这些世界上，同样存在一批理想现实主义者，坚持一定要改变世界而不是被世界改变自己的理念。
