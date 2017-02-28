@@ -40,7 +40,6 @@ Tree Diagram
         + [ ] Strict subscription checks
         * [x] Remove semicolon before line comment in an escaped line
         * [ ] Recognize fallthrough outside case
-        * [ ] Delete partial outputs during an error
     + Main & Error
         * [ ] arguments
             - [ ] `getopt` framework
@@ -49,8 +48,11 @@ Tree Diagram
             - [ ] `--help`
             - [ ] `--version`
             - [x] `--output`
+        * [ ] Delete partial outputs during an error
     + Lexer
-        * [ ] Tabular and other whitespaces
+        * [ ] Whitespaces `\f` `\n` `\r` `\t` `\v`
+        * [ ] Specialized identifiers `$`
+        * [ ] Universal character names `\u5B81` `\U0001F005`
         * [x] utf-8 / gb2312 / iso 8859 support
         * [ ] libiconv / gettext / i18n & l10n support
     + Indent & Translator
@@ -61,6 +63,7 @@ Tree Diagram
             - [x] Expected indent?
         * [ ] Show near-by lines
     + Build, test and release
+        * [ ] Loopback tests
         * [ ] Makefile versioning
         * [ ] Shell script based test
         * [ ] Msys and [Linux builds](https://github.com/avege/avege/blob/master/.travis.yml) / LSB
@@ -174,6 +177,8 @@ Tree Diagram
 - HP 39gs / 48gII
     + ~~shell-mode-eigenmath~~ - superseded by HP 48gII
         * [x] dependency resolution: egypt / graphviz
+    + [ ] ti8xemu
+        * [ ] loader script / binary image relocating
     + [x] neko-notepad
         * [ ] footprint control
             - [ ] ROM compaction `rm QuadExpl TrigExpl StreamSmart`
@@ -229,7 +234,7 @@ Tree Diagram
     + [ ] free-sms / message-bomb
         * [ ] javascript crypto
     + [ ] uaq-stat / uptime / psr-portal / [Qunee](http://qunee.com)
-    + [ ] opac-renew
+    + ~~opac-renew~~
         * [x] ajax renew
         * [ ] data persistence
 - Kindle Paperwhite
@@ -267,7 +272,7 @@ Tree Diagram
     + [ ] comprehend
     + [ ] respond
 - ~~keep alive chrono miner / USB / ping(icmp) / http(tcp)~~
-- [ ] GeoIP / 17monipdb
+- ~~GeoIP / 17monipdb~~ - superseded by and [17mon_cpy](https://github.com/fengidri/17mon_cpy) and [others](https://github.com/search?q=17mon)
 - Embedded systems
     + [x] NodeMCU / ESP8266
         * [ ] PlatformIO
