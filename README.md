@@ -8,7 +8,7 @@ Tree Diagram
     + [ ] The Banker's algorithm
     + [ ] STEins Is Not a Shell
 - [ ] Computer Architecture
-    + [ ] IEEE 754
+    + [x] IEEE 754
     + [ ] Cache
 - [ ] [Data Structures](http://parkjs814.github.io/AlgorithmVisualizer)
     + [ ] Graphs
@@ -42,14 +42,14 @@ Tree Diagram
         * [ ] Recognize fallthrough outside case
     + Main & Error
         * [ ] arguments
-            - [ ] `getopt` framework
             - [x] `--force`
-            - [ ] `--chain`
+            - [ ] ~~`--chain`~~ - superseded by shebang magic
             - [ ] `--help`
             - [ ] `--version`
             - [x] `--output`
         * [ ] Delete partial outputs during an error
     + Lexer
+        * [ ] Capture illegal characters
         * [ ] Whitespaces `\f` `\n` `\r` `\t` `\v`
         * [ ] Specialized identifiers `$`
         * [ ] Universal character names `\u5B81` `\U0001F005`
@@ -63,15 +63,14 @@ Tree Diagram
             - [x] Expected indent?
         * [ ] Show near-by lines
     + Build, test and release
-        * [ ] Loopback tests
+        * [x] Loopback tests
         * [ ] Makefile versioning
-        * [ ] Shell script based test
+        * [x] Shell script based test
         * [ ] Msys and [Linux builds](https://github.com/avege/avege/blob/master/.travis.yml) / LSB
 - Machine Learning
     + [ ] Neural Network
+    + [ ] NLP
     + [ ] Data Science
-        * [ ] Data Mining
-        * [ ] Data Munging
         * [ ] NumPy Ecosystem
         * [ ] Hadoop / Spark Ecosystem
 - C++ Primer
@@ -88,13 +87,14 @@ Tree Diagram
         * [ ] PackageDev file type meta patch
         * [ ] Trim context menus
         * [ ] Compiler info navigation
-        * [ ] Embedded debugger for C / C++ / Py
-            - [ ] Install mingw-w64-i686-gdb without python2?
+    + [ ] Visual Studio Code
+        * [ ] Embedded debugger
+            - [x] C / C++
+            - [ ] Python
     + Vim & Bash
         * [ ] NeoVim / [vim-airline](https://github.com/vim-airline/vim-airline)(Powerline) / Cscope / Ctags / Taglist
         * [ ] Sed & Vim commands
         * [x] Awk
-    + [ ] VSCode
 - JavaScript
     + [x] GreaseMonkey / userscript
         * [x] milky-highlight
@@ -149,7 +149,7 @@ Tree Diagram
     + [ ] rsync
     + [x] FastCopy
     + [ ] vshadow
-    + [ ] dupemerge
+    + [x] dupemerge
 - [ ] Github
     + [x] pipetools
     + [x] nodemcu-firmware
