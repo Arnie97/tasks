@@ -34,6 +34,8 @@ Tree Diagram
     + [ ] TLS
     + [ ] SICP
     + [ ] HtDP
+    + [ ] Magic Haskell
+    + [ ] LYAHFGG
 - milky
     + Debug
         + [ ] Unlimited token length / Garbage Collection?
@@ -80,10 +82,7 @@ Tree Diagram
     + [ ] Stage 2
 - Editors
     + Sublime Text
-        * [ ] Javascript Console
-            - [ ] `Glue`: Input
-            - [ ] `PyV8`: Process
-            - [ ] `SFTP`: Output
+        * [ ] Javascript Console: `Glue` Input, `PyV8` Process, `SFTP` Output
         * [ ] PackageDev file type meta patch
         * [ ] Trim context menus
         * [ ] Compiler info navigation
@@ -105,19 +104,18 @@ Tree Diagram
         * [x] DOM
         * [ ] CSS & selectors
             - [ ] pseudo classes
-            - [ ] jQuery
             - [ ] Twitter Bootstrap
         * [ ] events
-        * [ ] ajax
+        * [ ] jQuery / ajax
     + [ ] node env
         * [ ] learnyounode
         * [ ] npm
     + [ ] React & React Native
     + [ ] Angular
-    + [ ] [Headless Functional Testing](http://code.tutsplus.com/tutorials/headless-functional-testing-with-selenium-and-phantomjs--net-30545)
-        * [ ] PhantomJS
+    + [ ] Express
+    + [Headless Functional Testing](http://code.tutsplus.com/tutorials/headless-functional-testing-with-selenium-and-phantomjs--net-30545)
+        * [x] PhantomJS (WebKit) / SlimerJS (Gecko)
             - [ ] **NightmareJS**
-        * [ ] SlimerJS
             - [ ] CasperJS
         * [ ] Selenium
 
@@ -215,7 +213,7 @@ Tree Diagram
         * [ ] macOS
     + captcha-solver
         * [ ] OpenCV
-        * [ ] Pattern recognition / Machine Learning
+        * [ ] Machine Learning: How to get samples?
     + [ ] signin / refresher
         * [ ] production keep-alive
             - [x] dynamic dns
@@ -231,8 +229,6 @@ Tree Diagram
             - [ ] eBesucher
             - [ ] jd
             - [ ] taobao
-    + [ ] free-sms / message-bomb
-        * [ ] javascript crypto
     + [ ] uaq-stat / uptime / psr-portal / [Qunee](http://qunee.com)
     + ~~opac-renew~~
         * [x] ajax renew
