@@ -10,6 +10,7 @@ Tree Diagram
 - [ ] Computer Architecture
     + [x] IEEE 754
     + [ ] Cache
+    + [ ] Bootloader / Stage 2
 - [ ] [Data Structures](http://parkjs814.github.io/AlgorithmVisualizer)
     + [ ] Graphs
         * [ ] Shortest path
@@ -30,13 +31,29 @@ Tree Diagram
     + [ ] http://tyvj.cn / ~~tyvj-mobile~~
     + [ ] http://code.bupt.edu.cn
     + [ ] https://leetcode.com
-- Lisp & Haskell
+- Machine Learning
+    + [ ] Deep Learning
+        * [ ] [UFLDL](http://deeplearning.stanford.edu/tutorial/)
+        * [ ] [Qix/dl.md](https://github.com/ty4z2008/Qix/blob/master/dl.md)
+        * [ ] http://ml.memect.com/article/machine-learning-guide.html
+        * [ ] Caffe
+        * [ ] TensorFlow
+    + [ ] Neural Network
+    + [ ] NLP
+    + [ ] Data Science
+        * [ ] NumPy Ecosystem
+        * [ ] Hadoop / Spark Ecosystem
+- Lisp & Software Engineering
     + [ ] TLS
     + [ ] SICP
     + [ ] HtDP
+    + [ ] Design Patterns
+    + [ ] UML
+- Haskell & PLT
     + [ ] Magic Haskell
     + [ ] LYAHFGG
-- milky
+    + [ ] Type / Proof / Category Theory
+- Milky
     + Debug
         + [ ] Unlimited token length / Garbage Collection?
         + [ ] Strict subscription checks
@@ -69,17 +86,9 @@ Tree Diagram
         * [ ] Makefile versioning
         * [x] Shell script based test
         * [ ] Msys and [Linux builds](https://github.com/avege/avege/blob/master/.travis.yml) / LSB
-- Machine Learning
-    + [ ] Neural Network
-    + [ ] NLP
-    + [ ] Data Science
-        * [ ] NumPy Ecosystem
-        * [ ] Hadoop / Spark Ecosystem
 - C++ Primer
     + [ ] templates
     + [ ] cpp-itertools
-- bootloader
-    + [ ] Stage 2
 - Editors
     + Sublime Text
         * [ ] Javascript Console: `Glue` Input, `PyV8` Process, `SFTP` Output
@@ -94,30 +103,6 @@ Tree Diagram
         * [ ] NeoVim / [vim-airline](https://github.com/vim-airline/vim-airline)(Powerline) / Cscope / Ctags / Taglist
         * [ ] Sed & Vim commands
         * [x] Awk
-- JavaScript
-    + [x] GreaseMonkey / userscript
-        * [x] milky-highlight
-        * [ ] teleporter
-    + [ ] stdlib
-        * [ ] ES2015
-    + [ ] browser env
-        * [x] DOM
-        * [ ] CSS & selectors
-            - [ ] pseudo classes
-            - [ ] Twitter Bootstrap
-        * [ ] events
-        * [ ] jQuery / ajax
-    + [ ] node env
-        * [ ] learnyounode
-        * [ ] npm
-    + [ ] React & React Native
-    + [ ] Angular
-    + [ ] Express
-    + [Headless Functional Testing](http://code.tutsplus.com/tutorials/headless-functional-testing-with-selenium-and-phantomjs--net-30545)
-        * [x] PhantomJS (WebKit) / SlimerJS (Gecko)
-            - [ ] **NightmareJS**
-            - [ ] CasperJS
-        * [ ] Selenium
 
 #### Historical Writer - Data Persistence
 - [x] CintaNotes
@@ -143,6 +128,7 @@ Tree Diagram
     + [ ] Time Machine + Integral
     + [ ] Baidu PCS + Compaq Base
     + [ ] JBOD sync
+    + [ ] Cybershot T90
 - [x] time-machine
     + [ ] rsync
     + [x] FastCopy
@@ -190,8 +176,7 @@ Tree Diagram
         * [ ] ime
             - [ ] 区位码，4位十进制数字，1601
             - [ ] 国标码（内码），4位十六进制数字，B0A1
-        * [x] notes from saturn
-        * [x] page up stack
+        * [ ] statistics / goto
         * [ ] resume reading position
         * [ ] txt2note
             - [ ] HP39AscC
@@ -206,7 +191,10 @@ Tree Diagram
             - [ ] Cyrillic
             - [ ] Electric Workbench
             - [x] Figlet
-- Campus Ecosystem & Web Scraping
+- Campus Ecosystem & Web Scraping - The Python Perspective
+    + [ ] MediaWiki
+        * [ ] mwclient
+        * [ ] [pywikibot](https://www.mediawiki.org/wiki/Manual:Pywikibot/Create_your_own_script)
     + [x] chrome-cookies
         * [x] win32
         * [ ] linux
@@ -238,18 +226,41 @@ Tree Diagram
     + [x] kindle-express
         * [ ] non-English pdf convert?
         * [ ] epub support?
+- JavaScript
+    + [x] GreaseMonkey / userscript
+        * [x] milky-highlight
+        * [ ] teleporter
+    + [ ] stdlib
+        * [ ] ES2015
+    + [ ] browser env
+        * [x] DOM
+        * [ ] CSS & selectors
+            - [ ] pseudo classes
+            - [ ] Twitter Bootstrap
+        * [ ] events
+        * [x] jQuery.ajax()
+    + [ ] node env
+        * [ ] learnyounode
+        * [ ] npm
+    + [ ] React & React Native
+    + [ ] Angular
+    + [ ] Express
+    + [Headless Functional Testing](http://code.tutsplus.com/tutorials/headless-functional-testing-with-selenium-and-phantomjs--net-30545)
+        * [x] PhantomJS (WebKit) / SlimerJS (Gecko)
+            - [ ] **NightmareJS**
+            - [ ] CasperJS
+            - [ ] FreeSMS Remake
+        * [ ] Selenium
 - Docker CaaS
     + [ ] Native / Swarm
         * [ ] oclHashcat / Hashtopus cluster
-    + [ ] Fleet
-    + [ ] Deis / Dokku
-    + [ ] Flynn
     + [ ] Kubernetes
+    + [ ] Others (Deis, Dokku, Flynn, Fleet)
 
 #### Project Silverbridge - Unlimited Access
 - [ ] Radio transmitters
+    + [ ] UV-5R / USB OTG
     + [ ] Web SDR
-    + [ ] RTL2832u
     + [ ] SDR x 86duino?
     + [ ] [QTCSDR](https://github.com/ha7ilm/qtcsdr)
 - [ ] APN Proxy
