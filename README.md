@@ -99,6 +99,7 @@ Tree Diagram
         * [ ] Embedded debugger
             - [x] C / C++
             - [ ] Python
+        * [ ] Font Ligatures / Refined
     + Vim & Bash
         * [ ] NeoVim / [vim-airline](https://github.com/vim-airline/vim-airline)(Powerline) / Cscope / Ctags / Taglist
         * [ ] Sed & Vim commands
@@ -121,14 +122,15 @@ Tree Diagram
     + [ ] ~2545
 - [ ] N410
     + [ ] bypy
+    + [ ] **Cybershot T90**
     + [ ] **Lumia 720** + Oppo R801
     + [ ] Source Files + Collect Center + x64
         * [ ] Premiere Pro
     + [x] Windows 7 x86
     + [ ] Time Machine + Integral
     + [ ] Baidu PCS + Compaq Base
+        * [ ] **Phone auth**
     + [ ] JBOD sync
-    + [ ] Cybershot T90
 - [x] time-machine
     + [ ] rsync
     + [x] FastCopy
@@ -159,6 +161,8 @@ Tree Diagram
 #### Five Elements - Production Environment
 - [ ] Proxmark 3 / ACR122u
 - HP 39gs / 48gII
+    + [ ] https://calcwiki.org/User:Arnie97/HP_Saturn_Intro
+    + [ ] https://calcwiki.org/User:Arnie97/HP_39_FAQ
     + ~~shell-mode-eigenmath~~ - superseded by HP 48gII
         * [x] dependency resolution: egypt / graphviz
     + [ ] ti8xemu
@@ -178,6 +182,7 @@ Tree Diagram
             - [ ] 国标码（内码），4位十六进制数字，B0A1
         * [ ] statistics / goto
         * [ ] resume reading position
+        * [ ] refactor hp39kbd.c
         * [ ] txt2note
             - [ ] HP39AscC
             - [ ] HP39AscA (HP39DIR.000)
@@ -185,7 +190,7 @@ Tree Diagram
             - [ ] libiconv support
     + [ ] txt2sketch
         * [x] txt2bmp / bitmap structure
-        * [ ] DOSBox?
+        * DOSBox
             - [ ] Windows 95?
             - [ ] Mathematica
             - [ ] Cyrillic
@@ -193,7 +198,11 @@ Tree Diagram
             - [x] Figlet
 - Campus Ecosystem & Web Scraping - The Python Perspective
     + [ ] MediaWiki
-        * [ ] mwclient
+        * [x] mwclient
+            - [x] replace
+            - [x] railway
+            - [ ] dablink
+            - [ ] `[[Commons:Special:Search/Expwy name.png]]`
         * [ ] [pywikibot](https://www.mediawiki.org/wiki/Manual:Pywikibot/Create_your_own_script)
     + [x] chrome-cookies
         * [x] win32
@@ -226,6 +235,7 @@ Tree Diagram
     + [x] kindle-express
         * [ ] non-English pdf convert?
         * [ ] epub support?
+        * [ ] filter out unsupported formats
 - JavaScript
     + [x] GreaseMonkey / userscript
         * [x] milky-highlight
@@ -249,6 +259,7 @@ Tree Diagram
         * [x] PhantomJS (WebKit) / SlimerJS (Gecko)
             - [ ] **NightmareJS**
             - [ ] CasperJS
+            - [x] Moerail
             - [ ] FreeSMS Remake
         * [ ] Selenium
 - Docker CaaS
@@ -307,6 +318,11 @@ Tree Diagram
             - [ ] L86duntu
             - [ ] tiny core linux
             - [ ] [Arch Linux](https://www.archlinux.org/news/phasing-out-i686-support/)
+    + [ ] OpenWRT, Tomato, IOS & ROS
+        * [ ] WGR614 v8
+        * [ ] TL-WDR5620
+        * [ ] Phicomm K1S & K2
+        * [ ] H3C WA4320H
     + [ ] USB
         * [ ] keyboard / joystick
             - [ ] FireGoose / Cactus
@@ -327,6 +343,8 @@ Tree Diagram
         * [ ] ORM
             - [ ] PonyORM
             - [ ] SQLAlchemy
+- Visual FoxPro
+    + [ ] Export SQL Server (ODBC) to Excel
 
 Tips
 ----
