@@ -1,4 +1,4 @@
-Bonne Année 2017
+Hello, Wuhan!
 ================
 
 Tree Diagram
@@ -108,6 +108,7 @@ Tree Diagram
 #### Historical Writer - Data Persistence
 - [x] CintaNotes
 - [ ] Clipboard Stack
+- [ ] Compaq nx6120 - **Share clipboard, files and display among devices**
 - [ ] Tencent QQ Int'l Portable
     + [ ] Decompile
     + [ ] Support x86-64
@@ -159,7 +160,12 @@ Tree Diagram
         * [ ] `SetTimer()`
 
 #### Five Elements - Production Environment
-- [ ] Proxmark 3 / ACR122u
+- Proxmark 3
+    + [x] Mifare Classic Basics
+    + [ ] Improve standalone mode
+- Refined / [AFDKO](www.adobe.com/devnet/opentype/afdko.html)
+    + [ ] Docker / TravisCI
+    + [ ] Draw ligature outlines
 - HP 39gs / 48gII
     + [ ] https://calcwiki.org/User:Arnie97/HP_Saturn_Intro
     + [ ] https://calcwiki.org/User:Arnie97/HP_39_FAQ
@@ -176,6 +182,7 @@ Tree Diagram
         * [ ] minstub39
             - [x] hp2aplet
             - [ ] bmp2grob2aplet / bmp2program
+            - [ ] grayscale bitmaps
             - [x] determine current view
         * [ ] ime
             - [ ] 区位码，4位十进制数字，1601
@@ -198,6 +205,8 @@ Tree Diagram
             - [x] Figlet
 - Campus Ecosystem & Web Scraping - The Python Perspective
     + [ ] MediaWiki
+        * [ ] common.js
+        * [ ] lua modules
         * [x] mwclient
             - [x] replace
             - [x] railway
@@ -344,7 +353,7 @@ Tree Diagram
             - [ ] PonyORM
             - [ ] SQLAlchemy
 - Visual FoxPro
-    + [ ] Export SQL Server (ODBC) to Excel
+    + [x] Export SQL Server (ODBC) to Excel
 
 Tips
 ----
