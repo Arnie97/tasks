@@ -29,9 +29,10 @@ Tree Diagram
     + [ ] Sorts
     + [ ] DP
     + [ ] http://tyvj.cn / ~~tyvj-mobile~~
-    + [ ] http://code.bupt.edu.cn
     + [ ] https://leetcode.com
+    + [ ] http://codeforces.com
 - Machine Learning
+    + [ ] Transfer Learning
     + [ ] Deep Learning
         * [ ] [UFLDL](http://deeplearning.stanford.edu/tutorial/)
         * [ ] [Qix/dl.md](https://github.com/ty4z2008/Qix/blob/master/dl.md)
@@ -162,6 +163,7 @@ Tree Diagram
 #### Five Elements - Production Environment
 - Proxmark 3
     + [x] Mifare Classic Basics
+    + [ ] PBOC Reader
     + [ ] Improve standalone mode
 - Refined / [AFDKO](www.adobe.com/devnet/opentype/afdko.html)
     + [ ] Docker / TravisCI
@@ -171,8 +173,9 @@ Tree Diagram
     + [ ] https://calcwiki.org/User:Arnie97/HP_39_FAQ
     + ~~shell-mode-eigenmath~~ - superseded by HP 48gII
         * [x] dependency resolution: egypt / graphviz
-    + [ ] ti8xemu
+    + [ ] ti8xemu / nes-emu
         * [ ] loader script / binary image relocating
+            - [ ] function pointers
     + [x] neko-notepad
         * [ ] footprint control
             - [ ] ROM compaction `rm QuadExpl TrigExpl StreamSmart`
@@ -208,8 +211,7 @@ Tree Diagram
         * [ ] common.js
         * [ ] lua modules
         * [x] mwclient
-            - [x] replace
-            - [x] railway
+            - [ ] gevents / ~~asyncio~~
             - [ ] dablink
             - [ ] `[[Commons:Special:Search/Expwy name.png]]`
         * [ ] [pywikibot](https://www.mediawiki.org/wiki/Manual:Pywikibot/Create_your_own_script)
@@ -217,6 +219,9 @@ Tree Diagram
         * [x] win32
         * [ ] linux
         * [ ] macOS
+    + [ ] CoolQ Bot
+        * [x] emu-screenshot
+        * [x] telecode
     + captcha-solver
         * [ ] OpenCV
         * [ ] Machine Learning: How to get samples?
