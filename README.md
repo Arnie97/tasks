@@ -40,8 +40,13 @@
     + [ ] [Caffe](http://caffe.berkeleyvision.org/)
     + [ ] [TensorFlow](https://www.tensorflow.org/get_started/)
 - NLP
-- Data Science
-    + [ ] NumPy Ecosystem
+    + [ ] Keyword extraction
+    + [ ] Abstract generation
+- Libraries
+    + [x] NumPy
+    + [ ] Pandas
+    + [x] [PyNLPIR](http://pynlpir.readthedocs.io/en/latest/tutorial.html)
+    + [ ] [FNLP](https://github.com/FudanNLP/fnlp/wiki/quicktutorial) / Maven
     + [ ] Hadoop / Spark Ecosystem
 
 #### Lisp & Software Engineering
@@ -221,10 +226,11 @@
     + [ ] [common.js](https://zh.wikipedia.org/wiki/User:Arnie97/common.js)
     + [ ] lua modules
     + [x] [mwclient](https://github.com/mwclient/mwclient)
-        * [ ] gevents / ~~asyncio~~
-        * [ ] `__DISAMBIG__`
+        * [x] gevents / ~~asyncio~~
+        * [x] `__DISAMBIG__`
+            - [ ] dialects
         * [ ] `[[Commons:Special:Search/Expwy name.png]]`
-- [ ] [CoolQ Bot](https://cqp.cc/t/15124)
+- [x] [CoolQ Bot](https://cqp.cc/t/15124)
     + [x] [emu-screenshot](https://github.com/Arnie97/emu-screenshot)
     + [x] [telecode](https://github.com/Arnie97/telecode)
 - [x] [chrome-cookies](https://github.com/Arnie97/chrome-cookies)
@@ -292,6 +298,9 @@
     + [ ] oclHashcat / Hashtopus cluster
 - [ ] Kubernetes
 - [ ] Others (Deis, Dokku, Flynn, Fleet)
+- [ ] Web Panels
+    + [ ] [Portainer](https://portainer.io)
+    + [ ] [Rancher](http://rancher.com/rancher)
 - [ ] Heroku Hosting
 
 
