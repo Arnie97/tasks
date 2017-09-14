@@ -47,6 +47,7 @@
     + [ ] Pandas
     + [x] [PyNLPIR](http://pynlpir.readthedocs.io/en/latest/tutorial.html)
     + [ ] [FNLP](https://github.com/FudanNLP/fnlp/wiki/quicktutorial) / Maven
+    + [x] [HanLP](https://github.com/hankcs/HanLP)
     + [ ] Hadoop / Spark Ecosystem
 
 #### Lisp & Software Engineering
@@ -103,7 +104,6 @@
 - Sublime Text
     + [ ] Javascript Console: `Glue` Input, `PyV8` Process, `SFTP` Output
     + [ ] PackageDev file type meta patch
-    + [ ] Trim context menus
     + [ ] Compiler info navigation
 - Visual Studio Code
     + [ ] Embedded debugger
@@ -198,8 +198,6 @@
     + [x] [bdf2hzk](https://github.com/Arnie97/neko-notepad/blob/master/bdf_parser.py)
     + [ ] [minstub39](https://github.com/Arnie97/minstub39)
         * [x] [hp2aplet](https://github.com/Arnie97/minstub39/blob/master/hp2aplet.c.k)
-        * [x] bmp2grob2aplet / [bmp2program](https://github.com/Arnie97/grob-maker)
-        * [ ] grayscale bitmaps
         * [x] determine current view
     + [ ] ime
         * [ ] 区位码，4位十进制数字，1601
@@ -210,8 +208,9 @@
     + [ ] txt2note
         * [ ] HP39AscC
         * [ ] HP39AscA (HP39DIR.000)
-        * [x] encodings, charsets & endians
-        * [ ] libiconv support
+        * [x] bmp2grob2aplet / [bmp2program](https://github.com/Arnie97/grob-maker)
+            - [ ] flask-upload
+        * [ ] grayscale bitmaps
 - [txt2sketch](https://github.com/Arnie97/neko-notepad/tree/txt2sketch)
     + [x] txt2bmp / bitmap structure
     + [ ] DOSBox
@@ -227,8 +226,7 @@
     + [ ] lua modules
     + [x] [mwclient](https://github.com/mwclient/mwclient)
         * [x] gevents / ~~asyncio~~
-        * [x] `__DISAMBIG__`
-            - [ ] dialects
+        * [ ] `json` / `configparser`
         * [ ] `[[Commons:Special:Search/Expwy name.png]]`
 - [x] [CoolQ Bot](https://cqp.cc/t/15124)
     + [x] [emu-screenshot](https://github.com/Arnie97/emu-screenshot)
@@ -268,6 +266,7 @@
 #### JavaScript
 - [x] GreaseMonkey / userscript
     + [x] [milky-highlight](https://github.com/Arnie97/milky-highlight)
+    + [x] Katakana Terminator
     + [ ] teleporter / [Huiwen OPAC API](http://202.199.26.12:8080/opac/search_rss.php?strText=9787040238969&strSearchType=isbn)
 - [ ] stdlib
     + [ ] ES2015
@@ -299,7 +298,7 @@
 - [ ] Kubernetes
 - [ ] Others (Deis, Dokku, Flynn, Fleet)
 - [ ] Web Panels
-    + [ ] [Portainer](https://portainer.io)
+    + [x] [Portainer](https://portainer.io)
     + [ ] [Rancher](http://rancher.com/rancher)
 - [ ] Heroku Hosting
 
