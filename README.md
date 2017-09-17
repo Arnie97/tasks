@@ -152,8 +152,6 @@
 - [x] dupemerge
 
 #### GitHub Archive
-- [x] pipetools
-- [x] nodemcu-firmware
 - [ ] ~~eventlog reborn~~
 - [ ] python-invaders
 - [ ] Aerospace
@@ -167,8 +165,8 @@
 - [ ] Tree Diagram
     + [ ] Indextan
     + [ ] IDMonitor
-- [ ] _uno+git-ignore / noip
-- [ ] console86 / unfinished
+- [ ] _uno+git-ignore / _pastebin / noip
+- [ ] console86 / multimeter / unfinished
 - [ ] ~~[restful](https://github.com/Arnie97/restful)~~ - archived in [your-hook](https://github.com/Arnie97/your-hook), duplicated in pomodoro-timer, superseded by [FadeTop](http://www.fadetop.com/tutorials.html)
     + [x] `Shell_NotifyIcon()` & balloon
     + [ ] `SetTimer()`
@@ -186,7 +184,7 @@
 - https://calcwiki.org/User:Arnie97/HP_39_FAQ
 - ~~shell-mode-eigenmath~~ - superseded by HP 48gII
     + [x] dependency resolution: egypt / graphviz
-- [ti8xemu](https://github.com/Arnie97/ti8xemu) / nes-emu
+- [ti8xemu](https://github.com/Arnie97/ti8xemu) / [dPicoC](https://github.com/compujuckel/dPicoC-NS) / nes-emu
     + [ ] loader script / binary image relocating
         * [ ] function pointers
 - [IrDA receiver](http://www.mh-aerotools.de/hp/red-eye/HP-IR%20Receiver%20with%20Arduino.pdf)
@@ -199,9 +197,6 @@
     + [ ] [minstub39](https://github.com/Arnie97/minstub39)
         * [x] [hp2aplet](https://github.com/Arnie97/minstub39/blob/master/hp2aplet.c.k)
         * [x] determine current view
-    + [ ] ime
-        * [ ] 区位码，4位十进制数字，1601
-        * [ ] 国标码（内码），4位十六进制数字，B0A1
     + [ ] statistics / goto
     + [ ] resume reading position
     + [ ] refactor hp39kbd.c
@@ -266,21 +261,22 @@
 #### JavaScript
 - [x] GreaseMonkey / userscript
     + [x] [milky-highlight](https://github.com/Arnie97/milky-highlight)
-    + [x] Katakana Terminator
-    + [ ] teleporter / [Huiwen OPAC API](http://202.199.26.12:8080/opac/search_rss.php?strText=9787040238969&strSearchType=isbn)
+    + [x] [katakana-terminator](https://github.com/Arnie97/katakana-terminator)
+    + [x] [emu-tools](https://github.com/Arnie97/emu-tools)
+    + [ ] teleporter ([read](https://github.com/JiajunW/douban2readfree)-[free](https://github.com/Ovilia/readfree-chrome-extension)) / [Huiwen OPAC API](http://202.199.26.12:8080/opac/search_rss.php?strText=9787040238969&strSearchType=isbn)
 - [ ] stdlib
     + [ ] ES2015
 - [ ] browser env
-    + [x] DOM
     + [ ] CSS & selectors
         * [ ] pseudo classes
-        * [ ] Twitter Bootstrap
     + [ ] events
-    + [x] jQuery.ajax()
 - [ ] node env
     + [ ] learnyounode
     + [ ] npm
 - [ ] React & React Native
+- [ ] Promises
+- [ ] Backbone.js
+    + [ ] Underscore.js
 - [ ] Angular
 - [ ] Express
 - [Headless Functional Testing](http://code.tutsplus.com/tutorials/headless-functional-testing-with-selenium-and-phantomjs--net-30545)
@@ -343,7 +339,6 @@
     + [ ] relays
     + [ ] power meter
 - [oscilloscope](https://github.com/Arnie97/oscilloscope)
-    + [ ] [multimeter](https://github.com/Arnie97/multimeter)
     + [ ] trigger
     + [ ] SPI / OLED
         * [ ] avr
@@ -366,7 +361,7 @@
         * [ ] FireGoose / Cactus
         * [ ] wireless keyboard with web interface
         * [ ] DriveDroid?!
-    + [ ] USnooBie / USBaspLoader
+    + [ ] USnooBie / [USBaspLoader](https://github.com/baerwolf/USBaspLoader)
 
 #### Back-end Development
 - [12-factor](http://12factor.net)
