@@ -80,9 +80,8 @@
     + [ ] Capture illegal characters
     + [ ] Whitespaces `\f` `\n` `\r` `\t` `\v`
     + [ ] Specialized identifiers `$`
-    + [ ] Universal character names `\u5B81` `\U0001F005`
-    + [x] utf-8 / gb2312 / iso 8859 support
-    + [ ] libiconv / gettext / i18n & l10n support
+    + [ ] Universal character names instead: `\u5B81` `\U0001F005`
+    + [ ] [libiconv](https://www.gnu.org/software/libiconv/) / [gettext](https://www.gnu.org/software/gettext/manual/gettext.html)
 - Indent & Translator
     + [ ] [Literate Milk](https://github.com/ZaneA/litc/blob/master/litc.rb.md)
     + [ ] Embedded C
@@ -113,7 +112,8 @@
         * [ ] Docker / TravisCI
         * [ ] Draw ligature outlines
 - Vim & Bash
-    + [ ] NeoVim / [vim-airline](https://github.com/vim-airline/vim-airline) (Powerline) / Cscope / Ctags / Taglist
+    + [x] [NeoVim / Spacemacs](https://github.com/JAremko/alpine-vim)
+        * [ ] [Cscope / Ctags / Taglist](http://guqian110.github.io/pages/2015/01/25/learning_vim_ctags_cscope_taglist.html)
     + [x] Sed & Awk
 
 
@@ -264,28 +264,18 @@
     + [x] [katakana-terminator](https://github.com/Arnie97/katakana-terminator)
     + [x] [emu-tools](https://github.com/Arnie97/emu-tools)
     + [ ] teleporter ([read](https://github.com/JiajunW/douban2readfree)-[free](https://github.com/Ovilia/readfree-chrome-extension)) / [Huiwen OPAC API](http://202.199.26.12:8080/opac/search_rss.php?strText=9787040238969&strSearchType=isbn)
-- [ ] stdlib
+    + [ ] CSS selectors: pseudo classes
+- [ ] Node.js
     + [ ] ES2015
-- [ ] browser env
-    + [ ] CSS & selectors
-        * [ ] pseudo classes
-    + [ ] events
-- [ ] node env
-    + [ ] learnyounode
-    + [ ] npm
+        * [ ] Promises
 - [ ] React & React Native
-- [ ] Promises
 - [ ] Backbone.js
     + [ ] Underscore.js
 - [ ] Angular
 - [ ] Express
-- [Headless Functional Testing](http://code.tutsplus.com/tutorials/headless-functional-testing-with-selenium-and-phantomjs--net-30545)
-    + [x] PhantomJS (WebKit) / SlimerJS (Gecko)
-        * [ ] **NightmareJS**
-        * [ ] CasperJS
-        * [x] Moerail
-        * [ ] FreeSMS Remake
-    + [ ] Selenium
+- [Headless Environments](https://github.com/dhamaniasad/HeadlessBrowsers) & [Functional Testing](http://code.tutsplus.com/tutorials/headless-functional-testing-with-selenium-and-phantomjs--net-30545)
+    + [x] Moerail
+    + [ ] FreeSMS Remake
 
 #### Docker CaaS
 - [ ] Native / Swarm
