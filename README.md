@@ -66,7 +66,7 @@
 - Debug
     - [ ] Unlimited token length / Garbage Collection?
     - [ ] Strict subscription checks
-    + [x] Remove semicolon before line comment in an escaped line
+    + [ ] Remove semicolon before line comment in a preprocessor
     + [ ] Recognize fallthrough outside case
 - Main & Error
     + [ ] arguments
@@ -112,7 +112,7 @@
         * [ ] Docker / TravisCI
         * [ ] Draw ligature outlines
 - Vim & Bash
-    + [x] [NeoVim / Spacemacs](https://github.com/JAremko/alpine-vim)
+    + [x] [NeoVim](https://github.com/JAremko/alpine-vim)
         * [ ] [Cscope / Ctags / Taglist](http://guqian110.github.io/pages/2015/01/25/learning_vim_ctags_cscope_taglist.html)
     + [x] Sed & Awk
 
@@ -126,7 +126,6 @@
 - [ ] Tencent QQ Int'l Portable
     + [ ] Decompile
     + [ ] Support x86-64
-    + [ ] Project Pages
 - [ ] exchange / [pastebin](https://github.com/Arnie97/pastebin)
     + [ ] poplib / imaplib
 - [ ] **emoji index** & recovery
@@ -233,7 +232,7 @@
 - [ ] [signin](https://github.com/Arnie97/signin) / refresher
     + [ ] production keep-alive
         * [ ] sklse
-        * [ ] chrono miner (http, tcp) / ping(icmp) / USB
+        * [ ] chrono miner (http) / USB
         * [x] dynamic dns
         * [x] router reset
         * [ ] daocloud
@@ -268,19 +267,14 @@
 - [ ] Node.js
     + [ ] ES2015
         * [ ] Promises
-- [ ] React & React Native
-- [ ] Backbone.js
-    + [ ] Underscore.js
-- [ ] Angular
-- [ ] Express
+- [ ] [~~Frameworks~~](http://www.allenpike.com/2015/javascript-framework-fatigue/)
 - [Headless Environments](https://github.com/dhamaniasad/HeadlessBrowsers) & [Functional Testing](http://code.tutsplus.com/tutorials/headless-functional-testing-with-selenium-and-phantomjs--net-30545)
     + [x] Moerail
-    + [ ] FreeSMS Remake
+    + [ ] [FreeSMS](http://www.afreesms.com/freesms/) Remake
+        * [ ] Canvas
 
 #### Docker CaaS
-- [ ] Native / Swarm
-    + [ ] Debian Stretch Deployment
-    + [ ] oclHashcat / Hashtopus cluster
+- [ ] Swarm
 - [ ] Kubernetes
 - [ ] Others (Deis, Dokku, Flynn, Fleet)
 - [ ] Web Panels
@@ -306,7 +300,6 @@
     + [x] odhcp6d / ndppd
     + [ ] tb_userspace
     + [ ] privoxy
-    + [ ] watchfox / watchcat
     + [ ] knockd
 - [ ] OpenWRT, Tomato, IOS & ROS
     + [ ] WGR614 v8
