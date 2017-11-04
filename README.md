@@ -128,6 +128,10 @@
     + [ ] Support x86-64
 - [ ] exchange / [pastebin](https://github.com/Arnie97/pastebin)
     + [ ] poplib / imaplib
+    + [ ] [web file manager](https://www.reddit.com/r/linux/comments/24uwjy/lightweight_alternative_to_owncloud/)
+        * https://github.com/W4RH4WK/MinimalFileManager
+        * https://github.com/broncowdd/BoZoN
+        * https://github.com/jcampbell1/simple-file-manager
 - [ ] **emoji index** & recovery
 - [ ] TrDH Log Parser
     + [ ] Headline date
@@ -294,7 +298,9 @@
 - [ ] APN Proxy
 - [ ] RPi / OpenWRT
     + [ ] systemd
+        * [ ] [timer](https://wiki.archlinux.org/index.php/Systemd/Timers)
     + [ ] iptables
+    + [ ] sendmail
     + [ ] quagga / zebra
     + [x] iwconfig
     + [x] odhcp6d / ndppd
@@ -347,6 +353,8 @@
     + [ ] USnooBie / [USBaspLoader](https://github.com/baerwolf/USBaspLoader)
 
 #### Back-end Development
+- uwsgi-emperor
+- free-bike
 - [12-factor](http://12factor.net)
     + [ ] Store CONFIG in the environment
     + [ ] DISPOSABILITY: Robustness with fast startup and graceful shutdown
