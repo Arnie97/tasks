@@ -49,6 +49,7 @@
     + [ ] [FNLP](https://github.com/FudanNLP/fnlp/wiki/quicktutorial) / Maven
     + [x] [HanLP](https://github.com/hankcs/HanLP)
     + [ ] Hadoop / Spark Ecosystem
+        * [ ] [Wikipedia Hashtags](https://zh.wikipedia.org/wiki/WP:BOTR)
 
 #### Lisp & Software Engineering
 - [ ] TLS
@@ -128,6 +129,7 @@
     + [ ] Support x86-64
 - [ ] exchange / [pastebin](https://github.com/Arnie97/pastebin)
     + [ ] poplib / imaplib
+    + [ ] WebDAV
     + [ ] [web file manager](https://www.reddit.com/r/linux/comments/24uwjy/lightweight_alternative_to_owncloud/)
         * https://github.com/W4RH4WK/MinimalFileManager
         * https://github.com/broncowdd/BoZoN
@@ -207,7 +209,7 @@
         * [ ] HP39AscC
         * [ ] HP39AscA (HP39DIR.000)
         * [x] bmp2grob2aplet / [bmp2program](https://github.com/Arnie97/grob-maker)
-            - [ ] flask-upload
+            - [ ] bottle & dropzone
         * [ ] grayscale bitmaps
 - [txt2sketch](https://github.com/Arnie97/neko-notepad/tree/txt2sketch)
     + [x] txt2bmp / bitmap structure
@@ -224,7 +226,7 @@
     + [ ] lua modules
     + [x] [mwclient](https://github.com/mwclient/mwclient)
         * [x] gevents / ~~asyncio~~
-        * [ ] `json` / `configparser`
+        * [x] `json` / `configparser`
         * [ ] `[[Commons:Special:Search/Expwy name.png]]`
 - [x] [CoolQ Bot](https://cqp.cc/t/15124)
     + [x] [emu-screenshot](https://github.com/Arnie97/emu-screenshot)
@@ -235,8 +237,8 @@
     + [ ] macOS
 - [ ] [signin](https://github.com/Arnie97/signin) / refresher
     + [ ] production keep-alive
-        * [ ] sklse
-        * [ ] chrono miner (http) / USB
+        * [x] sklse
+        * [x] [chrono miner](https://ip.ext.io) / USB
         * [x] dynamic dns
         * [x] router reset
         * [ ] daocloud
@@ -298,6 +300,7 @@
 - [ ] APN Proxy
 - [ ] RPi / OpenWRT
     + [ ] systemd
+        * [x] [uwsgi](http://uwsgi-docs.readthedocs.io/en/latest/Vars.html)
         * [ ] [timer](https://wiki.archlinux.org/index.php/Systemd/Timers)
     + [ ] iptables
     + [ ] sendmail
@@ -310,7 +313,7 @@
 - [ ] OpenWRT, Tomato, IOS & ROS
     + [ ] WGR614 v8
     + [ ] TL-WDR5620
-    + [ ] Phicomm K1S & K2
+    + [ ] Phicomm x4
     + [ ] H3C WA4320H
 - [ ] dns-mirror ([dnschef](https://github.com/iphelix/dnschef/blob/master/dnschef.py), [dnsproxy](https://github.com/vietor/dnsproxy))
     + [ ] receive
@@ -353,8 +356,9 @@
     + [ ] USnooBie / [USBaspLoader](https://github.com/baerwolf/USBaspLoader)
 
 #### Back-end Development
-- uwsgi-emperor
-- free-bike
+- Magic Library
+- Online Judge
+- Free Bikes
 - [12-factor](http://12factor.net)
     + [ ] Store CONFIG in the environment
     + [ ] DISPOSABILITY: Robustness with fast startup and graceful shutdown
