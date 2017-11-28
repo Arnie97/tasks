@@ -241,21 +241,16 @@
         * [x] [chrono miner](https://ip.ext.io) / USB
         * [x] dynamic dns
         * [x] router reset
-        * [ ] daocloud
         * [ ] idc789
     + [ ] community karma
         * [ ] v2ex
-        * [ ] tieba
         * [ ] cncalc / discuz
     + [ ] general equivalents
         * [ ] click CloudAppLink
         * [ ] eBesucher
-        * [ ] jd
         * [ ] taobao
-- [ ] uaq-stat / uptime / [psr-portal](https://github.com/Arnie97/psr-portal) / [Qunee](http://qunee.com)
+- [x] uaq-stat / uptime / [psr-portal](https://github.com/Arnie97/psr-portal) / [Qunee](http://qunee.com)
 - [ ] ~~[opac-renew](https://github.com/Arnie97/rush-hour)~~
-    + [x] ajax renew
-    + [ ] data persistence
 - [ ] ~~kirakira~~ - superseded by [DanmakuPie](https://github.com/DanmakuPie/Native-Client)
 
 #### [Kindle Express](https://github.com/Arnie97/kindle-express)
