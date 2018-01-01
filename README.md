@@ -41,6 +41,7 @@
     + [ ] [TensorFlow](https://www.tensorflow.org/get_started/)
 - NLP
     + [ ] Keyword extraction
+        * [ ] TF-IDF
     + [ ] Abstract generation
 - Libraries
     + [x] NumPy
@@ -104,7 +105,6 @@
 - Sublime Text
     + [ ] Javascript Console: `Glue` Input, `PyV8` Process, `SFTP` Output
     + [ ] PackageDev file type meta patch
-    + [ ] Compiler info navigation
 - Visual Studio Code
     + [ ] Embedded debugger
         * [x] C / C++
@@ -129,12 +129,13 @@
     + [ ] Support x86-64
 - [ ] exchange / [pastebin](https://github.com/Arnie97/pastebin)
     + [ ] poplib / imaplib
-    + [ ] WebDAV
+    + [x] WebDAV
     + [ ] [web file manager](https://www.reddit.com/r/linux/comments/24uwjy/lightweight_alternative_to_owncloud/)
         * https://github.com/W4RH4WK/MinimalFileManager
         * https://github.com/broncowdd/BoZoN
         * https://github.com/jcampbell1/simple-file-manager
 - [ ] **emoji index** & recovery
+    + [ ] [CoolQ Bot](https://cqp.cc/t/15124)
 - [ ] TrDH Log Parser
     + [ ] Headline date
     + [ ] Day and weekday
@@ -183,6 +184,7 @@
 - [x] Mifare Classic Basics
 - [ ] [PBOC Reader](https://github.com/SpenserCai/Proxmark3-Reader)
 - [ ] Improve standalone mode
+- [ ] Data recorder
 
 #### HP 39gs / 48gII
 - https://calcwiki.org/User:Arnie97/HP_Saturn_Intro
@@ -220,36 +222,25 @@
         * [ ] Electric Workbench
         * [x] Figlet
 
-#### Campus Ecosystem & Web Scraping - The Python Perspective
+#### Web Scraping
 - [ ] MediaWiki
     + [ ] [common.js](https://zh.wikipedia.org/wiki/User:Arnie97/common.js)
-    + [ ] lua modules
+    + [ ] [lua modules](https://zh.wikipedia.org/wiki/H:FUNC)
     + [x] [mwclient](https://github.com/mwclient/mwclient)
         * [x] gevents / ~~asyncio~~
         * [x] `json` / `configparser`
         * [ ] `[[Commons:Special:Search/Expwy name.png]]`
-- [x] [CoolQ Bot](https://cqp.cc/t/15124)
-    + [x] [emu-screenshot](https://github.com/Arnie97/emu-screenshot)
     + [x] [telecode](https://github.com/Arnie97/telecode)
+        * [x] [emu-tools](https://github.com/Arnie97/emu-tools)
+        * [ ] `{{coord}}`
 - [x] [chrome-cookies](https://github.com/Arnie97/chrome-cookies)
     + [x] win32
     + [ ] linux
     + [ ] macOS
-- [ ] [signin](https://github.com/Arnie97/signin) / refresher
-    + [ ] production keep-alive
-        * [x] sklse
-        * [x] [chrono miner](https://ip.ext.io) / USB
-        * [x] dynamic dns
-        * [x] router reset
-        * [ ] idc789
-    + [ ] community karma
-        * [ ] v2ex
-        * [ ] cncalc / discuz
-    + [ ] general equivalents
-        * [ ] click CloudAppLink
-        * [ ] eBesucher
-        * [ ] taobao
-- [x] uaq-stat / uptime / [psr-portal](https://github.com/Arnie97/psr-portal) / [Qunee](http://qunee.com)
+- [ ] [signin](https://github.com/Arnie97/signin) / refresher / keep-alive
+    + [x] [chrono miner](https://ip.ext.io) / USB
+    + [ ] idc789
+* [x] uaq-stat / uptime / [psr-portal](https://github.com/Arnie97/psr-portal) / [Qunee](http://qunee.com)
 - [ ] ~~[opac-renew](https://github.com/Arnie97/rush-hour)~~
 - [ ] ~~kirakira~~ - superseded by [DanmakuPie](https://github.com/DanmakuPie/Native-Client)
 
@@ -264,7 +255,7 @@
     + [x] [katakana-terminator](https://github.com/Arnie97/katakana-terminator)
     + [x] [emu-tools](https://github.com/Arnie97/emu-tools)
     + [ ] teleporter ([read](https://github.com/JiajunW/douban2readfree)-[free](https://github.com/Ovilia/readfree-chrome-extension)) / [Huiwen OPAC API](http://202.199.26.12:8080/opac/search_rss.php?strText=9787040238969&strSearchType=isbn)
-    + [ ] CSS selectors: pseudo classes
+    + [ ] [CSS selectors](https://www.w3schools.com/cssref/css_selectors.asp)
 - [ ] Node.js
     + [ ] ES2015
         * [ ] Promises
@@ -292,7 +283,7 @@
 - [ ] Web SDR x 86duino?
 
 #### Network Infrastructure
-- [ ] APN Proxy
+- [ ] P2P over symmetric NATs
 - [ ] RPi / OpenWRT
     + [ ] systemd
         * [x] [uwsgi](http://uwsgi-docs.readthedocs.io/en/latest/Vars.html)
@@ -339,10 +330,7 @@
         * [ ] route SPI to `/E[ABZ][01]|3[12]|[TR]X[23]/`
     + [ ] DuinOS / FreeDOS
         * [ ] WinCE
-    + [ ] Linux
-        * [ ] L86duntu
-        * [ ] tiny core linux
-        * [ ] [Arch Linux](https://www.archlinux.org/news/phasing-out-i686-support/)
+    + [ ] Debian
 - USB
     + [ ] keyboard / joystick
         * [ ] FireGoose / Cactus
@@ -353,7 +341,7 @@
 #### Back-end Development
 - Magic Library
 - Online Judge
-- Free Bikes
+    + [ ] ZeroVM / NaCl
 - [12-factor](http://12factor.net)
     + [ ] Store CONFIG in the environment
     + [ ] DISPOSABILITY: Robustness with fast startup and graceful shutdown
