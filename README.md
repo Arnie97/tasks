@@ -14,6 +14,9 @@
 #### Data Structures
 - [Visualizer](http://parkjs814.github.io/AlgorithmVisualizer)
 - Graphs
+    + [ ] Search
+        * [ ] A*
+        * [ ] AO*
     + [ ] Shortest path
         * [ ] Dijkstra
         * [ ] Floyd-Warshall
@@ -41,7 +44,7 @@
     + [ ] [TensorFlow](https://www.tensorflow.org/get_started/)
 - NLP
     + [ ] Keyword extraction
-        * [ ] TF-IDF
+        * [x] TF-IDF
     + [ ] Abstract generation
 - Libraries
     + [x] NumPy
@@ -272,7 +275,14 @@
 - [ ] Web Panels
     + [x] [Portainer](https://portainer.io)
     + [ ] [Rancher](http://rancher.com/rancher)
-- [ ] Heroku Hosting
+- [x] Heroku Hosting
+    + [ ] WebSocket
+        * [ ] [Nginx Dynamic Modules](https://www.nginx.com/blog/creating-installable-packages-dynamic-modules/)
+    + [ ] [Wine](https://github.com/RobberPhex/docker-wine-coolq/blob/master/Dockerfile)
+        * [ ] VNC Server
+    + [ ] Jupyter Notebook
+        * [ ] [PID reaping](http://jupyter-notebook.readthedocs.io/en/stable/public_server.html)
+        * [ ] [Other Languages](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)
 
 
 ### Project Silverbridge - Unlimited Access
