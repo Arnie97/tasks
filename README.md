@@ -184,10 +184,14 @@
 ### Five Elements - Production Environment
 
 #### [Proxmark 3](https://github.com/Arnie97/prox)
-- [x] Mifare Classic Basics
-- [ ] [PBOC Reader](https://github.com/SpenserCai/Proxmark3-Reader)
-- [ ] Improve standalone mode
-- [ ] Data recorder
+- [x] Mifare Classic
+    + [x] Lua Logger
+    + [ ] Standalone dump emulator
+- [ ] Smart Cards
+    + [ ] [ISO 15693](https://github.com/Proxmark/proxmark3/wiki/Generic-ISO15693-Ops)
+    + [ ] ISO 7816-4
+    + [ ] [PBOC](https://github.com/SpenserCai/Proxmark3-Reader)
+    + [ ] [ePassport](https://github.com/andrew867/epassportviewer/tree/master/pypassport-2.0/pypassport)
 
 #### HP 39gs / 48gII
 - https://calcwiki.org/User:Arnie97/HP_Saturn_Intro
