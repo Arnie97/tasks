@@ -246,6 +246,7 @@
     + [ ] macOS
 - [ ] [signin](https://github.com/Arnie97/signin) / refresher / keep-alive
     + [x] [chrono miner](https://ip.ext.io) / USB
+        * [ ] phantom-based precise geolocation
     + [ ] idc789
 * [x] uaq-stat / uptime / [psr-portal](https://github.com/Arnie97/psr-portal) / [Qunee](http://qunee.com)
 - [ ] ~~[opac-renew](https://github.com/Arnie97/rush-hour)~~
@@ -258,9 +259,8 @@
 
 #### JavaScript
 - [x] GreaseMonkey / userscript
-    + [x] [milky-highlight](https://github.com/Arnie97/milky-highlight)
-    + [x] [katakana-terminator](https://github.com/Arnie97/katakana-terminator)
-    + [x] [emu-tools](https://github.com/Arnie97/emu-tools)
+    + [ ] [Inject scripts on Android](https://greasyfork.org/forum/discussion/34547)
+        * [ ] [vConsole](https://github.com/Tencent/vConsole)
     + [ ] teleporter ([read](https://github.com/JiajunW/douban2readfree)-[free](https://github.com/Ovilia/readfree-chrome-extension)) / [Huiwen OPAC API](http://202.199.26.12:8080/opac/search_rss.php?strText=9787040238969&strSearchType=isbn)
     + [ ] [CSS selectors](https://www.w3schools.com/cssref/css_selectors.asp)
 - [ ] Node.js
@@ -316,9 +316,7 @@
     + [ ] Phicomm x4
     + [ ] H3C WA4320H
 - [ ] dns-mirror ([dnschef](https://github.com/iphelix/dnschef/blob/master/dnschef.py), [dnsproxy](https://github.com/vietor/dnsproxy))
-    + [ ] receive
-    + [ ] comprehend
-    + [ ] respond
+    + [ ] regex support?
 - [x] ~~GeoIP / 17monipdb~~ - superseded by [17mon_cpy](https://github.com/fengidri/17mon_cpy) and [others](https://github.com/search?q=17mon)
 - [x] ~~ipyconfig~~ - superseded by MentoHUST
 
