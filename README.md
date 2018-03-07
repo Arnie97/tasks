@@ -5,18 +5,12 @@
 #### Operating Systems
 - [ ] The Banker's algorithm
 - [ ] STEins Is Not a Shell
-
-#### Computer Architecture
-- [x] IEEE 754
-- [ ] Cache
 - [ ] Bootloader / Stage 2
+- [ ] Hadoop / Spark Ecosystem
 
 #### Data Structures
 - [Visualizer](http://parkjs814.github.io/AlgorithmVisualizer)
 - Graphs
-    + [ ] Search
-        * [ ] A*
-        * [ ] AO*
     + [ ] Shortest path
         * [ ] Dijkstra
         * [ ] Floyd-Warshall
@@ -25,10 +19,6 @@
         * [ ] Prim
         * [ ] Kruskal
     + [ ] Network flows
-- Trees
-    + [x] AVL
-    + [ ] B-tree
-    + [ ] B+tree
 - DP
 - http://tyvj.cn / ~~tyvj-mobile~~
 - https://leetcode.com
@@ -52,8 +42,6 @@
     + [x] [PyNLPIR](http://pynlpir.readthedocs.io/en/latest/tutorial.html)
     + [ ] [FNLP](https://github.com/FudanNLP/fnlp/wiki/quicktutorial) / Maven
     + [x] [HanLP](https://github.com/hankcs/HanLP)
-    + [ ] Hadoop / Spark Ecosystem
-        * [ ] [Wikipedia Hashtags](https://zh.wikipedia.org/wiki/WP:BOTR)
 
 #### Lisp & Software Engineering
 - [ ] TLS
@@ -217,10 +205,10 @@
     + [ ] txt2note
         * [ ] HP39AscC
         * [ ] HP39AscA (HP39DIR.000)
-        * [x] bmp2grob2aplet / [bmp2program](https://github.com/Arnie97/grob-maker)
-            - [ ] bottle & dropzone
-        * [ ] grayscale bitmaps
 - [txt2sketch](https://github.com/Arnie97/neko-notepad/tree/txt2sketch)
+    + [x] bmp2grob2aplet / [bmp2program](https://github.com/Arnie97/grob-maker)
+        * [ ] bottle & dropzone
+        * [ ] grayscale bitmaps
     + [x] txt2bmp / bitmap structure
     + [ ] DOSBox
         * [ ] Windows 95?
@@ -245,10 +233,8 @@
     + [ ] linux
     + [ ] macOS
 - [ ] [signin](https://github.com/Arnie97/signin) / refresher / keep-alive
-    + [x] [chrono miner](https://ip.ext.io) / USB
-        * [ ] phantom-based precise geolocation
     + [ ] idc789
-* [x] uaq-stat / uptime / [psr-portal](https://github.com/Arnie97/psr-portal) / [Qunee](http://qunee.com)
+* [x] uaq-stat / [psr-portal](https://github.com/Arnie97/psr-portal) / [Qunee](http://qunee.com)
 - [ ] ~~[opac-renew](https://github.com/Arnie97/rush-hour)~~
 - [ ] ~~kirakira~~ - superseded by [DanmakuPie](https://github.com/DanmakuPie/Native-Client)
 
@@ -294,7 +280,6 @@
 #### Radio Transmitters
 - [ ] UV-5R / USB OTG
 - [ ] [QTCSDR](https://github.com/ha7ilm/qtcsdr)
-- [ ] Web SDR x 86duino?
 
 #### Network Infrastructure
 - [ ] P2P over symmetric NATs
@@ -308,8 +293,6 @@
     + [x] iwconfig
     + [x] odhcp6d / ndppd
     + [ ] tb_userspace
-    + [ ] privoxy
-    + [ ] knockd
 - [ ] OpenWRT, Tomato, IOS & ROS
     + [ ] WGR614 v8
     + [ ] TL-WDR5620
@@ -317,11 +300,14 @@
     + [ ] H3C WA4320H
 - [ ] dns-mirror ([dnschef](https://github.com/iphelix/dnschef/blob/master/dnschef.py), [dnsproxy](https://github.com/vietor/dnsproxy))
     + [ ] regex support?
-- [x] ~~GeoIP / 17monipdb~~ - superseded by [17mon_cpy](https://github.com/fengidri/17mon_cpy) and [others](https://github.com/search?q=17mon)
-- [x] ~~ipyconfig~~ - superseded by MentoHUST
+- [x] [chrono miner](https://ip.ext.io)
+    + [x] ~~[17mon_cpy](https://github.com/fengidri/17mon_cpy)~~
+    + [ ] phantom-based precise geolocation
+    + [ ] USB
 
 #### Embedded Systems
 - [NodeMCU](https://github.com/Arnie97/nodemcu-clock) / ESP8266
+    + [ ] thermometer
     + [ ] [PlatformIO](http://platformio.org/get-started)
 - remote switch
     + [ ] restful server
@@ -354,6 +340,8 @@
 - Magic Library
 - Online Judge
     + [ ] ZeroVM / NaCl
+- Celery
+- RabbitMQ / ØMQ
 - [12-factor](http://12factor.net)
     + [ ] Store CONFIG in the environment
     + [ ] DISPOSABILITY: Robustness with fast startup and graceful shutdown
