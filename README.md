@@ -10,17 +10,19 @@
 
 #### Data Structures
 - [Visualizer](http://parkjs814.github.io/AlgorithmVisualizer)
-- Graphs
+- Graph Theory
     + [ ] Shortest path
-        * [ ] Dijkstra
+        * [x] Dijkstra
         * [ ] Floyd-Warshall
         * [ ] Bellman-Ford
     + [ ] MST
         * [ ] Prim
         * [ ] Kruskal
     + [ ] Network flows
+        * [ ] Ford-Fulkerson
+        * [ ] Dinic
+    + [ ] Set cover
 - DP
-- http://tyvj.cn / ~~tyvj-mobile~~
 - https://leetcode.com
 - http://codeforces.com
 
@@ -121,10 +123,7 @@
 - [ ] exchange / [pastebin](https://github.com/Arnie97/pastebin)
     + [ ] poplib / imaplib
     + [x] WebDAV
-    + [ ] [web file manager](https://www.reddit.com/r/linux/comments/24uwjy/lightweight_alternative_to_owncloud/)
-        * https://github.com/W4RH4WK/MinimalFileManager
-        * https://github.com/broncowdd/BoZoN
-        * https://github.com/jcampbell1/simple-file-manager
+    + [ ] [lightweight](https://www.reddit.com/r/linux/comments/24uwjy/lightweight_alternative_to_owncloud/) [web](https://github.com/W4RH4WK/MinimalFileManager) [file](https://github.com/broncowdd/BoZoN) [managers](https://github.com/jcampbell1/simple-file-manager)
 - [ ] **emoji index** & recovery
     + [ ] [CoolQ Bot](https://cqp.cc/t/15124)
 - [ ] TrDH Log Parser
@@ -224,6 +223,7 @@
     + [x] [mwclient](https://github.com/mwclient/mwclient)
         * [x] gevents / ~~asyncio~~
         * [x] `json` / `configparser`
+        * [ ] `difflib`
         * [ ] `[[Commons:Special:Search/Expwy name.png]]`
     + [x] [telecode](https://github.com/Arnie97/telecode)
         * [x] [emu-tools](https://github.com/Arnie97/emu-tools)
@@ -245,7 +245,7 @@
 
 #### JavaScript
 - [x] GreaseMonkey / userscript
-    + [ ] [Inject scripts on Android](https://greasyfork.org/forum/discussion/34547)
+    + [ ] [Inject scripts on Android](https://stackoverflow.com/a/42569828)
         * [ ] [vConsole](https://github.com/Tencent/vConsole)
     + [ ] teleporter ([read](https://github.com/JiajunW/douban2readfree)-[free](https://github.com/Ovilia/readfree-chrome-extension)) / [Huiwen OPAC API](http://202.199.26.12:8080/opac/search_rss.php?strText=9787040238969&strSearchType=isbn)
     + [ ] [CSS selectors](https://www.w3schools.com/cssref/css_selectors.asp)
@@ -286,7 +286,7 @@
 - [ ] RPi / OpenWRT
     + [ ] systemd
         * [x] [uwsgi](http://uwsgi-docs.readthedocs.io/en/latest/Vars.html)
-        * [ ] [timer](https://wiki.archlinux.org/index.php/Systemd/Timers)
+        * [x] [timer](https://wiki.archlinux.org/index.php/Systemd/Timers)
     + [ ] iptables
     + [ ] sendmail
     + [ ] quagga / zebra
