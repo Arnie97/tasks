@@ -34,16 +34,15 @@
     + [ ] http://ml.memect.com/article/machine-learning-guide.html
     + [ ] [Caffe](http://caffe.berkeleyvision.org/)
     + [ ] [TensorFlow](https://www.tensorflow.org/get_started/)
-- NLP
+- NLP / IR
     + [ ] Keyword extraction
         * [x] TF-IDF
     + [ ] Abstract generation
-- Libraries
-    + [x] NumPy
-    + [ ] Pandas
     + [x] [PyNLPIR](http://pynlpir.readthedocs.io/en/latest/tutorial.html)
     + [ ] [FNLP](https://github.com/FudanNLP/fnlp/wiki/quicktutorial) / Maven
     + [x] [HanLP](https://github.com/hankcs/HanLP)
+- Libraries
+    + [ ] Pandas
 
 #### Lisp & Software Engineering
 - [ ] TLS
@@ -53,6 +52,7 @@
 - [ ] UML
 
 #### Haskell & PLT
+- [ ] Mathematical Logic
 - [ ] Magic Haskell
 - [ ] LYAHFGG
 - [ ] Type / Proof / Category Theory
@@ -105,6 +105,7 @@
     + [ ] Font Ligatures / Refined / [AFDKO](www.adobe.com/devnet/opentype/afdko.html)
         * [ ] Docker / TravisCI
         * [ ] Draw ligature outlines
+            - [ ] Full width ligatures
 - Vim & Bash
     + [x] [NeoVim](https://github.com/JAremko/alpine-vim)
         * [ ] [Cscope / Ctags / Taglist](http://guqian110.github.io/pages/2015/01/25/learning_vim_ctags_cscope_taglist.html)
@@ -245,18 +246,16 @@
 
 #### JavaScript
 - [x] GreaseMonkey / userscript
-    + [ ] [Inject scripts on Android](https://stackoverflow.com/a/42569828)
-        * [ ] [vConsole](https://github.com/Tencent/vConsole)
+    + [x] [Inject scripts on Android](https://github.com/Arnie97/webview-inject)
+        * [x] [vConsole](https://github.com/Tencent/vConsole)
     + [ ] teleporter ([read](https://github.com/JiajunW/douban2readfree)-[free](https://github.com/Ovilia/readfree-chrome-extension)) / [Huiwen OPAC API](http://202.199.26.12:8080/opac/search_rss.php?strText=9787040238969&strSearchType=isbn)
     + [ ] [CSS selectors](https://www.w3schools.com/cssref/css_selectors.asp)
-- [ ] Node.js
-    + [ ] ES2015
-        * [ ] Promises
+- [ ] ES2015
+    + [ ] Promises
+- [ ] Canvas
+    + [ ] [FreeSMS](http://www.afreesms.com/freesms/) Remake
 - [ ] [~~Frameworks~~](http://www.allenpike.com/2015/javascript-framework-fatigue/)
 - [Headless Environments](https://github.com/dhamaniasad/HeadlessBrowsers) & [Functional Testing](http://code.tutsplus.com/tutorials/headless-functional-testing-with-selenium-and-phantomjs--net-30545)
-    + [x] Moerail
-    + [ ] [FreeSMS](http://www.afreesms.com/freesms/) Remake
-        * [ ] Canvas
 
 #### Docker CaaS
 - [ ] Swarm
@@ -284,9 +283,9 @@
 #### Network Infrastructure
 - [ ] P2P over symmetric NATs
 - [ ] RPi / OpenWRT
-    + [ ] systemd
+    + [x] [systemd](https://wiki.archlinux.org/index.php/Systemd)
         * [x] [uwsgi](http://uwsgi-docs.readthedocs.io/en/latest/Vars.html)
-        * [x] [timer](https://wiki.archlinux.org/index.php/Systemd/Timers)
+        * [x] [timer](http://www.jinbuguo.com/systemd/systemd.time.html)
     + [ ] iptables
     + [ ] sendmail
     + [ ] quagga / zebra
@@ -317,10 +316,8 @@
 - [oscilloscope](https://github.com/Arnie97/oscilloscope)
     + [ ] trigger
     + [ ] SPI / OLED
-        * [ ] avr
-        * [ ] rpi
-        * [ ] 86duino
-    + [ ] framebuffer driver
+        * [ ] avr / 86duino
+        * [ ] framebuffer driver
     + [ ] probe / BNC connector
 - 86duino
     + [ ] Crossbar
