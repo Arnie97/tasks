@@ -34,13 +34,14 @@
     + [ ] http://ml.memect.com/article/machine-learning-guide.html
     + [ ] [Caffe](http://caffe.berkeleyvision.org/)
     + [ ] [TensorFlow](https://www.tensorflow.org/get_started/)
+    + [ ] [Keras](https://keras.io/)
 - NLP / IR
     + [ ] Keyword extraction
         * [x] TF-IDF
     + [ ] Abstract generation
     + [x] [PyNLPIR](http://pynlpir.readthedocs.io/en/latest/tutorial.html)
-    + [ ] [FNLP](https://github.com/FudanNLP/fnlp/wiki/quicktutorial) / Maven
-    + [x] [HanLP](https://github.com/hankcs/HanLP)
+          [FNLP](https://github.com/FudanNLP/fnlp/wiki/quicktutorial)
+          [HanLP](https://github.com/hankcs/HanLP)
 - Libraries
     + [ ] Pandas
 
@@ -221,6 +222,7 @@
 - [ ] MediaWiki
     + [ ] [common.js](https://zh.wikipedia.org/wiki/User:Arnie97/common.js)
     + [ ] [lua modules](https://zh.wikipedia.org/wiki/H:FUNC)
+        * [ ] [`{{ruby}}`](https://zh.wikipedia.org/wiki/T:ruby)
     + [x] [mwclient](https://github.com/mwclient/mwclient)
         * [x] gevents / ~~asyncio~~
         * [x] `json` / `configparser`
@@ -250,10 +252,12 @@
         * [x] [vConsole](https://github.com/Tencent/vConsole)
     + [ ] teleporter ([read](https://github.com/JiajunW/douban2readfree)-[free](https://github.com/Ovilia/readfree-chrome-extension)) / [Huiwen OPAC API](http://202.199.26.12:8080/opac/search_rss.php?strText=9787040238969&strSearchType=isbn)
     + [ ] [CSS selectors](https://www.w3schools.com/cssref/css_selectors.asp)
+    + [ ] [CORS](http://www.ruanyifeng.com/blog/2016/04/cors.html) on [Nginx](https://enable-cors.org/server_nginx.html)
 - [ ] ES2015
     + [ ] Promises
-- [ ] Canvas
-    + [ ] [FreeSMS](http://www.afreesms.com/freesms/) Remake
+- [ ] [FreeSMS](http://www.afreesms.com/freesms/) Remake
+    + [ ] Canvas
+    + [ ] [PhantomBuster](https://hub.phantombuster.com)
 - [ ] [~~Frameworks~~](http://www.allenpike.com/2015/javascript-framework-fatigue/)
 - [Headless Environments](https://github.com/dhamaniasad/HeadlessBrowsers) & [Functional Testing](http://code.tutsplus.com/tutorials/headless-functional-testing-with-selenium-and-phantomjs--net-30545)
 
