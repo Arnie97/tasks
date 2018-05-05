@@ -2,12 +2,6 @@
 
 ### Dynamic Programming - Academic Works
 
-#### Operating Systems
-- [ ] The Banker's algorithm
-- [ ] STEins Is Not a Shell
-- [ ] Bootloader / Stage 2
-- [ ] Hadoop / Spark Ecosystem
-
 #### Data Structures
 - [Visualizer](http://parkjs814.github.io/AlgorithmVisualizer)
 - Graph Theory
@@ -45,6 +39,13 @@
 - Libraries
     + [ ] Pandas
 
+#### Concurrent and Parallel Programming
+- [ ] The Banker's algorithm
+- [ ] Futures and Promises
+- [ ] Actor Model
+- [ ] Hadoop
+- [ ] Spark
+
 #### Lisp & Software Engineering
 - [ ] TLS
 - [ ] SICP
@@ -64,14 +65,13 @@
     - [ ] Strict subscription checks
     + [ ] Remove semicolon before line comment in a preprocessor
     + [ ] Recognize fallthrough outside case
-- Main & Error
-    + [ ] arguments
-        * [x] `--force`
-        * [ ] ~~`--chain`~~ - superseded by shebang magic
-        * [ ] `--help`
-        * [ ] `--version`
-        * [x] `--output`
-    + [ ] Delete partial outputs during an error
+    + [ ] Details for 31-series errors
+        * [x] Expected indent?
+    + [ ] Show context lines
+- Main
+    + [ ] ~~`--chain`~~ - superseded by shebang magic
+    + [ ] `--help`
+    + [ ] `--version`
 - Lexer
     + [ ] Capture illegal characters
     + [ ] Whitespaces `\f` `\n` `\r` `\t` `\v`
@@ -81,14 +81,8 @@
 - Indent & Translator
     + [ ] [Literate Milk](https://github.com/ZaneA/litc/blob/master/litc.rb.md)
     + [ ] Embedded C
-- Error reporting
-    + [ ] **Details for 31-series errors**
-        * [x] Expected indent?
-    + [ ] Show near-by lines
 - Build, test and release
     + [x] Loopback tests
-    + [ ] Makefile versioning
-    + [x] Shell script based test
     + [ ] Msys and [Linux builds](https://github.com/avege/avege/blob/master/.travis.yml) / LSB
 
 #### C++ Primer
@@ -96,13 +90,8 @@
 - [cpp-itertools](https://github.com/ryanhaining/cppitertools)
 
 #### Text Editors
-- Sublime Text
-    + [ ] Javascript Console: `Glue` Input, `PyV8` Process, `SFTP` Output
-    + [ ] PackageDev file type meta patch
-- Visual Studio Code
-    + [ ] Embedded debugger
-        * [x] C / C++
-        * [ ] Python
+- Sublime Text & Visual Studio Code
+    + [ ] iPDB
     + [ ] Font Ligatures / Refined / [AFDKO](www.adobe.com/devnet/opentype/afdko.html)
         * [ ] Docker / TravisCI
         * [ ] Draw ligature outlines
@@ -163,8 +152,7 @@
 - [ ] Tree Diagram
     + [ ] Indextan
     + [ ] IDMonitor
-- [ ] _uno+git-ignore / _pastebin / noip
-- [ ] console86 / multimeter / unfinished
+- [ ] _git_ignore / _others
 - [ ] ~~[restful](https://github.com/Arnie97/restful)~~ - archived in [your-hook](https://github.com/Arnie97/your-hook), duplicated in pomodoro-timer, superseded by [FadeTop](http://www.fadetop.com/tutorials.html)
     + [x] `Shell_NotifyIcon()` & balloon
     + [ ] `SetTimer()`
@@ -225,11 +213,9 @@
         * [ ] [`{{ruby}}`](https://zh.wikipedia.org/wiki/T:ruby)
     + [x] [mwclient](https://github.com/mwclient/mwclient)
         * [x] gevents / ~~asyncio~~
-        * [x] `json` / `configparser`
         * [ ] `difflib`
         * [ ] `[[Commons:Special:Search/Expwy name.png]]`
     + [x] [telecode](https://github.com/Arnie97/telecode)
-        * [x] [emu-tools](https://github.com/Arnie97/emu-tools)
         * [ ] `{{coord}}`
 - [x] [chrome-cookies](https://github.com/Arnie97/chrome-cookies)
     + [x] win32
@@ -254,7 +240,6 @@
     + [ ] [CSS selectors](https://www.w3schools.com/cssref/css_selectors.asp)
     + [ ] [CORS](http://www.ruanyifeng.com/blog/2016/04/cors.html) on [Nginx](https://enable-cors.org/server_nginx.html)
 - [ ] ES2015
-    + [ ] Promises
 - [ ] [FreeSMS](http://www.afreesms.com/freesms/) Remake
     + [ ] Canvas
     + [ ] [PhantomBuster](https://hub.phantombuster.com)
@@ -344,14 +329,9 @@
 - Celery
 - RabbitMQ / ØMQ
 - [12-factor](http://12factor.net)
-    + [ ] Store CONFIG in the environment
-    + [ ] DISPOSABILITY: Robustness with fast startup and graceful shutdown
     + [ ] Treat LOGS as event streams
-    + [ ] Run ADMIN TASKS as one-off processes
 - RDBMS
     + [x] Entity-relationship model
-    + [x] Schema migration
-    + [ ] Join
     + [ ] ORM
         * [ ] PonyORM
         * [ ] SQLAlchemy
