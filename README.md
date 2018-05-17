@@ -117,6 +117,7 @@
     + [ ] [lightweight](https://www.reddit.com/r/linux/comments/24uwjy/lightweight_alternative_to_owncloud/) [web](https://github.com/W4RH4WK/MinimalFileManager) [file](https://github.com/broncowdd/BoZoN) [managers](https://github.com/jcampbell1/simple-file-manager)
 - [ ] **emoji index** & recovery
     + [ ] [CoolQ Bot](https://cqp.cc/t/15124)
+    + [ ] Machine Learning in Computer Vision
 - [ ] TrDH Log Parser
     + [ ] Headline date
     + [ ] Day and weekday
@@ -218,10 +219,9 @@
     + [x] [telecode](https://github.com/Arnie97/telecode)
         * [ ] `{{coord}}`
 - [x] [chrome-cookies](https://github.com/Arnie97/chrome-cookies)
-    + [x] win32
-    + [ ] linux
-    + [ ] macOS
-- [ ] [signin](https://github.com/Arnie97/signin) / refresher / keep-alive
+    + [ ] [pycookiecheat](https://github.com/n8henrie/pycookiecheat)
+    + [ ] linux & macOS cipher
+- [ ] [signin](https://github.com/Arnie97/signin) / refresher
     + [ ] idc789
 * [x] uaq-stat / [psr-portal](https://github.com/Arnie97/psr-portal) / [Qunee](http://qunee.com)
 - [ ] ~~[opac-renew](https://github.com/Arnie97/rush-hour)~~
@@ -238,7 +238,7 @@
         * [x] [vConsole](https://github.com/Tencent/vConsole)
     + [ ] teleporter ([read](https://github.com/JiajunW/douban2readfree)-[free](https://github.com/Ovilia/readfree-chrome-extension)) / [Huiwen OPAC API](http://202.199.26.12:8080/opac/search_rss.php?strText=9787040238969&strSearchType=isbn)
     + [ ] [CSS selectors](https://www.w3schools.com/cssref/css_selectors.asp)
-    + [ ] [CORS](http://www.ruanyifeng.com/blog/2016/04/cors.html) on [Nginx](https://enable-cors.org/server_nginx.html)
+    + [x] [CORS](http://www.ruanyifeng.com/blog/2016/04/cors.html) on [Nginx](https://gist.github.com/Stanback/7145487)
 - [ ] ES2015
 - [ ] [FreeSMS](http://www.afreesms.com/freesms/) Remake
     + [ ] Canvas
@@ -266,7 +266,7 @@
 ### Project Silverbridge - Unlimited Access
 
 #### Radio Transmitters
-- [ ] UV-5R / USB OTG
+- [ ] [UV-5R](https://radiodoc.github.io/uv-5r)
 - [ ] [QTCSDR](https://github.com/ha7ilm/qtcsdr)
 
 #### Network Infrastructure
@@ -288,7 +288,7 @@
     + [ ] H3C WA4320H
 - [ ] dns-mirror ([dnschef](https://github.com/iphelix/dnschef/blob/master/dnschef.py), [dnsproxy](https://github.com/vietor/dnsproxy))
     + [ ] regex support?
-- [x] [chrono miner](https://ip.ext.io)
+- [x] [heartbeat](https://ip.ext.io)
     + [x] ~~[17mon_cpy](https://github.com/fengidri/17mon_cpy)~~
     + [ ] phantom-based precise geolocation
     + [ ] USB
