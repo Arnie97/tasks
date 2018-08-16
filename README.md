@@ -108,15 +108,12 @@
 - [x] CintaNotes
 - [ ] Clipboard Stack
 - [ ] Compaq nx6120 - **Share clipboard, files and display among devices**
-- [ ] Tencent QQ Int'l Portable
-    + [ ] Decompile
-    + [ ] Support x86-64
 - [ ] exchange / [pastebin](https://github.com/Arnie97/pastebin)
     + [ ] poplib / imaplib
     + [x] WebDAV
     + [ ] [lightweight](https://www.reddit.com/r/linux/comments/24uwjy/lightweight_alternative_to_owncloud/) [web](https://github.com/W4RH4WK/MinimalFileManager) [file](https://github.com/broncowdd/BoZoN) [managers](https://github.com/jcampbell1/simple-file-manager)
 - [ ] **emoji index** & recovery
-    + [ ] [CoolQ Bot](https://cqp.cc/t/15124)
+    + [ ] [CoolQ Bot](https://d.cqp.me/Pro/CQ码)
     + [ ] Machine Learning in Computer Vision
 - [ ] TrDH Log Parser
     + [ ] Headline date
@@ -154,6 +151,9 @@
     + [ ] Indextan
     + [ ] IDMonitor
 - [ ] _git_ignore / _others
+- [ ] signin / refresher
+    + [ ] idc789
+- [x] uaq-stat / psr-portal / [Qunee](http://qunee.com)
 - [ ] ~~[restful](https://github.com/Arnie97/restful)~~ - archived in [your-hook](https://github.com/Arnie97/your-hook), duplicated in pomodoro-timer, superseded by [FadeTop](http://www.fadetop.com/tutorials.html)
     + [x] `Shell_NotifyIcon()` & balloon
     + [ ] `SetTimer()`
@@ -221,9 +221,6 @@
 - [x] [chrome-cookies](https://github.com/Arnie97/chrome-cookies)
     + [ ] [pycookiecheat](https://github.com/n8henrie/pycookiecheat)
     + [ ] linux & macOS cipher
-- [ ] [signin](https://github.com/Arnie97/signin) / refresher
-    + [ ] idc789
-* [x] uaq-stat / [psr-portal](https://github.com/Arnie97/psr-portal) / [Qunee](http://qunee.com)
 - [ ] ~~[opac-renew](https://github.com/Arnie97/rush-hour)~~
 - [ ] ~~kirakira~~ - superseded by [DanmakuPie](https://github.com/DanmakuPie/Native-Client)
 
@@ -256,8 +253,8 @@
 - [x] Heroku Hosting
     + [ ] WebSocket
         * [ ] [Nginx Dynamic Modules](https://www.nginx.com/blog/creating-installable-packages-dynamic-modules/)
-    + [ ] [Wine](https://github.com/RobberPhex/docker-wine-coolq/blob/master/Dockerfile)
-        * [ ] VNC Server
+- [ ] Online Judge
+    + [ ] ZeroVM / NaCl
     + [ ] Jupyter Notebook
         * [ ] [PID reaping](http://jupyter-notebook.readthedocs.io/en/stable/public_server.html)
         * [ ] [Other Languages](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)
@@ -290,8 +287,6 @@
     + [ ] regex support?
 - [x] [heartbeat](https://ip.ext.io)
     + [x] ~~[17mon_cpy](https://github.com/fengidri/17mon_cpy)~~
-    + [ ] phantom-based precise geolocation
-    + [ ] USB
 
 #### Embedded Systems
 - [NodeMCU](https://github.com/Arnie97/nodemcu-clock) / ESP8266
@@ -313,7 +308,6 @@
         * [x] restore to default
         * [ ] route SPI to `/E[ABZ][01]|3[12]|[TR]X[23]/`
     + [ ] DuinOS / FreeDOS
-        * [ ] WinCE
     + [ ] Debian
 - USB
     + [ ] keyboard / joystick
@@ -324,8 +318,8 @@
 
 #### Back-end Development
 - Magic Library
-- Online Judge
-    + [ ] ZeroVM / NaCl
+- Graphite
+    + [ ] Grafana
 - Celery
 - RabbitMQ / ØMQ
 - [12-factor](http://12factor.net)
