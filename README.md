@@ -36,8 +36,6 @@
     + [x] [PyNLPIR](http://pynlpir.readthedocs.io/en/latest/tutorial.html)
           [FNLP](https://github.com/FudanNLP/fnlp/wiki/quicktutorial)
           [HanLP](https://github.com/hankcs/HanLP)
-- Libraries
-    + [ ] Pandas
 
 #### Concurrent and Parallel Programming
 - [ ] The Banker's algorithm
@@ -92,14 +90,10 @@
 #### Text Editors
 - Sublime Text & Visual Studio Code
     + [ ] iPDB
-    + [ ] Font Ligatures / Refined / [AFDKO](www.adobe.com/devnet/opentype/afdko.html)
+    + [ ] Font Ligatures / Refined / AFDKO
         * [ ] Docker / TravisCI
         * [ ] Draw ligature outlines
-            - [ ] Full width ligatures
-- Vim & Bash
-    + [x] [NeoVim](https://github.com/JAremko/alpine-vim)
-        * [ ] [Cscope / Ctags / Taglist](http://guqian110.github.io/pages/2015/01/25/learning_vim_ctags_cscope_taglist.html)
-    + [x] Sed & Awk
+- [NeoVim](https://github.com/JAremko/alpine-vim)
 
 
 ### Historical Writer - Data Persistence
@@ -214,9 +208,8 @@
         * [ ] [`{{ruby}}`](https://zh.wikipedia.org/wiki/T:ruby)
     + [x] [mwclient](https://github.com/mwclient/mwclient)
         * [x] gevents / ~~asyncio~~
-        * [ ] `difflib`
+        * [x] `difflib`
         * [ ] `[[Commons:Special:Search/Expwy name.png]]`
-    + [x] [telecode](https://github.com/Arnie97/telecode)
         * [ ] `{{coord}}`
 - [x] [chrome-cookies](https://github.com/Arnie97/chrome-cookies)
     + [ ] [pycookiecheat](https://github.com/n8henrie/pycookiecheat)
@@ -231,8 +224,6 @@
 
 #### JavaScript
 - [x] GreaseMonkey / userscript
-    + [x] [Inject scripts on Android](https://github.com/Arnie97/webview-inject)
-        * [x] [vConsole](https://github.com/Tencent/vConsole)
     + [ ] teleporter ([read](https://github.com/JiajunW/douban2readfree)-[free](https://github.com/Ovilia/readfree-chrome-extension)) / [Huiwen OPAC API](http://202.199.26.12:8080/opac/search_rss.php?strText=9787040238969&strSearchType=isbn)
     + [ ] [CSS selectors](https://www.w3schools.com/cssref/css_selectors.asp)
     + [x] [CORS](http://www.ruanyifeng.com/blog/2016/04/cors.html) on [Nginx](https://gist.github.com/Stanback/7145487)
@@ -247,9 +238,6 @@
 - [ ] Swarm
 - [ ] Kubernetes
 - [ ] Others (Deis, Dokku, Flynn, Fleet)
-- [ ] Web Panels
-    + [x] [Portainer](https://portainer.io)
-    + [ ] [Rancher](http://rancher.com/rancher)
 - [x] Heroku Hosting
     + [ ] WebSocket
         * [ ] [Nginx Dynamic Modules](https://www.nginx.com/blog/creating-installable-packages-dynamic-modules/)
@@ -324,11 +312,6 @@
 - RabbitMQ / ØMQ
 - [12-factor](http://12factor.net)
     + [ ] Treat LOGS as event streams
-- RDBMS
-    + [x] Entity-relationship model
-    + [ ] ORM
-        * [ ] PonyORM
-        * [ ] SQLAlchemy
 
 
 ## Tips
