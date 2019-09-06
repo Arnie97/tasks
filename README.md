@@ -94,20 +94,27 @@
         * [ ] Docker / TravisCI
         * [ ] Draw ligature outlines
 - [NeoVim](https://github.com/JAremko/alpine-vim)
+    + [ ] Git Submodules
+    + [ ] Optional Key Bindings
+    + [ ] [Camel Case](https://github.com/arthurxavierx/vim-caser) [Coercion](https://github.com/tpope/vim-abolish/blob/master/plugin/abolish.vim) & [Motion](https://github.com/bkad/CamelCaseMotion)
+    + [ ] [Clever F](https://github.com/rhysd/clever-f.vim/issues/11)
+    + [ ] [MRU Toggle](https://github.com/Arnie97/mru.vim)
+    + [ ] Clipboard Stack
 
 
 ### Historical Writer - Data Persistence
 
 #### Plain Text
 - [x] CintaNotes
-- [ ] Clipboard Stack
 - [ ] Compaq nx6120 - **Share clipboard, files and display among devices**
 - [ ] exchange / [pastebin](https://github.com/Arnie97/pastebin)
     + [ ] poplib / imaplib
+        * [ ] MTA (sendmail / postfix)
     + [x] WebDAV
     + [ ] [lightweight](https://www.reddit.com/r/linux/comments/24uwjy/lightweight_alternative_to_owncloud/) [web](https://github.com/W4RH4WK/MinimalFileManager) [file](https://github.com/broncowdd/BoZoN) [managers](https://github.com/jcampbell1/simple-file-manager)
 - [ ] **emoji index** & recovery
-    + [ ] [CoolQ Bot](https://d.cqp.me/Pro/CQ码)
+    + [x] [CoolQ Bot](https://d.cqp.me/Pro/CQ码)
+        * [ ] [Notice Fix](https://github.com/Arnie97/python-cqhttp)
     + [ ] Machine Learning in Computer Vision
 - [ ] TrDH Log Parser
     + [ ] Headline date
@@ -123,12 +130,19 @@
 - [ ] Baidu PCS + Compaq Base
     + [ ] bypy
 - [ ] JBOD sync
+- [ ] **Geotagging**
 
 #### Time Machine + Integral
 - [ ] rsync
 - [x] FastCopy
 - [ ] vshadow
 - [x] dupemerge
+
+#### [Kindle Express](https://github.com/Arnie97/kindle-express)
+- [ ] **magic library**
+- [ ] non-English pdf convert?
+- [ ] epub support?
+- [ ] filter out unsupported formats
 
 #### GitHub Archive
 - [ ] ~~eventlog reborn~~
@@ -151,6 +165,7 @@
 - [ ] ~~[restful](https://github.com/Arnie97/restful)~~ - archived in [your-hook](https://github.com/Arnie97/your-hook), duplicated in pomodoro-timer, superseded by [FadeTop](http://www.fadetop.com/tutorials.html)
     + [x] `Shell_NotifyIcon()` & balloon
     + [ ] `SetTimer()`
+    + [ ] Hydration
 
 
 ### Five Elements - Production Environment
@@ -201,7 +216,19 @@
         * [ ] Electric Workbench
         * [x] Figlet
 
-#### Web Scraping
+#### Web Backend Development
+- [ ] Introduction
+    + [ ] SQL & Relational Theory
+        * [ ] [Write Ahead Log](https://medium.com/@daniel.chia/writing-a-database-part-2-write-ahead-log-2463f5cec67a)
+    + [ ] Graphite / Grafana
+    + [ ] Celery
+    + [ ] RabbitMQ / ØMQ
+    + [ ] Redis Queue
+    + [ ] [Effective Go](https://golang.org/doc/effective_go.html) / [Go Specs](https://golang.org/doc/effective_go.html)
+    + [ ] [Building Web Application with Go](https://astaxie.gitbooks.io/build-web-application-with-golang/content/zh/04.4.html)
+    + [ ] [Advanced Go Programming Book](https://chai2010.gitbooks.io/advanced-go-programming-book/content/ch5-web/ch5-08-interface-and-web.html)
+    + [ ] [Context](http://p.agnihotry.com/post/understanding_the_context_package_in_golang/)
+    + [ ] [12-factor](http://12factor.net)
 - [ ] MediaWiki
     + [ ] [common.js](https://zh.wikipedia.org/wiki/User:Arnie97/common.js)
     + [ ] [lua modules](https://zh.wikipedia.org/wiki/H:FUNC)
@@ -214,13 +241,9 @@
 - [x] [chrome-cookies](https://github.com/Arnie97/chrome-cookies)
     + [ ] [pycookiecheat](https://github.com/n8henrie/pycookiecheat)
     + [ ] linux & macOS cipher
+- [ ] **anderson archiver**
 - [ ] ~~[opac-renew](https://github.com/Arnie97/rush-hour)~~
-- [ ] ~~kirakira~~ - superseded by [DanmakuPie](https://github.com/DanmakuPie/Native-Client)
-
-#### [Kindle Express](https://github.com/Arnie97/kindle-express)
-- [ ] non-English pdf convert?
-- [ ] epub support?
-- [ ] filter out unsupported formats
+- [ ] kirakira - ~~superseded by [DanmakuPie](https://github.com/DanmakuPie/Native-Client)~~
 
 #### JavaScript
 - [x] GreaseMonkey / userscript
@@ -230,9 +253,9 @@
 - [ ] ES2015
 - [ ] [FreeSMS](http://www.afreesms.com/freesms/) Remake
     + [ ] Canvas
-    + [ ] [PhantomBuster](https://hub.phantombuster.com)
+    + [ ] [Headless Environments](https://github.com/dhamaniasad/HeadlessBrowsers) & [Functional Testing](http://code.tutsplus.com/tutorials/headless-functional-testing-with-selenium-and-phantomjs--net-30545)
+        * [ ] [PhantomBuster](https://hub.phantombuster.com)
 - [ ] [~~Frameworks~~](http://www.allenpike.com/2015/javascript-framework-fatigue/)
-- [Headless Environments](https://github.com/dhamaniasad/HeadlessBrowsers) & [Functional Testing](http://code.tutsplus.com/tutorials/headless-functional-testing-with-selenium-and-phantomjs--net-30545)
 
 #### Docker CaaS
 - [ ] Swarm
@@ -242,7 +265,7 @@
     + [ ] WebSocket
         * [ ] [Nginx Dynamic Modules](https://www.nginx.com/blog/creating-installable-packages-dynamic-modules/)
 - [ ] Online Judge
-    + [ ] ZeroVM / NaCl
+    + [ ] [Sandboxes](https://idea.popcount.org/2017-03-28-sandboxing-landscape/) (Bubble Wrap / ZeroVM / NaCl)
     + [ ] Jupyter Notebook
         * [ ] [PID reaping](http://jupyter-notebook.readthedocs.io/en/stable/public_server.html)
         * [ ] [Other Languages](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)
@@ -253,19 +276,29 @@
 #### Radio Transmitters
 - [ ] [UV-5R](https://radiodoc.github.io/uv-5r)
 - [ ] [QTCSDR](https://github.com/ha7ilm/qtcsdr)
+- [ ] Railway Radar
+    + [ ] Decoding
+    + [ ] Type Inference
+    + [ ] Visualization
 
 #### Network Infrastructure
+- [ ] Plain Old Telephone Service
+    + [ ] Google Voice Answering Machine
 - [ ] P2P over symmetric NATs
 - [ ] RPi / OpenWRT
     + [x] [systemd](https://wiki.archlinux.org/index.php/Systemd)
         * [x] [uwsgi](http://uwsgi-docs.readthedocs.io/en/latest/Vars.html)
         * [x] [timer](http://www.jinbuguo.com/systemd/systemd.time.html)
     + [ ] iptables
-    + [ ] sendmail
     + [ ] quagga / zebra
     + [x] iwconfig
-    + [x] odhcp6d / ndppd
-    + [ ] tb_userspace
+- [x] Tunnel Broker
+    + [ ] [radvd over proxy](https://zenandidi.com/archives/2210)
+    + [x] [odhcp6d / ndppd](https://www.ictshore.com/free-ccna-course/dhcpv6-basics/)
+    + [x] tb_userspace
+- [ ] Tor Relay
+    + [ ] packet shaping
+    + [ ] websocket
 - [ ] OpenWRT, Tomato, IOS & ROS
     + [ ] WGR614 v8
     + [ ] TL-WDR5620
@@ -273,12 +306,18 @@
     + [ ] H3C WA4320H
 - [ ] dns-mirror ([dnschef](https://github.com/iphelix/dnschef/blob/master/dnschef.py), [dnsproxy](https://github.com/vietor/dnsproxy))
     + [ ] regex support?
+    + [ ] [Daedalus](https://github.com/fqrouter/fqdns)
 - [x] [heartbeat](https://ip.ext.io)
     + [x] ~~[17mon_cpy](https://github.com/fengidri/17mon_cpy)~~
+    + [ ] abuse
 
 #### Embedded Systems
 - [NodeMCU](https://github.com/Arnie97/nodemcu-clock) / ESP8266
     + [ ] thermometer
+    + [ ] ir remote
+    + [ ] yeelight
+        * [ ] bluetooth remote shutter
+    + [ ] chimes
     + [ ] [PlatformIO](http://platformio.org/get-started)
 - remote switch
     + [ ] restful server
@@ -303,15 +342,6 @@
         * [ ] wireless keyboard with web interface
         * [ ] DriveDroid?!
     + [ ] USnooBie / [USBaspLoader](https://github.com/baerwolf/USBaspLoader)
-
-#### Back-end Development
-- Magic Library
-- Graphite
-    + [ ] Grafana
-- Celery
-- RabbitMQ / ØMQ
-- [12-factor](http://12factor.net)
-    + [ ] Treat LOGS as event streams
 
 
 ## Tips
