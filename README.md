@@ -33,6 +33,7 @@
     + [ ] Keyword extraction
         * [x] TF-IDF
     + [ ] Abstract generation
+        * [ ] CiteRef
     + [x] [PyNLPIR](http://pynlpir.readthedocs.io/en/latest/tutorial.html)
           [FNLP](https://github.com/FudanNLP/fnlp/wiki/quicktutorial)
           [HanLP](https://github.com/hankcs/HanLP)
@@ -40,9 +41,11 @@
 #### Concurrent and Parallel Programming
 - [ ] The Banker's algorithm
 - [ ] Futures and Promises
+- [ ] Paxos & Raft
 - [ ] Actor Model
 - [ ] Hadoop
 - [ ] Spark
+- [ ] Celery
 
 #### Lisp & Software Engineering
 - [ ] TLS
@@ -83,9 +86,11 @@
     + [x] Loopback tests
     + [ ] Msys and [Linux builds](https://github.com/avege/avege/blob/master/.travis.yml) / LSB
 
-#### C++ Primer
-- [templates](https://github.com/wuye9036/CppTemplateTutorial)
-- [cpp-itertools](https://github.com/ryanhaining/cppitertools)
+#### Parametric Polymorphism
+- [ ] [The Rust Book](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html)
+- [ ] [templates](https://github.com/wuye9036/CppTemplateTutorial)
+- [x] [cpp-itertools](https://github.com/ryanhaining/cppitertools)
+- [ ] C++ Primer
 
 #### Text Editors
 - Sublime Text & Visual Studio Code
@@ -93,12 +98,19 @@
     + [ ] Font Ligatures / Refined / AFDKO
         * [ ] Docker / TravisCI
         * [ ] Draw ligature outlines
-- [NeoVim](https://github.com/JAremko/alpine-vim)
-    + [ ] Git Submodules
-    + [ ] Optional Key Bindings
-    + [ ] [Camel Case](https://github.com/arthurxavierx/vim-caser) [Coercion](https://github.com/tpope/vim-abolish/blob/master/plugin/abolish.vim) & [Motion](https://github.com/bkad/CamelCaseMotion)
-    + [ ] [Clever F](https://github.com/rhysd/clever-f.vim/issues/11)
-    + [ ] [MRU Toggle](https://github.com/Arnie97/mru.vim)
+- NeoVim
+    + [x] ~~Git Submodules~~ vim-plug
+    + [x] Optional Key Bindings
+        * [ ] Toggle Quickfix
+    + [x] [Camel Case](https://github.com/arthurxavierx/vim-caser)
+        * [x] ~~[Coercion](https://github.com/tpope/vim-abolish/blob/master/plugin/abolish.vim)~~ -> [switch.vim](https://github.com/andrewRadev/switch.vim)
+        * [x] ~~[Motion](https://github.com/bkad/CamelCaseMotion)~~ -> easyMotion
+    + [x] ~~[Clever F](https://github.com/rhysd/clever-f.vim/issues/11)~~ -> easyMotion
+    + [x] Responsive Lightline
+    + [x] ~~[MRU Toggle](https://github.com/Arnie97/mru.vim)~~ -> CtrlP
+    + [x] CtrlP Tweaks
+        * [ ] [Fuzzy Matching](https://github.com/schlechtwetterfront/fuzzy-rs)
+        * [ ] MRU Tilde Fix
     + [ ] Clipboard Stack
 
 
@@ -122,21 +134,26 @@
     + [ ] Morning, noon, evening & night
     + [ ] ~2545
 
-#### Photo Collection
-- [ ] **Cybershot T90**
-- [ ] **Lumia 720** + Oppo R801
-- [ ] Source Files + x64
-    + [ ] Premiere Pro
-- [ ] Baidu PCS + Compaq Base
-    + [ ] bypy
-- [ ] JBOD sync
+#### Project Taxonomist
+- [ ] Import
+    + [ ] **Cybershot T90**
+    + [x] **Lumia 720** + Oppo R801
+    + [ ] Source Files + x64
+        * [ ] Premiere Pro
+    + [x] Baidu PCS + Compaq Base
+        * [ ] bypy
+    + [ ] Harmony
+- [x] JBOD sync
 - [ ] **Geotagging**
+    + [x] OSM
+    + [ ] kNN
 
 #### Time Machine + Integral
-- [ ] rsync
+- [x] rhash
+- [x] rsync
 - [x] FastCopy
 - [ ] vshadow
-- [x] dupemerge
+- [x] ~~dupemerge~~ [jdupes](https://github.com/jbruchon/jdupes)
 
 #### [Kindle Express](https://github.com/Arnie97/kindle-express)
 - [ ] **magic library**
@@ -221,16 +238,15 @@
     + [ ] SQL & Relational Theory
         * [ ] [Write Ahead Log](https://medium.com/@daniel.chia/writing-a-database-part-2-write-ahead-log-2463f5cec67a)
     + [ ] Graphite / Grafana
-    + [ ] Celery
-    + [ ] RabbitMQ / ØMQ
-    + [ ] Redis Queue
-    + [ ] [Effective Go](https://golang.org/doc/effective_go.html) / [Go Specs](https://golang.org/doc/effective_go.html)
+    + [x] RabbitMQ / ØMQ
+    + [x] Redis Queue
+    + [x] [Effective Go](https://golang.org/doc/effective_go.html) / [Go Specs](https://golang.org/doc/effective_go.html)
     + [ ] [Building Web Application with Go](https://astaxie.gitbooks.io/build-web-application-with-golang/content/zh/04.4.html)
-    + [ ] [Advanced Go Programming Book](https://chai2010.gitbooks.io/advanced-go-programming-book/content/ch5-web/ch5-08-interface-and-web.html)
-    + [ ] [Context](http://p.agnihotry.com/post/understanding_the_context_package_in_golang/)
-    + [ ] [12-factor](http://12factor.net)
+    + [ ] [Advanced Go Programming Book](https://chai2010.gitbooks.io/advanced-go-programming-book/ch5-web/ch5-08-interface-and-web.html)
+    + [x] [Context](http://p.agnihotry.com/post/understanding_the_context_package_in_golang/)
+    + [x] [12-factor](http://12factor.net)
 - [ ] MediaWiki
-    + [ ] [common.js](https://zh.wikipedia.org/wiki/User:Arnie97/common.js)
+    + [x] [common.js](https://zh.wikipedia.org/wiki/User:Arnie97/common.js)
     + [ ] [lua modules](https://zh.wikipedia.org/wiki/H:FUNC)
         * [ ] [`{{ruby}}`](https://zh.wikipedia.org/wiki/T:ruby)
     + [x] [mwclient](https://github.com/mwclient/mwclient)
@@ -262,10 +278,10 @@
 - [ ] Kubernetes
 - [ ] Others (Deis, Dokku, Flynn, Fleet)
 - [x] Heroku Hosting
-    + [ ] WebSocket
+    + [x] WebSocket
         * [ ] [Nginx Dynamic Modules](https://www.nginx.com/blog/creating-installable-packages-dynamic-modules/)
 - [ ] Online Judge
-    + [ ] [Sandboxes](https://idea.popcount.org/2017-03-28-sandboxing-landscape/) (Bubble Wrap / ZeroVM / NaCl)
+    + [x] [Sandboxes](https://idea.popcount.org/2017-03-28-sandboxing-landscape/) (Bubble Wrap / ZeroVM / NaCl)
     + [ ] Jupyter Notebook
         * [ ] [PID reaping](http://jupyter-notebook.readthedocs.io/en/stable/public_server.html)
         * [ ] [Other Languages](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)
@@ -274,10 +290,13 @@
 ### Project Silverbridge - Unlimited Access
 
 #### Radio Transmitters
-- [ ] [UV-5R](https://radiodoc.github.io/uv-5r)
+- [x] [UV-5R](https://radiodoc.github.io/uv-5r)
 - [ ] [QTCSDR](https://github.com/ha7ilm/qtcsdr)
 - [ ] Railway Radar
     + [ ] Decoding
+        * [ ] [FFSK](https://github.com/radonyl/multimon-ng)
+        * [x] POCSAG
+    + [ ] Python Binding
     + [ ] Type Inference
     + [ ] Visualization
 
@@ -285,7 +304,7 @@
 - [ ] Plain Old Telephone Service
     + [ ] Google Voice Answering Machine
 - [ ] P2P over symmetric NATs
-- [ ] RPi / OpenWRT
+- [x] RPi / OpenWRT
     + [x] [systemd](https://wiki.archlinux.org/index.php/Systemd)
         * [x] [uwsgi](http://uwsgi-docs.readthedocs.io/en/latest/Vars.html)
         * [x] [timer](http://www.jinbuguo.com/systemd/systemd.time.html)
@@ -298,15 +317,15 @@
     + [x] tb_userspace
 - [ ] Tor Relay
     + [ ] packet shaping
-    + [ ] websocket
+    + [x] websocket
 - [ ] OpenWRT, Tomato, IOS & ROS
     + [ ] WGR614 v8
     + [ ] TL-WDR5620
-    + [ ] Phicomm x4
+    + [x] Phicomm K3C
     + [ ] H3C WA4320H
-- [ ] dns-mirror ([dnschef](https://github.com/iphelix/dnschef/blob/master/dnschef.py), [dnsproxy](https://github.com/vietor/dnsproxy))
-    + [ ] regex support?
-    + [ ] [Daedalus](https://github.com/fqrouter/fqdns)
+- [x] ~~dns-mirror ([dnschef](https://github.com/iphelix/dnschef/blob/master/dnschef.py), [dnsproxy](https://github.com/vietor/dnsproxy))~~ v2ray-core
+    + [x] regex support
+    + [x] [Daedalus](https://github.com/fqrouter/fqdns)
 - [x] [heartbeat](https://ip.ext.io)
     + [x] ~~[17mon_cpy](https://github.com/fengidri/17mon_cpy)~~
     + [ ] abuse
@@ -315,7 +334,7 @@
 - [NodeMCU](https://github.com/Arnie97/nodemcu-clock) / ESP8266
     + [ ] thermometer
     + [ ] ir remote
-    + [ ] yeelight
+    + [x] yeelight
         * [ ] bluetooth remote shutter
     + [ ] chimes
     + [ ] [PlatformIO](http://platformio.org/get-started)
