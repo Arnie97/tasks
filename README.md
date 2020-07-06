@@ -237,7 +237,6 @@
 - [ ] Introduction
     + [ ] SQL & Relational Theory
         * [ ] [Write Ahead Log](https://medium.com/@daniel.chia/writing-a-database-part-2-write-ahead-log-2463f5cec67a)
-    + [ ] Graphite / Grafana
     + [x] RabbitMQ / ØMQ
     + [x] Redis Queue
     + [x] [Effective Go](https://golang.org/doc/effective_go.html) / [Go Specs](https://golang.org/doc/effective_go.html)
@@ -273,15 +272,20 @@
         * [ ] [PhantomBuster](https://hub.phantombuster.com)
 - [ ] [~~Frameworks~~](http://www.allenpike.com/2015/javascript-framework-fatigue/)
 
-#### Docker CaaS
-- [ ] Swarm
-- [ ] Kubernetes
-- [ ] Others (Deis, Dokku, Flynn, Fleet)
-- [x] Heroku Hosting
-    + [x] WebSocket
-        * [ ] [Nginx Dynamic Modules](https://www.nginx.com/blog/creating-installable-packages-dynamic-modules/)
-- [ ] Online Judge
-    + [x] [Sandboxes](https://idea.popcount.org/2017-03-28-sandboxing-landscape/) (Bubble Wrap / ZeroVM / NaCl)
+#### DevOps
+- [ ] Infrastructure Monitoring
+    + [ ] Grafana
+    + [ ] Telegraf
+    + [ ] Prometheus
+    + [ ] Netdata
+    + [ ] Open Falcon
+- [ ] Docker CaaS
+    + [ ] Swarm
+    + [ ] Kubernetes
+    + [ ] Others (Deis, Dokku, Flynn, Fleet)
+    + [x] Heroku Hosting
+- [x] [Sandboxes](https://idea.popcount.org/2017-03-28-sandboxing-landscape/) (Bubble Wrap / ZeroVM / NaCl)
+    + [ ] Online Judge
     + [ ] Jupyter Notebook
         * [ ] [PID reaping](http://jupyter-notebook.readthedocs.io/en/stable/public_server.html)
         * [ ] [Other Languages](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)
@@ -303,29 +307,32 @@
 #### Network Infrastructure
 - [ ] Plain Old Telephone Service
     + [ ] Google Voice Answering Machine
-- [ ] P2P over symmetric NATs
+- [ ] BGP & OSPF
+    + [ ] iptables
+    + [x] zerotier
+    + [ ] dn42 asn register
+    + [ ] quagga / zebra
+    + [ ] bird
+    + [ ] anycast
+    + [ ] tor / i2p
 - [x] RPi / OpenWRT
     + [x] [systemd](https://wiki.archlinux.org/index.php/Systemd)
         * [x] [uwsgi](http://uwsgi-docs.readthedocs.io/en/latest/Vars.html)
         * [x] [timer](http://www.jinbuguo.com/systemd/systemd.time.html)
-    + [ ] iptables
-    + [ ] quagga / zebra
     + [x] iwconfig
 - [x] Tunnel Broker
     + [ ] [radvd over proxy](https://zenandidi.com/archives/2210)
     + [x] [odhcp6d / ndppd](https://www.ictshore.com/free-ccna-course/dhcpv6-basics/)
     + [x] tb_userspace
-- [ ] Tor Relay
     + [ ] packet shaping
-    + [x] websocket
 - [ ] OpenWRT, Tomato, IOS & ROS
     + [ ] WGR614 v8
     + [ ] TL-WDR5620
     + [x] Phicomm K3C
     + [ ] H3C WA4320H
 - [x] ~~dns-mirror ([dnschef](https://github.com/iphelix/dnschef/blob/master/dnschef.py), [dnsproxy](https://github.com/vietor/dnsproxy))~~ v2ray-core
-    + [x] regex support
-    + [x] [Daedalus](https://github.com/fqrouter/fqdns)
+    + [ ] regex replace domain shortener
+    + [ ] split horizon
 - [x] [heartbeat](https://ip.ext.io)
     + [x] ~~[17mon_cpy](https://github.com/fengidri/17mon_cpy)~~
     + [ ] abuse
