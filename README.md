@@ -140,8 +140,7 @@
     + [x] **Lumia 720** + Oppo R801
     + [ ] Source Files + x64
         * [ ] Premiere Pro
-    + [x] Baidu PCS + Compaq Base
-        * [ ] bypy
+    + [ ] Baidu PCS Olympus
     + [ ] Harmony
 - [x] JBOD sync
 - [ ] **Geotagging**
@@ -236,7 +235,6 @@
 #### Web Backend Development
 - [ ] Introduction
     + [ ] SQL & Relational Theory
-        * [ ] [Write Ahead Log](https://medium.com/@daniel.chia/writing-a-database-part-2-write-ahead-log-2463f5cec67a)
     + [x] RabbitMQ / ØMQ
     + [x] Redis Queue
     + [x] [Effective Go](https://golang.org/doc/effective_go.html) / [Go Specs](https://golang.org/doc/effective_go.html)
@@ -275,10 +273,7 @@
 #### DevOps
 - [ ] Infrastructure Monitoring
     + [ ] Grafana
-    + [ ] Telegraf
-    + [ ] Prometheus
-    + [ ] Netdata
-    + [ ] Open Falcon
+    + [x] Telegraf
 - [ ] Docker CaaS
     + [ ] Swarm
     + [ ] Kubernetes
@@ -297,42 +292,55 @@
 - [x] [UV-5R](https://radiodoc.github.io/uv-5r)
 - [ ] [QTCSDR](https://github.com/ha7ilm/qtcsdr)
 - [ ] Railway Radar
+    + [ ] [Streaming](https://wiki.debian.org/Multimedia)
+        * [ ] [Source](https://github.com/awesome-selfhosted/awesome-selfhosted/#media-streaming)
+            - [x] [ffmpeg](https://prupert.wordpress.com/2010/08/02/stream-live-audio-from-a-microphone-in-near-real-time-in-ubuntu/)
+            - [ ] [darkice](https://wiki.radioreference.com/index.php/Live_Audio/Ubuntu_Darkice)
+            - [ ] [trx](https://github.com/maxhawkins/sc_radio/issues/3)
+        * [ ] [Relay](https://wiki.stura.htw-dresden.de/index.php/StuRa:Server/Streaming)
+            - [x] [icecast](https://www.streamingmediaglobal.com/Articles/Editorial/Featured-Articles/DIY-Live-Audio-Streaming-Using-Icecast-with-FFmpeg-125665.aspx)
+            - [ ] [radio reference](https://wiki.radioreference.com/index.php/Live_Audio)
+            - [ ] broadcastify
     + [ ] Decoding
         * [ ] [FFSK](https://github.com/radonyl/multimon-ng)
         * [x] POCSAG
     + [ ] Python Binding
     + [ ] Type Inference
+    + [ ] Language-agnostic Schema
     + [ ] Visualization
 
 #### Network Infrastructure
 - [ ] Plain Old Telephone Service
     + [ ] Google Voice Answering Machine
 - [ ] BGP & OSPF
+    + [ ] MPLS / source routing
     + [ ] iptables
+    + [ ] nftables
     + [x] zerotier
-    + [ ] dn42 asn register
-    + [ ] quagga / zebra
-    + [ ] bird
-    + [ ] anycast
+    + [x] dn42 asn register
+    + [ ] ~~quagga / zebra~~
+    + [x] bird
+    + [x] anycast
     + [ ] tor / i2p
-- [x] RPi / OpenWRT
-    + [x] [systemd](https://wiki.archlinux.org/index.php/Systemd)
-        * [x] [uwsgi](http://uwsgi-docs.readthedocs.io/en/latest/Vars.html)
+    + [ ] etcd
+        * [ ] nix
+    + [x] systemd
         * [x] [timer](http://www.jinbuguo.com/systemd/systemd.time.html)
-    + [x] iwconfig
+        * [ ] [watchdog](https://blog.lilydjwg.me/2016/12/22/restart-services-with-watchdog-feature-of-systemd.207942.html)
 - [x] Tunnel Broker
     + [ ] [radvd over proxy](https://zenandidi.com/archives/2210)
     + [x] [odhcp6d / ndppd](https://www.ictshore.com/free-ccna-course/dhcpv6-basics/)
     + [x] tb_userspace
     + [ ] packet shaping
 - [ ] OpenWRT, Tomato, IOS & ROS
-    + [ ] WGR614 v8
-    + [ ] TL-WDR5620
+    + [x] WGR614 v8
     + [x] Phicomm K3C
+        * [ ] boringtun cross
     + [ ] H3C WA4320H
 - [x] ~~dns-mirror ([dnschef](https://github.com/iphelix/dnschef/blob/master/dnschef.py), [dnsproxy](https://github.com/vietor/dnsproxy))~~ v2ray-core
     + [ ] regex replace domain shortener
     + [ ] split horizon
+    + [ ] dnslog.cn
 - [x] [heartbeat](https://ip.ext.io)
     + [x] ~~[17mon_cpy](https://github.com/fengidri/17mon_cpy)~~
     + [ ] abuse
@@ -350,6 +358,8 @@
     + [x] wake on lan
     + [ ] relays
     + [ ] power meter
+        * [ ] gm
+    + [ ] ifttt
 - [oscilloscope](https://github.com/Arnie97/oscilloscope)
     + [ ] trigger
     + [ ] SPI / OLED
@@ -358,15 +368,18 @@
     + [ ] probe / BNC connector
 - 86duino
     + [ ] Crossbar
-        * [x] restore to default
+        * [ ] flash strap
         * [ ] route SPI to `/E[ABZ][01]|3[12]|[TR]X[23]/`
-    + [ ] DuinOS / FreeDOS
-    + [ ] Debian
+        * [ ] UART
+    + [ ] Arch Linux 32
+        * [ ] abs
+        * [ ] [iwd](https://wiki.archlinux.org/title/Iwd)
+        * [ ] [mirror](https://github.com/tuna/issues/issues/926)
+            - [ ] rsync list approach
+            - [ ] coding cos fuse approach
 - USB
-    + [ ] keyboard / joystick
-        * [ ] FireGoose / Cactus
-        * [ ] wireless keyboard with web interface
-        * [ ] DriveDroid?!
+    + [ ] educake tty
+    + [ ] [keyboard / joystick](https://github.com/pelya/android-keyboard-gadget)
     + [ ] USnooBie / [USBaspLoader](https://github.com/baerwolf/USBaspLoader)
 
 
