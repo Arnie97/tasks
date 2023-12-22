@@ -1,5 +1,3 @@
-## Tree Diagram
-
 ### Dynamic Programming - Academic Works
 
 #### Data Structures
@@ -16,12 +14,8 @@
         * [ ] Ford-Fulkerson
         * [ ] Dinic
     + [ ] Set cover
-- DP
-- https://leetcode.com
-- http://codeforces.com
 
 #### Machine Learning
-- Transfer Learning
 - Deep Learning
     + [ ] [UFLDL](http://deeplearning.stanford.edu/tutorial/)
     + [ ] [Qix/dl.md](https://github.com/ty4z2008/Qix/blob/master/dl.md)
@@ -29,23 +23,14 @@
     + [ ] [Caffe](http://caffe.berkeleyvision.org/)
     + [ ] [TensorFlow](https://www.tensorflow.org/get_started/)
     + [ ] [Keras](https://keras.io/)
-- NLP / IR
-    + [ ] Keyword extraction
-        * [x] TF-IDF
-    + [ ] Abstract generation
-        * [ ] CiteRef
-    + [x] [PyNLPIR](http://pynlpir.readthedocs.io/en/latest/tutorial.html)
-          [FNLP](https://github.com/FudanNLP/fnlp/wiki/quicktutorial)
-          [HanLP](https://github.com/hankcs/HanLP)
+- LLMs / GPTs
+    + [ ] CiteRef abstract
 
 #### Concurrent and Parallel Programming
 - [ ] The Banker's algorithm
 - [ ] Futures and Promises
 - [ ] Paxos & Raft
 - [ ] Actor Model
-- [ ] Hadoop
-- [ ] Spark
-- [ ] Celery
 
 #### Lisp & Software Engineering
 - [ ] TLS
@@ -60,105 +45,41 @@
 - [ ] LYAHFGG
 - [ ] Type / Proof / Category Theory
 
-#### [Project Milky](https://github.com/Arnie97/milky)
-- Debug
-    - [ ] Unlimited token length / Garbage Collection?
-    - [ ] Strict subscription checks
-    + [ ] Remove semicolon before line comment in a preprocessor
-    + [ ] Recognize fallthrough outside case
-    + [ ] Details for 31-series errors
-        * [x] Expected indent?
-    + [ ] Show context lines
-- Main
-    + [ ] ~~`--chain`~~ - superseded by shebang magic
-    + [ ] `--help`
-    + [ ] `--version`
-- Lexer
-    + [ ] Capture illegal characters
-    + [ ] Whitespaces `\f` `\n` `\r` `\t` `\v`
-    + [ ] Specialized identifiers `$`
-    + [ ] Universal character names instead: `\u5B81` `\U0001F005`
-    + [ ] [libiconv](https://www.gnu.org/software/libiconv/) / [gettext](https://www.gnu.org/software/gettext/manual/gettext.html)
-- Indent & Translator
-    + [ ] [Literate Milk](https://github.com/ZaneA/litc/blob/master/litc.rb.md)
-    + [ ] Embedded C
-- Build, test and release
-    + [x] Loopback tests
-    + [ ] Msys and [Linux builds](https://github.com/avege/avege/blob/master/.travis.yml) / LSB
-
 #### Parametric Polymorphism
 - [ ] [The Rust Book](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html)
+- [ ] [The Rustonomicon](https://doc.rust-lang.org/stable/nomicon/phantom-data.html)
 - [ ] [templates](https://github.com/wuye9036/CppTemplateTutorial)
-- [x] [cpp-itertools](https://github.com/ryanhaining/cppitertools)
-- [ ] C++ Primer
-
-#### Text Editors
-- Sublime Text & Visual Studio Code
-    + [ ] iPDB
-    + [ ] Font Ligatures / Refined / AFDKO
-        * [ ] Docker / TravisCI
-        * [ ] Draw ligature outlines
-- NeoVim
-    + [x] ~~Git Submodules~~ vim-plug
-    + [x] Optional Key Bindings
-        * [ ] Toggle Quickfix
-    + [x] [Camel Case](https://github.com/arthurxavierx/vim-caser)
-        * [x] ~~[Coercion](https://github.com/tpope/vim-abolish/blob/master/plugin/abolish.vim)~~ -> [switch.vim](https://github.com/andrewRadev/switch.vim)
-        * [x] ~~[Motion](https://github.com/bkad/CamelCaseMotion)~~ -> easyMotion
-    + [x] ~~[Clever F](https://github.com/rhysd/clever-f.vim/issues/11)~~ -> easyMotion
-    + [x] Responsive Lightline
-    + [x] ~~[MRU Toggle](https://github.com/Arnie97/mru.vim)~~ -> CtrlP
-    + [x] CtrlP Tweaks
-        * [ ] [Fuzzy Matching](https://github.com/schlechtwetterfront/fuzzy-rs)
-        * [ ] MRU Tilde Fix
-    + [ ] Clipboard Stack
 
 
 ### Historical Writer - Data Persistence
 
 #### Plain Text
-- [x] CintaNotes
-- [ ] Compaq nx6120 - **Share clipboard, files and display among devices**
+- [ ] CintaNotes
+- [ ] clipboard
 - [ ] exchange / [pastebin](https://github.com/Arnie97/pastebin)
-    + [ ] poplib / imaplib
-        * [ ] MTA (sendmail / postfix)
-    + [x] WebDAV
-    + [ ] [lightweight](https://www.reddit.com/r/linux/comments/24uwjy/lightweight_alternative_to_owncloud/) [web](https://github.com/W4RH4WK/MinimalFileManager) [file](https://github.com/broncowdd/BoZoN) [managers](https://github.com/jcampbell1/simple-file-manager)
 - [ ] **emoji index** & recovery
-    + [x] [CoolQ Bot](https://d.cqp.me/Pro/CQ码)
-        * [ ] [Notice Fix](https://github.com/Arnie97/python-cqhttp)
-    + [ ] Machine Learning in Computer Vision
-- [ ] TrDH Log Parser
-    + [ ] Headline date
-    + [ ] Day and weekday
-    + [ ] Morning, noon, evening & night
-    + [ ] ~2545
 
 #### Project Taxonomist
+- [ ] Patchouli
+    + [ ] GS1 teleporter
+        * [ ] Douban
+        * [ ] Primo
+        * [ ] NLC
+        * [ ] ~~[read](https://github.com/JiajunW/douban2readfree)-[far](https://github.com/Ovilia/readfree-chrome-extension)~~
+        * [ ] [Huiwen OPAC API](http://202.199.26.12:8080/opac/search_rss.php?strText=9787040238969&strSearchType=isbn)
+    + [ ] Visualization
+- [ ] Karyon
+    + [ ] Ent
 - [ ] Import
     + [ ] **Cybershot T90**
     + [x] **Lumia 720** + Oppo R801
     + [ ] Source Files + x64
         * [ ] Premiere Pro
-    + [ ] Baidu PCS Olympus
+    + [x] Olympus
     + [ ] Harmony
-- [x] JBOD sync
 - [ ] **Geotagging**
     + [x] OSM
     + [ ] kNN
-
-#### Time Machine + Integral
-- [x] rhash
-- [x] rsync
-- [x] FastCopy
-- [ ] vshadow
-- [x] ~~dupemerge~~ [jdupes](https://github.com/jbruchon/jdupes)
-
-#### [Kindle Express](https://github.com/Arnie97/kindle-express)
-- [ ] **magic library**
-- [ ] non-English pdf convert?
-- [ ] epub support?
-- [ ] filter out unsupported formats
 
 #### GitHub Archive
 - [ ] ~~eventlog reborn~~
@@ -176,7 +97,6 @@
     + [ ] IDMonitor
 - [ ] _git_ignore / _others
 - [ ] signin / refresher
-    + [ ] idc789
 - [x] uaq-stat / psr-portal / [Qunee](http://qunee.com)
 - [ ] ~~[restful](https://github.com/Arnie97/restful)~~ - archived in [your-hook](https://github.com/Arnie97/your-hook), duplicated in pomodoro-timer, superseded by [FadeTop](http://www.fadetop.com/tutorials.html)
     + [x] `Shell_NotifyIcon()` & balloon
@@ -232,12 +152,8 @@
         * [ ] Electric Workbench
         * [x] Figlet
 
-#### Web Backend Development
+#### Web Development
 - [ ] Introduction
-    + [ ] SQL & Relational Theory
-    + [x] RabbitMQ / ØMQ
-    + [x] Redis Queue
-    + [x] [Effective Go](https://golang.org/doc/effective_go.html) / [Go Specs](https://golang.org/doc/effective_go.html)
     + [ ] [Building Web Application with Go](https://astaxie.gitbooks.io/build-web-application-with-golang/content/zh/04.4.html)
     + [ ] [Advanced Go Programming Book](https://chai2010.gitbooks.io/advanced-go-programming-book/ch5-web/ch5-08-interface-and-web.html)
     + [x] [Context](http://p.agnihotry.com/post/understanding_the_context_package_in_golang/)
@@ -255,38 +171,23 @@
     + [ ] [pycookiecheat](https://github.com/n8henrie/pycookiecheat)
     + [ ] linux & macOS cipher
 - [ ] **anderson archiver**
-- [ ] ~~[opac-renew](https://github.com/Arnie97/rush-hour)~~
 - [ ] kirakira - ~~superseded by [DanmakuPie](https://github.com/DanmakuPie/Native-Client)~~
-
-#### JavaScript
-- [x] GreaseMonkey / userscript
-    + [ ] teleporter ([read](https://github.com/JiajunW/douban2readfree)-[free](https://github.com/Ovilia/readfree-chrome-extension)) / [Huiwen OPAC API](http://202.199.26.12:8080/opac/search_rss.php?strText=9787040238969&strSearchType=isbn)
-    + [ ] [CSS selectors](https://www.w3schools.com/cssref/css_selectors.asp)
-    + [x] [CORS](http://www.ruanyifeng.com/blog/2016/04/cors.html) on [Nginx](https://gist.github.com/Stanback/7145487)
-- [ ] ES2015
+- [ ] [ES2023](https://gist.github.com/rajaramtt/7df3702a04c644b0b62c9a64f48f3dbf)
 - [ ] [FreeSMS](http://www.afreesms.com/freesms/) Remake
     + [ ] Canvas
     + [ ] [Headless Environments](https://github.com/dhamaniasad/HeadlessBrowsers) & [Functional Testing](http://code.tutsplus.com/tutorials/headless-functional-testing-with-selenium-and-phantomjs--net-30545)
         * [ ] [PhantomBuster](https://hub.phantombuster.com)
-- [ ] [~~Frameworks~~](http://www.allenpike.com/2015/javascript-framework-fatigue/)
 
 #### DevOps
 - [ ] Infrastructure Monitoring
-    + [ ] Grafana
-    + [x] Telegraf
 - [ ] Docker CaaS
     + [ ] Swarm
     + [ ] Kubernetes
-    + [ ] Others (Deis, Dokku, Flynn, Fleet)
-    + [x] Heroku Hosting
 - [x] [Sandboxes](https://idea.popcount.org/2017-03-28-sandboxing-landscape/) (Bubble Wrap / ZeroVM / NaCl)
     + [ ] Online Judge
     + [ ] Jupyter Notebook
         * [ ] [PID reaping](http://jupyter-notebook.readthedocs.io/en/stable/public_server.html)
         * [ ] [Other Languages](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)
-
-
-### Project Silverbridge - Unlimited Access
 
 #### Radio Transmitters
 - [x] [UV-5R](https://radiodoc.github.io/uv-5r)
@@ -304,20 +205,27 @@
     + [ ] Decoding
         * [ ] [FFSK](https://github.com/radonyl/multimon-ng)
         * [x] POCSAG
+        * [ ] POCSAG extension
     + [ ] Python Binding
+- [ ] Mir
     + [ ] Type Inference
     + [ ] Language-agnostic Schema
     + [ ] Visualization
+    + [ ] GSM-R Callback Handler
+
+
+### Project Silverbridge - Unlimited Access
 
 #### Network Infrastructure
 - [ ] Plain Old Telephone Service
     + [ ] Google Voice Answering Machine
+- [ ] Vision Refactor
+    + [ ] WSS Browser Dialer
 - [ ] BGP & OSPF
     + [ ] MPLS / source routing
     + [ ] iptables
+        * [ ] **range NAT**
     + [ ] nftables
-    + [x] zerotier
-    + [x] dn42 asn register
     + [ ] ~~quagga / zebra~~
     + [x] bird
     + [x] anycast
@@ -332,11 +240,6 @@
     + [x] [odhcp6d / ndppd](https://www.ictshore.com/free-ccna-course/dhcpv6-basics/)
     + [x] tb_userspace
     + [ ] packet shaping
-- [ ] OpenWRT, Tomato, IOS & ROS
-    + [x] WGR614 v8
-    + [x] Phicomm K3C
-        * [ ] boringtun cross
-    + [ ] H3C WA4320H
 - [x] ~~dns-mirror ([dnschef](https://github.com/iphelix/dnschef/blob/master/dnschef.py), [dnsproxy](https://github.com/vietor/dnsproxy))~~ v2ray-core
     + [ ] regex replace domain shortener
     + [ ] split horizon
@@ -344,28 +247,10 @@
 - [x] [heartbeat](https://ip.ext.io)
     + [x] ~~[17mon_cpy](https://github.com/fengidri/17mon_cpy)~~
     + [ ] abuse
+    + [ ] Looking Glass
+    + [ ] Visualization
 
 #### Embedded Systems
-- [NodeMCU](https://github.com/Arnie97/nodemcu-clock) / ESP8266
-    + [ ] thermometer
-    + [ ] ir remote
-    + [x] yeelight
-        * [ ] bluetooth remote shutter
-    + [ ] chimes
-    + [ ] [PlatformIO](http://platformio.org/get-started)
-- remote switch
-    + [ ] restful server
-    + [x] wake on lan
-    + [ ] relays
-    + [ ] power meter
-        * [ ] gm
-    + [ ] ifttt
-- [oscilloscope](https://github.com/Arnie97/oscilloscope)
-    + [ ] trigger
-    + [ ] SPI / OLED
-        * [ ] avr / 86duino
-        * [ ] framebuffer driver
-    + [ ] probe / BNC connector
 - 86duino
     + [ ] Crossbar
         * [ ] flash strap
@@ -373,7 +258,6 @@
         * [ ] UART
     + [ ] Arch Linux 32
         * [ ] abs
-        * [ ] [iwd](https://wiki.archlinux.org/title/Iwd)
         * [ ] [mirror](https://github.com/tuna/issues/issues/926)
             - [ ] rsync list approach
             - [ ] coding cos fuse approach
