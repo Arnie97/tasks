@@ -68,8 +68,14 @@
         * [ ] ~~[read](https://github.com/JiajunW/douban2readfree)-[far](https://github.com/Ovilia/readfree-chrome-extension)~~
         * [ ] [Huiwen OPAC API](http://202.199.26.12:8080/opac/search_rss.php?strText=9787040238969&strSearchType=isbn)
     + [ ] Visualization
+        * [ ] MGRS
 - [ ] Karyon
     + [ ] Ent
+- [ ] Cool Tier Volume
+    + [ ] Offline Indexing
+    + [ ] Migration
+    + [ ] Offsite Backup
+        * [ ] Integrated Computer Case
 - [ ] Import
     + [ ] **Cybershot T90**
     + [x] **Lumia 720** + Oppo R801
@@ -77,9 +83,8 @@
         * [ ] Premiere Pro
     + [x] Olympus
     + [ ] Harmony
+    + [ ] N97 Recovery
 - [ ] **Geotagging**
-    + [x] OSM
-    + [ ] kNN
 
 #### GitHub Archive
 - [ ] ~~eventlog reborn~~
@@ -191,8 +196,12 @@
 
 #### Radio Transmitters
 - [x] [UV-5R](https://radiodoc.github.io/uv-5r)
+- [ ] [DM-5R](https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#variations-between-different-supported-radios)
+- [ ] [UV-K6](https://github.com/losehu/uv-k5-firmware-custom/blob/main/app/messenger.c)
+- [ ] [Callsign Analyzer](https://jxj.beijing.gov.cn/zwgk/yfxzgs/)
 - [ ] [QTCSDR](https://github.com/ha7ilm/qtcsdr)
 - [ ] Railway Radar
+    + [ ] DRTD
     + [ ] [Streaming](https://wiki.debian.org/Multimedia)
         * [ ] [Source](https://github.com/awesome-selfhosted/awesome-selfhosted/#media-streaming)
             - [x] [ffmpeg](https://prupert.wordpress.com/2010/08/02/stream-live-audio-from-a-microphone-in-near-real-time-in-ubuntu/)
@@ -231,7 +240,7 @@
     + [x] anycast
     + [ ] tor / i2p
     + [ ] etcd
-        * [ ] nix
+        * [x] nix
     + [x] systemd
         * [x] [timer](http://www.jinbuguo.com/systemd/systemd.time.html)
         * [ ] [watchdog](https://blog.lilydjwg.me/2016/12/22/restart-services-with-watchdog-feature-of-systemd.207942.html)
@@ -251,6 +260,21 @@
     + [ ] Visualization
 
 #### Embedded Systems
+- [ESP32](http://luatos.com/chips/esp32c3/board.html)
+    + [ ] [I2CScan](https://tasmota.github.io/docs/I2CDEVICES/)
+    + [ ] [Display](https://tasmota.github.io/docs/Displays/#hardware-connections)
+    + [ ] [GPIO Viewer](https://github.com/thelastoutpostworkshop/microcontroller_devkit/tree/main/gpio_viewer_1_5)
+    + [ ] [DS18B20 Parasitic Power](https://www.analog.com/media/en/technical-documentation/data-sheets/ds18b20.pdf)
+    + [ ] LD2410C
+    + [ ] LD2420
+    + [ ] Hass Integration
+        * [ ] Watt Meter Template Binary Sensor
+        * [ ] MQTT Button
+    + [ ] BH1750FVI
+- [ ] DMM / Oscilloscope
+    + [ ] Background Analyze (10-20w, 40-80mA)
+    + [ ] Battery Internal Resistance Tester
+    + [ ] [Amp Meter](https://oshwhub.com/dengzhishen/lcd1602-dian-ya-dian-liu-biao-di-pei_copy)
 - 86duino
     + [ ] Crossbar
         * [ ] flash strap
@@ -259,12 +283,10 @@
     + [ ] Arch Linux 32
         * [ ] abs
         * [ ] [mirror](https://github.com/tuna/issues/issues/926)
-            - [ ] rsync list approach
-            - [ ] coding cos fuse approach
 - USB
+    + [ ] [USnooBie](https://eleccelerator.com/usnoobie/index.php) / [USBaspLoader](https://github.com/baerwolf/USBaspLoader)
     + [ ] educake tty
     + [ ] [keyboard / joystick](https://github.com/pelya/android-keyboard-gadget)
-    + [ ] USnooBie / [USBaspLoader](https://github.com/baerwolf/USBaspLoader)
 
 
 ## Tips
