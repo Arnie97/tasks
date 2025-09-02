@@ -71,11 +71,18 @@
         * [ ] MGRS
 - [ ] Karyon
     + [ ] Ent
-- [ ] Cool Tier Volume
-    + [ ] Offline Indexing
+- [ ] Unified Volume (**2025.09**)
+    + [ ] NFSv4
+        * [ ] nfs-idmapd
     + [ ] Migration
-    + [ ] Offsite Backup
-        * [ ] Integrated Computer Case
+    + [ ] Git Annex
+        * [ ] [`git-annex-backend-XBLAKE3`](https://git-annex.branchable.com/backends/)
+        * [ ] [Cryptonite Blake3](https://git-annex.branchable.com/bugs/blake3_hash_support/)
+        * [ ] Dumb Special Remote
+        * [ ] Computed Multi Hash
+        * [ ] Offline Metadata Indexing
+            - [ ] Baobab / WinDirStat
+            - [ ] mtime / ctime
 - [ ] Import
     + [ ] **Cybershot T90**
     + [x] **Lumia 720** + Oppo R801
@@ -189,14 +196,13 @@
     + [ ] Swarm
     + [ ] Kubernetes
 - [x] [Sandboxes](https://idea.popcount.org/2017-03-28-sandboxing-landscape/) (Bubble Wrap / ZeroVM / NaCl)
-    + [ ] Online Judge
     + [ ] Jupyter Notebook
         * [ ] [PID reaping](http://jupyter-notebook.readthedocs.io/en/stable/public_server.html)
         * [ ] [Other Languages](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)
 
 #### Radio Transmitters
 - [x] [UV-5R](https://radiodoc.github.io/uv-5r)
-- [ ] [DM-5R](https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#variations-between-different-supported-radios)
+- [ ] [DM-5R](https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#variations-between-different-supported-radios) (**2025.09**)
 - [ ] [UV-K6](https://github.com/losehu/uv-k5-firmware-custom/blob/main/app/messenger.c)
 - [ ] [Callsign Analyzer](https://jxj.beijing.gov.cn/zwgk/yfxzgs/)
 - [ ] [QTCSDR](https://github.com/ha7ilm/qtcsdr)
@@ -228,6 +234,7 @@
 #### Network Infrastructure
 - [ ] Plain Old Telephone Service
     + [ ] Google Voice Answering Machine
+    + [ ] Magti
 - [ ] Vision Refactor
     + [ ] WSS Browser Dialer
 - [ ] BGP & OSPF
@@ -244,7 +251,9 @@
     + [x] systemd
         * [x] [timer](http://www.jinbuguo.com/systemd/systemd.time.html)
         * [ ] [watchdog](https://blog.lilydjwg.me/2016/12/22/restart-services-with-watchdog-feature-of-systemd.207942.html)
+- [ ] PBR
 - [x] Tunnel Broker
+    + [ ] routed /48
     + [ ] [radvd over proxy](https://zenandidi.com/archives/2210)
     + [x] [odhcp6d / ndppd](https://www.ictshore.com/free-ccna-course/dhcpv6-basics/)
     + [x] tb_userspace
@@ -264,10 +273,8 @@
     + [ ] [I2CScan](https://tasmota.github.io/docs/I2CDEVICES/)
     + [ ] [Display](https://tasmota.github.io/docs/Displays/#hardware-connections)
     + [ ] [GPIO Viewer](https://github.com/thelastoutpostworkshop/microcontroller_devkit/tree/main/gpio_viewer_1_5)
-    + [ ] [DS18B20 Parasitic Power](https://www.analog.com/media/en/technical-documentation/data-sheets/ds18b20.pdf)
-    + [ ] LD2410C
-    + [ ] LD2420
     + [ ] Hass Integration
+        * [ ] Utility Meter (**2026.01**)
         * [ ] Watt Meter Template Binary Sensor
         * [ ] MQTT Button
     + [ ] BH1750FVI
@@ -280,9 +287,12 @@
         * [ ] flash strap
         * [ ] route SPI to `/E[ABZ][01]|3[12]|[TR]X[23]/`
         * [ ] UART
+    + [ ] [Serial2MQTT](https://github.com/vortex314/serial2mqtt) (**2025.11**)
+        * [ ] [DS18B20 Parasitic Power](https://www.analog.com/media/en/technical-documentation/data-sheets/ds18b20.pdf)
+        * [ ] LD2410C
+        * [ ] LD2420
+    + [ ] [ImmortalWRT](https://firmware-selector.immortalwrt.org/)
     + [ ] Arch Linux 32
-        * [ ] abs
-        * [ ] [mirror](https://github.com/tuna/issues/issues/926)
 - USB
     + [ ] [USnooBie](https://eleccelerator.com/usnoobie/index.php) / [USBaspLoader](https://github.com/baerwolf/USBaspLoader)
     + [ ] educake tty
