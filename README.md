@@ -54,10 +54,10 @@
 ### Historical Writer - Data Persistence
 
 #### Plain Text
-- [ ] CintaNotes
 - [ ] clipboard
-- [ ] exchange / [pastebin](https://github.com/Arnie97/pastebin)
+- [ ] https://notepad.cc / https://1paper.at
 - [ ] **emoji index** & recovery
+- [ ] ~~CintaNotes~~
 
 #### Project Taxonomist
 - [ ] Patchouli
@@ -72,24 +72,28 @@
 - [ ] Karyon
     + [ ] Ent
 - [ ] Unified Volume (**2025.09**)
+    + [x] [udevil](https://ignorantguru.github.io/udevil/udevil.conf.txt)
+        * [ ] `-L $LABEL`
+        * [ ] `--mount /directory/in/fstab`
+        * [ ] `/etc/udevil/*.conf`
+        * [ ] overlayfs support
+        * [ ] sane defaults for btrfs / xfs / zfs
     + [ ] NFSv4
-        * [ ] nfs-idmapd
-    + [ ] Migration
-    + [ ] Git Annex
-        * [ ] [`git-annex-backend-XBLAKE3`](https://git-annex.branchable.com/backends/)
-        * [ ] [Cryptonite Blake3](https://git-annex.branchable.com/bugs/blake3_hash_support/)
-        * [ ] Dumb Special Remote
-        * [ ] Computed Multi Hash
-        * [ ] Offline Metadata Indexing
-            - [ ] Baobab / WinDirStat
+        * [ ] [nfs-idmapd](https://tcler.github.io/2018/12/08/keyrings-and-nfsidmap/)
+    + [x] Migration
+    + [ ] [LSI 9211-8i SAS 2008 ACPI](https://z8.re/blog/aspm.html)
+    + [ ] Offline Metadata Indexing
+        * [ ] [LiteStream](https://fly.io/blog/litestream-revamped/)
+        * [ ] import / export: gnu, bsd, sfv, ncdu, cdcat, everything efu, vvv, annex
             - [ ] mtime / ctime
+        * [x] [Photography Gotchas](https://aaron.na31.org/git-annex_photography)
 - [ ] Import
-    + [ ] **Cybershot T90**
+    + [x] **Cybershot T90**
     + [x] **Lumia 720** + Oppo R801
     + [ ] Source Files + x64
         * [ ] Premiere Pro
     + [x] Olympus
-    + [ ] Harmony
+    + [x] Harmony
     + [ ] N97 Recovery
 - [ ] **Geotagging**
 
@@ -98,11 +102,7 @@
 - [ ] python-invaders
 - [ ] Aerospace
     + [ ] chimes
-        * [ ] retro
-        * [x] restful / red-alert
-        * [ ] openwrt & alsa
     + [ ] **Refresher / Refnew**
-    + [ ] Supplicant
 - [ ] Countdown
 - [ ] Tree Diagram
     + [ ] Indextan
@@ -118,8 +118,11 @@
 
 ### Five Elements - Production Environment
 
+#### [Immutable Distributions](https://github.com/Malix-Labs/Awesome-Atomic)
+- [ ] [evdev-rce](https://forums.linuxmint.com/viewtopic.php?t=442827) (**2025.11**)
+
 #### [Proxmark 3](https://github.com/Arnie97/prox)
-- [x] Mifare Classic
+- [x] [Mifare Classic](https://hitcon.org/download/2010/11_MIFARE%20Classic%20IS%20Completely%20Broken.pdf)
     + [x] Lua Logger
     + [ ] Standalone dump emulator
 - [ ] Smart Cards
@@ -135,7 +138,6 @@
     + [x] dependency resolution: egypt / graphviz
 - [ti8xemu](https://github.com/Arnie97/ti8xemu) / [dPicoC](https://github.com/compujuckel/dPicoC-NS) / nes-emu
     + [ ] loader script / binary image relocating
-        * [ ] function pointers
 - [IrDA receiver](http://www.mh-aerotools.de/hp/red-eye/HP-IR%20Receiver%20with%20Arduino.pdf)
 - [neko-notepad](https://github.com/Arnie97/neko-notepad)
     + [ ] footprint control
@@ -170,6 +172,9 @@
     + [ ] [Advanced Go Programming Book](https://chai2010.gitbooks.io/advanced-go-programming-book/ch5-web/ch5-08-interface-and-web.html)
     + [x] [Context](http://p.agnihotry.com/post/understanding_the_context_package_in_golang/)
     + [x] [12-factor](http://12factor.net)
+- [ ] Postage Calculator
+- [x] [Lucky](https://github.com/Arnie97/lucky)
+    + [ ] Rewrite for [AWS Lambda Serverless](https://github.com/awsdocs/aws-lambda-developer-guide/tree/main/sample-apps/blank-python)
 - [ ] MediaWiki
     + [x] [common.js](https://zh.wikipedia.org/wiki/User:Arnie97/common.js)
     + [ ] [lua modules](https://zh.wikipedia.org/wiki/H:FUNC)
@@ -191,6 +196,7 @@
         * [ ] [PhantomBuster](https://hub.phantombuster.com)
 
 #### DevOps
+- [ ] [Incus](https://linuxcontainers.org/incus/) Migration
 - [ ] Infrastructure Monitoring
 - [ ] Docker CaaS
     + [ ] Swarm
@@ -247,13 +253,15 @@
     + [x] anycast
     + [ ] tor / i2p
     + [ ] etcd
-        * [x] nix
     + [x] systemd
         * [x] [timer](http://www.jinbuguo.com/systemd/systemd.time.html)
         * [ ] [watchdog](https://blog.lilydjwg.me/2016/12/22/restart-services-with-watchdog-feature-of-systemd.207942.html)
 - [ ] PBR
+- [ ] HashCat
+    + [ ] [mask queue progress](https://github.com/hashcat/hashcat/issues/2382)
+    + [ ] [crypto-1](https://hashcat.net/forum/thread-3149.html)
 - [x] Tunnel Broker
-    + [ ] routed /48
+    + [x] routed /48
     + [ ] [radvd over proxy](https://zenandidi.com/archives/2210)
     + [x] [odhcp6d / ndppd](https://www.ictshore.com/free-ccna-course/dhcpv6-basics/)
     + [x] tb_userspace
@@ -269,12 +277,18 @@
     + [ ] Visualization
 
 #### Embedded Systems
+- [ ] [Mi-GPT](https://github.com/idootop/mi-gpt/blob/main/docs/compatibility.md)
+    + [ ] [TTL](https://github.com/idootop/open-xiaoai?tab=readme-ov-file#参考链接)
 - [ESP32](http://luatos.com/chips/esp32c3/board.html)
     + [ ] [I2CScan](https://tasmota.github.io/docs/I2CDEVICES/)
     + [ ] [Display](https://tasmota.github.io/docs/Displays/#hardware-connections)
     + [ ] [GPIO Viewer](https://github.com/thelastoutpostworkshop/microcontroller_devkit/tree/main/gpio_viewer_1_5)
     + [ ] Hass Integration
+        * [ ] Radio Browser (**2025.11**)
         * [ ] Utility Meter (**2026.01**)
+            - [ ] nested
+            - [ ] gas
+            - [ ] elec
         * [ ] Watt Meter Template Binary Sensor
         * [ ] MQTT Button
     + [ ] BH1750FVI
@@ -291,15 +305,16 @@
         * [ ] [DS18B20 Parasitic Power](https://www.analog.com/media/en/technical-documentation/data-sheets/ds18b20.pdf)
         * [ ] LD2410C
         * [ ] LD2420
+    + [x] [zram-swap](https://hamradio.my/2025/01/the-role-of-compression-algorithms-in-zram/)
     + [ ] [ImmortalWRT](https://firmware-selector.immortalwrt.org/)
-    + [ ] Arch Linux 32
+    + [x] Arch Linux 32
 - USB
     + [ ] [USnooBie](https://eleccelerator.com/usnoobie/index.php) / [USBaspLoader](https://github.com/baerwolf/USBaspLoader)
     + [ ] educake tty
     + [ ] [keyboard / joystick](https://github.com/pelya/android-keyboard-gadget)
 
 
-## Tips
+## Meta
 > http://www.yangzhiping.com/psy/flow.html
 
 #### 调整你的目录结构：搜索而非查找
