@@ -62,24 +62,36 @@
 #### Project Taxonomist
 - [ ] Patchouli
     + [ ] GS1 teleporter
+        * [ ] [GTIN](https://www.gs1tw.org/twct/backend/downloadfiles/GS1_User_Booklet.pdf)
         * [ ] Douban
+        * [ ] BPLISN
+        * [ ] BALIS
         * [ ] Primo
         * [ ] NLC
         * [ ] ~~[read](https://github.com/JiajunW/douban2readfree)-[far](https://github.com/Ovilia/readfree-chrome-extension)~~
         * [ ] [Huiwen OPAC API](http://202.199.26.12:8080/opac/search_rss.php?strText=9787040238969&strSearchType=isbn)
+        * [ ] Kongfz
+        * [ ] Goodreads
+        * [ ] Amazon
     + [ ] Visualization
         * [ ] MGRS
+    + [ ] Batch import magic
 - [ ] Karyon
     + [ ] Ent
+- [ ] OIDC
+    + [ ] Authing
 - [ ] Unified Volume (**2025.09**)
+    + [ ] [codeup](https://help.aliyun.com/zh/yunxiao/product-overview/package-and-billing-adjustment-announcement)
     + [x] [udevil](https://ignorantguru.github.io/udevil/udevil.conf.txt)
         * [ ] `-L $LABEL`
         * [ ] `--mount /directory/in/fstab`
         * [ ] `/etc/udevil/*.conf`
+        * [ ] davfs2 complaints
         * [ ] overlayfs support
         * [ ] sane defaults for btrfs / xfs / zfs
-    + [ ] NFSv4
+    + [ ] [NFSv4](https://ovk.github.io/silverbox/)
         * [ ] [nfs-idmapd](https://tcler.github.io/2018/12/08/keyrings-and-nfsidmap/)
+        * [ ] [gss](https://github.com/ehough/docker-nfs-server/issues/31)
     + [x] Migration
     + [ ] [LSI 9211-8i SAS 2008 ACPI](https://z8.re/blog/aspm.html)
     + [ ] Offline Metadata Indexing
@@ -88,12 +100,11 @@
             - [ ] mtime / ctime
         * [x] [Photography Gotchas](https://aaron.na31.org/git-annex_photography)
 - [ ] Import
-    + [x] **Cybershot T90**
-    + [x] **Lumia 720** + Oppo R801
+    + [ ] Cybershot T90
+    + [ ] Lumia 720
     + [ ] Source Files + x64
         * [ ] Premiere Pro
-    + [x] Olympus
-    + [x] Harmony
+    + [ ] Harmony
     + [ ] N97 Recovery
 - [ ] **Geotagging**
 
@@ -119,7 +130,16 @@
 ### Five Elements - Production Environment
 
 #### [Immutable Distributions](https://github.com/Malix-Labs/Awesome-Atomic)
-- [ ] [evdev-rce](https://forums.linuxmint.com/viewtopic.php?t=442827) (**2025.11**)
+- [ ] flakes
+    + [x] mirrors
+    + [ ] [skeleton](https://github.com/hercules-ci/flake-parts)
+    + [ ] [ignition](https://github.com/mcdonc/.nixconfig)
+    + [ ] [tmpfs root](https://elis.nu/blog/2020/05/nixos-tmpfs-as-root/) [install](https://carlosvaz.com/posts/installing-nixos-with-root-on-tmpfs-and-encrypted-zfs-on-a-netcup-vps/)
+- [x] ostree
+    + [ ] [declarative](https://github.com/coreos/rpm-ostree/issues/2326)
+- [ ] aws
+- [ ] lighthouse
+- [x] [evdev-rce](https://forums.linuxmint.com/viewtopic.php?t=442827)
 
 #### [Proxmark 3](https://github.com/Arnie97/prox)
 - [x] [Mifare Classic](https://hitcon.org/download/2010/11_MIFARE%20Classic%20IS%20Completely%20Broken.pdf)
@@ -197,7 +217,6 @@
 
 #### DevOps
 - [ ] [Incus](https://linuxcontainers.org/incus/) Migration
-- [ ] Infrastructure Monitoring
 - [ ] Docker CaaS
     + [ ] Swarm
     + [ ] Kubernetes
@@ -244,7 +263,9 @@
 - [ ] Vision Refactor
     + [ ] WSS Browser Dialer
 - [ ] BGP & OSPF
+    + [ ] [network address as unicast](https://superuser.com/questions/379451/why-can-a-network-address-not-be-a-valid-host-address)
     + [ ] MPLS / source routing
+    + [ ] [PBR](https://docs.openwrt.melmac.ca/pbr/)
     + [ ] iptables
         * [ ] **range NAT**
     + [ ] nftables
@@ -256,7 +277,11 @@
     + [x] systemd
         * [x] [timer](http://www.jinbuguo.com/systemd/systemd.time.html)
         * [ ] [watchdog](https://blog.lilydjwg.me/2016/12/22/restart-services-with-watchdog-feature-of-systemd.207942.html)
-- [ ] PBR
+- [ ] Monitoring
+    + [ ] SNMP
+        * [ ] LibreNMS Auto Discovery
+        * [ ] [Agent](https://github.com/librenms/librenms-agent/blob/master/agent-local/temperature)
+    + [ ] LLDP
 - [ ] HashCat
     + [ ] [mask queue progress](https://github.com/hashcat/hashcat/issues/2382)
     + [ ] [crypto-1](https://hashcat.net/forum/thread-3149.html)
@@ -277,41 +302,62 @@
     + [ ] Visualization
 
 #### Embedded Systems
-- [ ] [Mi-GPT](https://github.com/idootop/mi-gpt/blob/main/docs/compatibility.md)
+- [ ] [Mi-GPT](https://github.com/idootop/mi-gpt/blob/main/docs/compatibility.md) (**2026.05**)
+    + [ ] [DNS](https://v2ex.com/t/838579) [Problems](https://www.mydigit.cn/thread-454170-1-1.html)
     + [ ] [TTL](https://github.com/idootop/open-xiaoai?tab=readme-ov-file#参考链接)
+    + [ ] [SSH](https://github.com/jialeicui/open-lx01)
+- Home Assistant
+    + [ ] Radio Browser (**2025.11**)
+        * [x] Favorites
+            - [x] Maxi
+            - [ ] Music Assistant
+            - [x] [Bemfa](https://github.com/skddyj/bemfa)2[Mi](https://cloud.bemfa.com/docs/src/speaker_mi.html)
+        * [ ] Unknown MIME
+    + [ ] Utility Meter (**2026.01**)
+        * [ ] nested
+        * [ ] gas
+        * [ ] elec
+        * [ ] water
+    + [x] Watt Meter Template Binary Sensor
+    + [ ] [MQTT Virtual Switch Discovery](https://www.home-assistant.io/integrations/mqtt/#mqtt-discovery)
 - [ESP32](http://luatos.com/chips/esp32c3/board.html)
     + [ ] [I2CScan](https://tasmota.github.io/docs/I2CDEVICES/)
     + [ ] [Display](https://tasmota.github.io/docs/Displays/#hardware-connections)
     + [ ] [GPIO Viewer](https://github.com/thelastoutpostworkshop/microcontroller_devkit/tree/main/gpio_viewer_1_5)
-    + [ ] Hass Integration
-        * [ ] Radio Browser (**2025.11**)
-        * [ ] Utility Meter (**2026.01**)
-            - [ ] nested
-            - [ ] gas
-            - [ ] elec
-        * [ ] Watt Meter Template Binary Sensor
-        * [ ] MQTT Button
-    + [ ] BH1750FVI
 - [ ] DMM / Oscilloscope
+    + [ ] Logic Analyzer (nanoDLA) for Robam
     + [ ] Background Analyze (10-20w, 40-80mA)
     + [ ] Battery Internal Resistance Tester
     + [ ] [Amp Meter](https://oshwhub.com/dengzhishen/lcd1602-dian-ya-dian-liu-biao-di-pei_copy)
 - 86duino
-    + [ ] Crossbar
+    + [ ] [Crossbar](https://www.86duino.com/?p=15205&lang=zh)
         * [ ] flash strap
         * [ ] route SPI to `/E[ABZ][01]|3[12]|[TR]X[23]/`
         * [ ] UART
     + [ ] [Serial2MQTT](https://github.com/vortex314/serial2mqtt) (**2025.11**)
+        * [ ] [MQTT Sensor](https://www.home-assistant.io/integrations/sensor.mqtt/)
         * [ ] [DS18B20 Parasitic Power](https://www.analog.com/media/en/technical-documentation/data-sheets/ds18b20.pdf)
         * [ ] LD2410C
         * [ ] LD2420
-    + [x] [zram-swap](https://hamradio.my/2025/01/the-role-of-compression-algorithms-in-zram/)
-    + [ ] [ImmortalWRT](https://firmware-selector.immortalwrt.org/)
+        * [ ] BH1750FVI
+    + [ ] [zram](https://docs.kernel.org/admin-guide/blockdev/zram.html)
+        * [x] [compression](https://hamradio.my/2025/01/the-role-of-compression-algorithms-in-zram/)
+        * [ ] mke2fs
+    + [ ] [ImmortalWRT](https://lwz322.github.io/2018/10/08/Milestone.html)
+        * [ ] [gpiod](https://www.thegoodpenguin.co.uk/blog/stop-using-sys-class-gpio-its-deprecated/)
     + [x] Arch Linux 32
-- USB
+- [ ] [kvm](https://hub.docker.com/r/silentwind0/kvmd)
+    + [ ] [pxe alternatives](https://superuser.com/questions/304722/is-it-possible-to-boot-from-an-iso-over-the-network-and-how)
+    + [ ] [MSM8916](https://forum.naixi.net/forum.php?mod=viewthread&tid=1662) / RT5350
+        * [ ] luci-app-sms-tool / luci-app-atcommands
+        * [ ] [worm](https://matt.olan.me/post/making-a-piscsi-usb-drive-part-2/) [hole](https://github.com/jwmullally/openwrt-rpi4-iscsi-to-usb-bridge)
+        * [ ] usb-hid
+    + [ ] [MS2130](https://zhuanlan.zhihu.com/p/580926686)
+    + [ ] Android Gadgets
+        * [ ] [HID](https://github.com/pelya/android-keyboard-gadget)
+            - [ ] gyroscope joystick
+        * [ ] [MSD](https://github.com/chenxiaolong/MSD)
     + [ ] [USnooBie](https://eleccelerator.com/usnoobie/index.php) / [USBaspLoader](https://github.com/baerwolf/USBaspLoader)
-    + [ ] educake tty
-    + [ ] [keyboard / joystick](https://github.com/pelya/android-keyboard-gadget)
 
 
 ## Meta
